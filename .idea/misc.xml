@@ -4,6 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/garet/AndroidStudioProjects/Chillersmarket/app/src/main/res/layout/activity_main.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/garet/AndroidStudioProjects/Chillersmarket/app/src/main/res/layout/fragment_chillers_mall.xml" value="0.21145833333333333" />
+        <entry key="..\:/Users/garet/AndroidStudioProjects/Chillersmarket/app/src/main/res/layout/fragment_events.xml" value="0.21145833333333333" />
+        <entry key="..\:/Users/garet/AndroidStudioProjects/Chillersmarket/app/src/main/res/layout/fragment_message.xml" value="0.38697916666666665" />
         <entry key="..\:/Users/garet/AndroidStudioProjects/Chillersmarket/app/src/main/res/layout/nav_header.xml" value="0.38697916666666665" />
         <entry key="..\:/Users/garet/AndroidStudioProjects/Chillersmarket/app/src/main/res/menu/drawer_menu.xml" value="0.9" />
       </map>
