@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_margin="5dp"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/ivPreview"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/tvPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ivPreview"
+            android:layout_marginStart="5dp"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            android:text="R3,859.00"
+            android:textColor="#FF0000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvHeading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_below="@id/tvPrice"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="7dp"
+            android:text="Gazebo" />
+
+        <TextView
+            android:id="@+id/tvSeller"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvHeading"
+            android:textSize="12sp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:text="Gazebo" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
