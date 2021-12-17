@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_margin="15dp"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="40dp"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/ivRetail"
+            android:icon="@drawable/ic_retail"
+            android:title="Chillers mall"
+            android:layout_height="60dp"
+            android:layout_width="60dp"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/tvRetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/ivRetail"
+            android:textSize="16sp"
+            android:text="Chillers Retail"
+            android:layout_marginTop="10dp"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
