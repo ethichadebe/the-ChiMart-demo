@@ -30,12 +30,17 @@ public class HomeFragment extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_home,container,false);
-        homeItems.add(new HomeItem("Chillers Retail"));
+        homeItems.add(new HomeItem("Entertainment", R.drawable.ic_entertainment));
+        homeItems.add(new HomeItem("Chillers Retail", R.drawable.ic_shopping_bag));
+        homeItems.add(new HomeItem("Construction, Engineering, Transport, Logistics", R.drawable.ic_business));
+        homeItems.add(new HomeItem("Consulting Services", R.drawable.ic_consulting));
+        homeItems.add(new HomeItem("Professionals/Practitioners", R.drawable.ic_professionals));
+        homeItems.add(new HomeItem("Agriculture, Manufacturing, Food, Tourism", R.drawable.ic_food));
 
         //Setup RecyclerView display
         rvHomeItems = view.findViewById(R.id.homeRecycleView);
         rvHomeItems.setHasFixedSize(true);
-        rvHomeItemsLayoutManager = new GridLayoutManager(getContext(), 1);
+        rvHomeItemsLayoutManager = new GridLayoutManager(getContext(), 2);
         rvHomeItemsAdapter = new HomeAdapter(getContext(), homeItems);
 
         rvHomeItems.setLayoutManager(rvHomeItemsLayoutManager);

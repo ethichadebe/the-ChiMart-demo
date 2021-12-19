@@ -3,22 +3,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-
-<!--    <TextView-->
-<!--        android:id="@+id/tvnItems"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_marginStart="10dp"-->
-<!--        android:layout_marginTop="10dp"-->
-<!--        android:text="Showing 19 results" />-->
-
-<!--    <androidx.recyclerview.widget.RecyclerView-->
-<!--        android:id="@+id/recycleView"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="match_parent"-->
-<!--        android:layout_below="@+id/tvnItems"-->
-<!--        android:layout_marginTop="10dp" />-->
-
     <TextView
         android:id="@+id/homeItems"
         android:layout_width="wrap_content"

@@ -52,7 +52,7 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.HomeViewHolder
         HomeItem currentHomeItem = homeItems.get(position);
 
         Glide.with(context).load(currentHomeItem.getStrRetail())
-                .centerCrop().placeholder(R.drawable.ic_retail)
+                .centerCrop().placeholder(currentHomeItem.getIcon())
                 .into(holder.ivRetail);
 
         holder.tvRetail.setText(currentHomeItem.getStrRetail());
