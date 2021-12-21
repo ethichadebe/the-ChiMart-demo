@@ -1,26 +1,17 @@
 package com.example.chillersmarket;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
-import androidx.core.view.GravityCompat;
-import androidx.drawerlayout.widget.DrawerLayout;
 
 import android.os.Build;
 import android.os.Bundle;
-import android.view.MenuItem;
 import android.view.WindowManager;
 
 import com.example.chillersmarket.fragments.ChillersMallFragment;
-import com.example.chillersmarket.fragments.ContactFragment;
+import com.example.chillersmarket.fragments.AccountFragment;
 import com.example.chillersmarket.fragments.EventsFragment;
 import com.example.chillersmarket.fragments.HomeFragment;
 import com.example.chillersmarket.fragments.ListingsFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
-import com.google.android.material.navigation.NavigationView;
-
-import java.util.Objects;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -53,8 +44,8 @@ public class MainActivity extends AppCompatActivity {
                 case R.id.nav_listings:
                     getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new ListingsFragment()).commit();
                     break;
-                case R.id.nav_contact:
-                    getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new ContactFragment()).commit();
+                case R.id.nav_account:
+                    getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new AccountFragment()).commit();
                     break;
             }
             return true;
