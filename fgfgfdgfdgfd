@@ -1,0 +1,147 @@
+[33mcommit 8ddb14fa9c41f3c1486da4201e929c8763536e0e[m[33m ([m[1;36mHEAD -> [m[1;32mListings[m[33m)[m
+Merge: 99f8089 b7b77fd
+Author: Ethic Hadebe <ethichadebe@gmail.com>
+Date:   Sun Dec 19 17:41:47 2021 +0200
+
+    Merge branch 'develop' into Listings
+
+[33mcommit b7b77fd9b2d7669a4fad47aaf594fefec19d9376[m[33m ([m[1;31morigin/develop[m[33m, [m[1;32mdevelop[m[33m)[m
+Merge: ec24d87 7175f1c
+Author: FreddieMokwena <41287372+Freddie949@users.noreply.github.com>
+Date:   Sun Dec 19 17:33:05 2021 +0200
+
+    Merge pull request #6 from ethichadebe/home
+    
+    Home page drawable
+
+[33mcommit 7175f1cf3da51193466231ded80fffec68a71823[m[33m ([m[1;31morigin/home[m[33m)[m
+Author: freddie949 <freddiemokwena949>
+Date:   Sun Dec 19 17:30:09 2021 +0200
+
+    Home page drawable
+
+[33mcommit 99f8089d640eda322335fa7c4a9e2161f6dd3641[m
+Merge: 4b12865 ec24d87
+Author: Ethic Hadebe <ethichadebe@gmail.com>
+Date:   Sun Dec 19 17:15:09 2021 +0200
+
+    Merge remote-tracking branch 'origin/develop' into Listings
+
+[33mcommit 4b12865b3a91890f7a330f175457d2673af88687[m
+Merge: 70064e4 caae7fa
+Author: Ethic Hadebe <ethichadebe@gmail.com>
+Date:   Sun Dec 19 17:06:44 2021 +0200
+
+    Merge branch 'develop' into Listings
+
+[33mcommit ec24d87732cb5480842d80a9ca8042bb8fb1881c[m
+Merge: e3b8acf fca4698
+Author: Ethic Mthobisi Hadebe <47379188+ethichadebe@users.noreply.github.com>
+Date:   Sun Dec 19 17:04:55 2021 +0200
+
+    Merge pull request #5 from ethichadebe/home
+    
+    Home
+
+[33mcommit fca469830d417aebad9407a1780e720fb5ca8d39[m
+Author: freddie949 <freddiemokwena949>
+Date:   Sun Dec 19 10:59:26 2021 +0200
+
+    Home page with home items
+
+[33mcommit d58b3d1462ec24788a5585790f9ff1cc4078b898[m
+Merge: 1d23833 e3b8acf
+Author: freddie949 <freddiemokwena949>
+Date:   Fri Dec 17 22:32:14 2021 +0200
+
+    Merge branch 'develop' into home
+
+[33mcommit e3b8acf64d16ddc6a5b586e0921909f4733a2fbc[m
+Author: freddie949 <freddiemokwena949>
+Date:   Fri Dec 17 22:31:33 2021 +0200
+
+    change jdk version
+
+[33mcommit 123f21cb73c333f9ecc15c4cb47af3cd38e0f9bd[m
+Merge: 9721c60 70064e4
+Author: FreddieMokwena <41287372+Freddie949@users.noreply.github.com>
+Date:   Fri Dec 17 22:09:04 2021 +0200
+
+    Merge pull request #4 from ethichadebe/Missing_Drawer_features
+    
+    Missing drawer features
+
+[33mcommit 1d238335f2fee8354f2ff48825b9f90bb71faa59[m
+Author: freddie949 <freddiemokwena949>
+Date:   Fri Dec 17 21:30:33 2021 +0200
+
+    home page
+
+[33mcommit 70064e411b0f58aa850f8a2f7197744d6be1a09a[m[33m ([m[1;32mAdd_to_cart[m[33m)[m
+Author: Ethic Hadebe <ethichadebe@gmail.com>
+Date:   Thu Dec 16 05:45:56 2021 +0200
+
+    006 - Updates: `nav header design`, `Enhanced toolBar design`, `Included missing listings option in menu`
+
+[33mcommit 9721c609867cd5b41a6081c3c60d39b84c01a606[m
+Merge: caae7fa 6cd4fb1
+Author: FreddieMokwena <41287372+Freddie949@users.noreply.github.com>
+Date:   Tue Dec 14 21:47:54 2021 +0200
+
+    Merge pull request #3 from ethichadebe/Recycle_View
+    
+    005 - Initial view of the recycle view
+
+[33mcommit 00ddcd173c62423b94b584ddd482a55b331a5b33[m
+Author: Ethic Hadebe <ethichadebe@gmail.com>
+Date:   Tue Dec 14 21:28:17 2021 +0200
+
+    006 - Updated the missing `listings option` and Updated the nav_header background
+
+[33mcommit 6cd4fb1e1e585f2c0d710fea92a0a359a8750308[m[33m ([m[1;31morigin/Recycle_View[m[33m, [m[1;32mRecycle_View[m[33m)[m
+Author: Ethic Hadebe <ethichadebe@gmail.com>
+Date:   Mon Dec 13 21:57:52 2021 +0200
+
+    005 - Initial view of the recycle view
+
+[33mcommit caae7fac78d9c0fa1e9f44a0e3c37e162f38dc1e[m
+Author: freddie949 <freddiemokwena949>
+Date:   Sun Dec 12 10:47:29 2021 +0200
+
+    dev branch
+
+[33mcommit 3d72dedf14a5de589cb2d411069f9800695d7403[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m, [m[1;32mFragments[m[33m)[m
+Author: Ethic Hadebe <ethichadebe@gmail.com>
+Date:   Fri Dec 10 23:20:13 2021 +0200
+
+    003 - Side navigation drawer with bassic view of empty fragments
+
+[33mcommit 60cf37d5fe22b1fd085d36ccb8499a553ae1a032[m
+Author: Ethic Hadebe <ethichadebe@gmail.com>
+Date:   Fri Dec 10 06:15:23 2021 +0200
+
+    003 - Side navigation drawer complete
+
+[33mcommit 2e2647d63bab7c1ff61c3b7145c32bd2b5918d0e[m
+Author: Ethic Hadebe <ethichadebe@gmail.com>
+Date:   Fri Dec 10 05:19:05 2021 +0200
+
+    002 - Side navigation drawer
+
+[33mcommit 9ba983af0701e0877350c3659d1e3411438a42fe[m
+Author: Ethic Hadebe <ethichadebe@gmail.com>
+Date:   Wed Dec 8 22:32:37 2021 +0200
+
+    001 - Side navigation drawer
+
+[33mcommit 8c3f9d102409c2c1f20ef2af49ea5876ce2efd30[m
+Author: Ethic Hadebe <ethichadebe@gmail.com>
+Date:   Wed Dec 8 17:37:56 2021 +0200
+
+    Initial commit
+
+[33mcommit 34abf009d5447c5754dda55f6d21adfdba97f33e[m
+Author: Ethic Hadebe <ethichadebe@gmail.com>
+Date:   Wed Dec 8 17:36:56 2021 +0200
+
+    first commit
