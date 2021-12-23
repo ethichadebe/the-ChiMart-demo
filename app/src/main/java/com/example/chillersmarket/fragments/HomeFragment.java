@@ -31,10 +31,9 @@ public class HomeFragment extends Fragment {
     private ArrayList<HomeItem> homeItems = new ArrayList<>();
 
     // Urls of our images.
-    String url1 = "https://www.geeksforgeeks.org/wp-content/uploads/gfg_200X200-1.png";
-    String url2 = "https://qphs.fs.quoracdn.net/main-qimg-8e203d34a6a56345f86f1a92570557ba.webp";
-    String url3 = "https://bizzbucket.co/wp-content/uploads/2020/08/Life-in-The-Metro-Blog-Title-22.png";
-
+    String url1 = "https://chillersmarket.com/wp-content/uploads/2021/09/Chiller-Market-1-e1632735257569-300x266.png";
+    String url2 = "https://chillersmarket.com/wp-content/uploads/2021/12/Untitled-design-e1639424477449.png";
+    String url3 = "https://justnje.com/wp-content/uploads/2021/10/Podcast-and-Chill-with-MacG-EP290.jpg";
 
     @Nullable
     @Override
@@ -47,15 +46,22 @@ public class HomeFragment extends Fragment {
         homeItems.add(new HomeItem("Professionals/Practitioners", R.drawable.ic_professionals));
         homeItems.add(new HomeItem("Agriculture, Manufacturing, Food, Tourism", R.drawable.ic_food));
 
+        homeItems.add(new HomeItem("Entertainment", R.drawable.ic_entertainment));
+        homeItems.add(new HomeItem("Chillers Retail", R.drawable.ic_shopping_bag));
+        homeItems.add(new HomeItem("Construction, Engineering, Transport, Logistics", R.drawable.ic_business));
+        homeItems.add(new HomeItem("Consulting Services", R.drawable.ic_consulting));
+        homeItems.add(new HomeItem("Professionals/Practitioners", R.drawable.ic_professionals));
+        homeItems.add(new HomeItem("Agriculture, Manufacturing, Food, Tourism", R.drawable.ic_food));
+
         // we are creating array list for storing our image urls.
         ArrayList<HomeSlider> sliderDataArrayList = new ArrayList<>();
 
         // initializing the slider view.
-        SliderView sliderView = rootView.findViewById(R.id.slider);
+        SliderView sliderView = view.findViewById(R.id.slider);
 
         // adding the urls inside array list
-        sliderDataArrayList.add(new HomeSlider(url1));
         sliderDataArrayList.add(new HomeSlider(url2));
+        sliderDataArrayList.add(new HomeSlider(url1));
         sliderDataArrayList.add(new HomeSlider(url3));
 
         // passing this array list inside our adapter class.
