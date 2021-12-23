@@ -12,8 +12,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ChillersMarket">
         <activity
-            android:name=".MallItemDetailedView"
-            android:exported="false" />
+            android:name=".MallItemActivity"
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
