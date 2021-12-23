@@ -22,6 +22,14 @@ public class MallAdapter extends RecyclerView.Adapter<MallAdapter.MallViewHolder
 
     private Context context;
 
+    private OnItemClickListener oiclListener;
+
+    public interface OnItemClickListener{
+         void onItemClick(int position);
+    }
+
+
+
     public static class MallViewHolder extends RecyclerView.ViewHolder {
         public ImageView ivPreview;
         public TextView tvPrice, tvHeading, tvSeller;
@@ -57,7 +65,7 @@ public class MallAdapter extends RecyclerView.Adapter<MallAdapter.MallViewHolder
             .with(context)
             .load(currentItem.getStrPreview())
             .centerCrop()
-            .placeholder(R.drawable.ic_mall_24)
+            .placeholder(R.drawable.ic_shopping_bag)
             .into(holder.ivPreview);
 
         holder.tvPrice.setText(currentItem.getStrPrice());

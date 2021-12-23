@@ -5,7 +5,11 @@
       <map>
         <entry key="..\:/Users/garet/AndroidStudioProjects/Chillersmarket/app/src/main/res/drawable/ic_baseline_circle_24.xml" value="0.39692307692307693" />
         <entry key="..\:/Users/garet/AndroidStudioProjects/Chillersmarket/app/src/main/res/drawable/ic_mall_24.xml" value="0.39692307692307693" />
+        <entry key="..\:/Users/garet/AndroidStudioProjects/Chillersmarket/app/src/main/res/drawable/ripple_effect_white.xml" value="0.38425925925925924" />
         <entry key="..\:/Users/garet/AndroidStudioProjects/Chillersmarket/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/garet/AndroidStudioProjects/Chillersmarket/app/src/main/res/layout/activity_mall_item.xml" value="0.33" />
+        <entry key="..\:/Users/garet/AndroidStudioProjects/Chillersmarket/app/src/main/res/layout/activity_mall_item_detailed_view.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/garet/AndroidStudioProjects/Chillersmarket/app/src/main/res/layout/fragment_account.xml" value="0.21875" />
         <entry key="..\:/Users/garet/AndroidStudioProjects/Chillersmarket/app/src/main/res/layout/fragment_chillers_mall.xml" value="0.33" />
         <entry key="..\:/Users/garet/AndroidStudioProjects/Chillersmarket/app/src/main/res/layout/fragment_contact.xml" value="0.16983695652173914" />
         <entry key="..\:/Users/garet/AndroidStudioProjects/Chillersmarket/app/src/main/res/layout/fragment_events.xml" value="0.21145833333333333" />

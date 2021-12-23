@@ -67,7 +67,7 @@ public class ListingAdapter extends RecyclerView.Adapter<ListingAdapter.ListingV
             .with(context)
             .load(currentItem.getStrPreview())
             .centerCrop()
-            .placeholder(R.drawable.ic_mall_24)
+            .placeholder(R.drawable.ic_shopping_bag)
             .into(holder.ivPreview);
 
         holder.tvBusinessName.setText(currentItem.getStrBusinessName());
