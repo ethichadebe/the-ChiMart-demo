@@ -13,13 +13,18 @@ import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.chillersmarket.Adapters.MallAdapter;
-import com.example.chillersmarket.MallItemActivity;
+import com.example.chillersmarket.DetailedMallItemActivity;
 import com.example.chillersmarket.R;
 import com.example.chillersmarket.RecyclewViewItems.MallItem;
 
 import java.util.ArrayList;
 
 public class ChillersMallFragment extends Fragment {
+    public static final String ITEM_PREVIEW = "com.example.chillersmarket.fragments.ITEM_PREVIEW";
+    public static final String ITEM_PRICE = "com.example.chillersmarket.fragments.ITEM_PRICE";
+    public static final String ITEM_HEADING = "com.example.chillersmarket.fragments.ITEM_HEADING";
+    public static final String ITEM_SELLER = "com.example.chillersmarket.fragments.ITEM_SELLER";
+    public static final String ITEM_CATEGORY = "com.example.chillersmarket.fragments.ITEM_CATEGORY";
 
     //Recycleview components
     private RecyclerView rvMallItems;
@@ -59,7 +64,13 @@ public class ChillersMallFragment extends Fragment {
         rvMallItemsAdapter.setOnItemClickListener(new MallAdapter.OnItemClickListener() {
             @Override
             public void onItemClick(int position) {
-                startActivity(new Intent(getContext(), MallItemActivity.class));
+                Intent intent = new Intent(getContext(), DetailedMallItemActivity.class);
+                intent.putExtra(ITEM_PREVIEW, alMallItems.get(position).getStrPreview());
+                intent.putExtra(ITEM_PRICE, alMallItems.get(position).getStrPrice());
+                intent.putExtra(ITEM_HEADING, alMallItems.get(position).getStrHeading());
+                intent.putExtra(ITEM_SELLER, alMallItems.get(position).getStrSeller());
+                intent.putExtra(ITEM_CATEGORY, alMallItems.get(position).getStrPreview());
+                startActivity(intent);
             }
         });
     }

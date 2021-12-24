@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ChillersMarket">
         <activity
-            android:name=".MallItemActivity"
+            android:name=".DetailedMallItemActivity"
             android:exported="true" />
         <activity
             android:name=".MainActivity"
