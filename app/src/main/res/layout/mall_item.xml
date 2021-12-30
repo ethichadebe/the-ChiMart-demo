@@ -56,15 +56,17 @@
             android:layout_height="32dp"
             android:layout_below="@id/tvHeading"
             android:layout_alignParentEnd="true"
+            app:cardBackgroundColor="@color/green"
             android:layout_margin="10dp"
-            app:cardCornerRadius="10dp"
+            app:cardCornerRadius="50dp"
             app:cardElevation="5dp">
 
-            <View
-                android:layout_width="24dp"
-                android:layout_height="24dp"
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
                 android:layout_gravity="center"
                 android:id="@+id/vAddToCart"
+                android:backgroundTint="@color/white"
                 android:background="@drawable/ic_shopping_bag"/>
         </androidx.cardview.widget.CardView>
 
