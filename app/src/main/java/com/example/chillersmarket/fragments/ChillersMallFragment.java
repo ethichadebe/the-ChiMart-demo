@@ -1,5 +1,6 @@
 package com.example.chillersmarket.fragments;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -67,7 +68,7 @@ public class ChillersMallFragment extends Fragment {
         rvMallItemsAdapter.setOnItemClickListener(new MallAdapter.OnItemClickListener() {
             //Mall Item on click
             @Override
-            public void onItemClick(int position) {
+            public void onItemClick(int position, Context c) {
                 Intent intent = new Intent(getContext(), DetailedMallItemActivity.class);
                 intent.putExtra(ITEM_PREVIEW, alMallItems.get(position).getStrPreview());
                 intent.putExtra(ITEM_PRICE, alMallItems.get(position).getStrPrice());

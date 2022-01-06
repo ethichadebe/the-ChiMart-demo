@@ -17,9 +17,9 @@ import com.example.chillersmarket.RecyclewViewItems.MallItem;
 
 import java.util.ArrayList;
 
-public class MallAdapter extends RecyclerView.Adapter<MallAdapter.MallViewHolder> {
+public class RelatedProductAdapter extends RecyclerView.Adapter<RelatedProductAdapter.RelatedProductViewHolder> {
 
-    private ArrayList<MallItem> alMallItems;
+    private ArrayList<MallItem> alRelatedProductItems;
 
     private static Context context;
 
@@ -29,23 +29,23 @@ public class MallAdapter extends RecyclerView.Adapter<MallAdapter.MallViewHolder
 
     private OnItemClickListener oiclListener;
 
-    public interface OnItemClickListener{
-        void onItemClick(int position,Context context);
+    public interface OnItemClickListener {
+        void onItemClick(int position, Context context);
+
         void onAddToCartClick(int position);
     }
 
-    public void setOnItemClickListener(OnItemClickListener listener){
+    public void setOnItemClickListener(OnItemClickListener listener) {
         oiclListener = listener;
     }
 
 
-
-    public static class MallViewHolder extends RecyclerView.ViewHolder {
+    public static class RelatedProductViewHolder extends RecyclerView.ViewHolder {
         public ImageView ivPreview;
         public CardView cvAddToCart;
         public TextView tvPrice, tvHeading, tvSeller;
 
-        public MallViewHolder(@NonNull View itemView, OnItemClickListener listener) {
+        public RelatedProductViewHolder(@NonNull View itemView, OnItemClickListener listener) {
             super(itemView);
 
             ivPreview = itemView.findViewById(R.id.ivPreview);
@@ -57,11 +57,11 @@ public class MallAdapter extends RecyclerView.Adapter<MallAdapter.MallViewHolder
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    if (listener!=null){
+                    if (listener != null) {
                         int position = getAbsoluteAdapterPosition();
 
-                        if (position != RecyclerView.NO_POSITION){
-                            listener.onItemClick(position,getContext());
+                        if (position != RecyclerView.NO_POSITION) {
+                            listener.onItemClick(position, getContext());
                         }
                     }
                 }
@@ -70,10 +70,10 @@ public class MallAdapter extends RecyclerView.Adapter<MallAdapter.MallViewHolder
             cvAddToCart.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    if (listener!=null){
+                    if (listener != null) {
                         int position = getAbsoluteAdapterPosition();
 
-                        if (position != RecyclerView.NO_POSITION){
+                        if (position != RecyclerView.NO_POSITION) {
                             listener.onAddToCartClick(position);
                         }
                     }
@@ -82,29 +82,29 @@ public class MallAdapter extends RecyclerView.Adapter<MallAdapter.MallViewHolder
         }
     }
 
-    public MallAdapter(Context context, ArrayList<MallItem> mallItems) {
+    public RelatedProductAdapter(Context context, ArrayList<MallItem> mallItems) {
         this.context = context;
-        alMallItems = mallItems;
+        alRelatedProductItems = mallItems;
     }
 
     @NonNull
     @Override
-    public MallViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.mall_item, parent, false);
-        MallViewHolder mvh = new MallViewHolder(v, oiclListener     );
+    public RelatedProductViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+        View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.related_product_item, parent, false);
+        RelatedProductViewHolder mvh = new RelatedProductViewHolder(v, oiclListener);
         return mvh;
     }
 
     @Override
-    public void onBindViewHolder(@NonNull MallViewHolder holder, int position) {
-        MallItem currentItem = alMallItems.get(position);
+    public void onBindViewHolder(@NonNull RelatedProductViewHolder holder, int position) {
+        MallItem currentItem = alRelatedProductItems.get(position);
 
         Glide
-            .with(context)
-            .load(currentItem.getStrPreview())
-            .centerCrop()
-            .placeholder(R.drawable.ic_shopping_bag)
-            .into(holder.ivPreview);
+                .with(context)
+                .load(currentItem.getStrPreview())
+                .centerCrop()
+                .placeholder(R.drawable.ic_shopping_bag)
+                .into(holder.ivPreview);
 
         holder.tvPrice.setText(currentItem.getStrPrice());
         holder.tvHeading.setText(currentItem.getStrHeading());
@@ -114,6 +114,6 @@ public class MallAdapter extends RecyclerView.Adapter<MallAdapter.MallViewHolder
 
     @Override
     public int getItemCount() {
-        return alMallItems.size();
+        return alRelatedProductItems.size();
     }
 }
