@@ -8,6 +8,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
+import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
@@ -26,6 +27,7 @@ public class MallAdapter extends RecyclerView.Adapter<MallAdapter.MallViewHolder
 
     public interface OnItemClickListener{
         void onItemClick(int position);
+        void onAddToCartClick(int position);
     }
 
     public void setOnItemClickListener(OnItemClickListener listener){
@@ -36,6 +38,7 @@ public class MallAdapter extends RecyclerView.Adapter<MallAdapter.MallViewHolder
 
     public static class MallViewHolder extends RecyclerView.ViewHolder {
         public ImageView ivPreview;
+        public CardView cvAddToCart;
         public TextView tvPrice, tvHeading, tvSeller;
 
         public MallViewHolder(@NonNull View itemView, OnItemClickListener listener) {
@@ -45,6 +48,7 @@ public class MallAdapter extends RecyclerView.Adapter<MallAdapter.MallViewHolder
             tvPrice = itemView.findViewById(R.id.tvPrice);
             tvHeading = itemView.findViewById(R.id.tvHeading);
             tvSeller = itemView.findViewById(R.id.tvSeller);
+            cvAddToCart = itemView.findViewById(R.id.cvAddToCart);
 
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -54,6 +58,19 @@ public class MallAdapter extends RecyclerView.Adapter<MallAdapter.MallViewHolder
 
                         if (position != RecyclerView.NO_POSITION){
                             listener.onItemClick(position);
+                        }
+                    }
+                }
+            });
+
+            cvAddToCart.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    if (listener!=null){
+                        int position = getAbsoluteAdapterPosition();
+
+                        if (position != RecyclerView.NO_POSITION){
+                            listener.onAddToCartClick(position);
                         }
                     }
                 }

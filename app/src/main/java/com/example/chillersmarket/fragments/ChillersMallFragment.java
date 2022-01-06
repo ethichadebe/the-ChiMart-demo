@@ -16,6 +16,8 @@ import com.example.chillersmarket.Adapters.MallAdapter;
 import com.example.chillersmarket.DetailedMallItemActivity;
 import com.example.chillersmarket.R;
 import com.example.chillersmarket.RecyclewViewItems.MallItem;
+import com.example.chillersmarket.MainActivity.*;
+
 
 import java.util.ArrayList;
 
@@ -61,7 +63,9 @@ public class ChillersMallFragment extends Fragment {
         rvMallItems.setLayoutManager(rvMallItemsLayoutManager);
         rvMallItems.setAdapter(rvMallItemsAdapter);
 
+        //Implementing item on click methods
         rvMallItemsAdapter.setOnItemClickListener(new MallAdapter.OnItemClickListener() {
+            //Mall Item on click
             @Override
             public void onItemClick(int position) {
                 Intent intent = new Intent(getContext(), DetailedMallItemActivity.class);
@@ -71,6 +75,12 @@ public class ChillersMallFragment extends Fragment {
                 intent.putExtra(ITEM_SELLER, alMallItems.get(position).getStrSeller());
                 intent.putExtra(ITEM_CATEGORY, alMallItems.get(position).getStrPreview());
                 startActivity(intent);
+            }
+
+            //Add to cart icon click  event
+            @Override
+            public void onAddToCartClick(int position) {
+
             }
         });
     }

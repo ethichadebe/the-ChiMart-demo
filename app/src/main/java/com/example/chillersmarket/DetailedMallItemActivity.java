@@ -6,6 +6,8 @@ import static com.example.chillersmarket.fragments.ChillersMallFragment.ITEM_PRI
 import static com.example.chillersmarket.fragments.ChillersMallFragment.ITEM_SELLER;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.FragmentPagerAdapter;
+import androidx.viewpager.widget.ViewPager;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -14,11 +16,17 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
+import com.example.chillersmarket.Adapters.ViewPagerAdapter;
+import com.example.chillersmarket.fragments.ProductDetailsFragment;
+import com.example.chillersmarket.fragments.ReviewsFragment;
+import com.google.android.material.tabs.TabLayout;
 
-public class DetailedMallItemActivity extends AppCompatActivity {
+public class    DetailedMallItemActivity extends AppCompatActivity {
 
     private TextView tvHeadingTop, tvPrice, tvHeading, tvSeller, tvAddToCart, tvCart;
     private ImageView ivPreview;
+    private TabLayout tlTabs;
+    private ViewPager vpViewPager;
 
     private int nItems = 0;                                                                             //Demo variable
     @Override
@@ -33,7 +41,10 @@ public class DetailedMallItemActivity extends AppCompatActivity {
         ivPreview = findViewById(R.id.ivPreview);
         tvAddToCart = findViewById(R.id.tvAddToCart);                                               //Add to cart button
         tvCart = findViewById(R.id.tvCart);                                                         //Number of Items in cart displayed in topLeft corner
+        tlTabs = findViewById(R.id.tlTabs);                                               //Add to cart button
+        vpViewPager = findViewById(R.id.vpViewPager);                                                         //Number of Items in cart displayed in topLeft corner
 
+        //Data passed from ChillersMallFragment
         Bundle extras = getIntent().getExtras();
 
         tvHeadingTop.setText(extras.getString(ITEM_HEADING));
@@ -48,6 +59,17 @@ public class DetailedMallItemActivity extends AppCompatActivity {
             .centerCrop()
             .placeholder(R.drawable.logo)
             .into(ivPreview);
+
+
+        //Tab layout
+        tlTabs.setupWithViewPager(vpViewPager);
+
+        ViewPagerAdapter viewPagerAdapter = new ViewPagerAdapter(getSupportFragmentManager(),
+                FragmentPagerAdapter.BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT);
+
+        viewPagerAdapter.addFragment(new ProductDetailsFragment(), "Product Details");
+        viewPagerAdapter.addFragment(new ReviewsFragment(), "Reviews");
+        vpViewPager.setAdapter(viewPagerAdapter);
 
     }
 
