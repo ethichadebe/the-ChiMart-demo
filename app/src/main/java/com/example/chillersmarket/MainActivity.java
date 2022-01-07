@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.WindowManager;
+import android.widget.TextView;
 
 import com.example.chillersmarket.fragments.ChillersMallFragment;
 import com.example.chillersmarket.fragments.AccountFragment;
@@ -14,12 +15,19 @@ import com.example.chillersmarket.fragments.ListingsFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity {
+    private TextView tvnCartItems;
 
+    public void setCartnItems(int nItems){
+        tvnCartItems.setText(String.valueOf(nItems));
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        tvnCartItems = findViewById(R.id.tvnCartItems);
+
 
         //Transparent Status bar
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT){
