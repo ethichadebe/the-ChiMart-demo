@@ -1,5 +1,6 @@
 package com.example.chillersmarket;
 
+import static com.example.chillersmarket.fragments.ChillersMallFragment.ITEM_CATEGORY;
 import static com.example.chillersmarket.fragments.ChillersMallFragment.ITEM_HEADING;
 import static com.example.chillersmarket.fragments.ChillersMallFragment.ITEM_PREVIEW;
 import static com.example.chillersmarket.fragments.ChillersMallFragment.ITEM_PRICE;
@@ -29,7 +30,7 @@ import com.google.android.material.tabs.TabLayout;
 
 import java.util.ArrayList;
 
-public class    DetailedMallItemActivity extends AppCompatActivity {
+public class DetailedMallItemActivity extends AppCompatActivity {
 
     //Recycleview components
     private RecyclerView rvMallItems;
@@ -117,18 +118,12 @@ public class    DetailedMallItemActivity extends AppCompatActivity {
             @Override
             public void onItemClick(int position, Context context) {
                 finish();
+                getIntent().putExtra(ITEM_PREVIEW, alMallItems.get(position).getStrPreview());
+                getIntent().putExtra(ITEM_PRICE, alMallItems.get(position).getStrPrice());
+                getIntent().putExtra(ITEM_HEADING, alMallItems.get(position).getStrHeading());
+                getIntent().putExtra(ITEM_SELLER, alMallItems.get(position).getStrSeller());
+                getIntent().putExtra(ITEM_CATEGORY, alMallItems.get(position).getStrPreview());
                 startActivity(getIntent());
-                tvHeadingTop.setText(alMallItems.get(position).getStrHeading());
-                tvPrice.setText(alMallItems.get(position).getStrPrice());
-                tvHeading.setText(alMallItems.get(position).getStrHeading());
-                tvSeller.setText(alMallItems.get(position).getStrSeller());
-                //Display image using image url
-                Glide
-                        .with(context)
-                        .load(alMallItems.get(position).getStrPreview())
-                        .centerCrop()
-                        .placeholder(R.drawable.logo)
-                        .into(ivPreview);
             }
 
             //Add to cart icon click  event
