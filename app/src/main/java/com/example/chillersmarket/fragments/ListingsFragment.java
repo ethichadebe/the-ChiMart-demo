@@ -22,7 +22,7 @@ import java.util.ArrayList;
 
 public class ListingsFragment extends Fragment {
 
-    //Recycleview components
+    //RecycleView components
     private RecyclerView rvListingItems;
     private RecyclerView.Adapter rvListingItemsAdapter;
     private RecyclerView.LayoutManager rvListingItemsLayoutManager;
