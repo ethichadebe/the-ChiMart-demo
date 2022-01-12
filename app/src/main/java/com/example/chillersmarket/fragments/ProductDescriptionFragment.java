@@ -13,12 +13,12 @@ import androidx.fragment.app.Fragment;
 
 import com.example.chillersmarket.R;
 
-public class ProductDetailsFragment extends Fragment {
+public class ProductDescriptionFragment extends Fragment {
     private TextView tvDetails;
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View v = inflater.inflate(R.layout.fragment_product_details,container,false);
+        View v = inflater.inflate(R.layout.fragment_product_description,container,false);
 
         tvDetails = v.findViewById(R.id.tvDetails);
 

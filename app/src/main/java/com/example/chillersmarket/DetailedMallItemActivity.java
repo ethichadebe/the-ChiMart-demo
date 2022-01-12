@@ -21,8 +21,10 @@ import com.bumptech.glide.Glide;
 import com.example.chillersmarket.Adapters.RelatedProductAdapter;
 import com.example.chillersmarket.Adapters.ViewPagerAdapter;
 import com.example.chillersmarket.RecyclewViewItems.MallItem;
-import com.example.chillersmarket.fragments.ProductDetailsFragment;
+import com.example.chillersmarket.fragments.ProductDescriptionFragment;
+import com.example.chillersmarket.fragments.ProductRatingsFragment;
 import com.example.chillersmarket.fragments.ReviewsFragment;
+import com.example.chillersmarket.fragments.VendorPoliciesFragment;
 import com.google.android.material.tabs.TabLayout;
 
 import java.util.ArrayList;
@@ -80,11 +82,13 @@ public class DetailedMallItemActivity extends AppCompatActivity {
         ViewPagerAdapter viewPagerAdapter = new ViewPagerAdapter(getSupportFragmentManager(),
                 FragmentPagerAdapter.BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT);
 
-        viewPagerAdapter.addFragment(new ProductDetailsFragment(), "Product Details");
+        viewPagerAdapter.addFragment(new ProductDescriptionFragment(), "Description");
         viewPagerAdapter.addFragment(new ReviewsFragment(), "Reviews");
+        viewPagerAdapter.addFragment(new ProductRatingsFragment(), "Product ratings");
+        viewPagerAdapter.addFragment(new VendorPoliciesFragment(), "Vendor Policies");
         vpViewPager.setAdapter(viewPagerAdapter);
 
-
+        //Related Items
         alMallItems.add(new MallItem("https://chillersmarket.com/wp-content/uploads/woocommerce-placeholder-300x300.png", "R220.00", "Floral upside down earrings", "Sold By : nondumisomkhatshwa"));
         alMallItems.add(new MallItem("https://chillersmarket.com/wp-content/uploads/2021/12/ONDISPLAY2019flipbook-01-300x300.png", "Free", "Lihawu b/w earrings", "Sold By : nondumisomkhatshwa"));
         alMallItems.add(new MallItem("https://chillersmarket.com/wp-content/uploads/2021/09/Chiller-Market-1-e1632735257569-300x266.png", "R599.00", "Medium", "Sold By : Chillers Market"));

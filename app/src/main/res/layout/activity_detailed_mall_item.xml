@@ -75,131 +75,151 @@
         </RelativeLayout>
 
     </RelativeLayout>
-<ScrollView
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:layout_below="@+id/rlHeader">
-    <RelativeLayout
+    <!-- Makes the page scrollable -->
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rlHeader">
 
-        <ImageView
-            android:id="@+id/ivPreview"
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:layout_centerHorizontal="true" />
+            android:layout_height="match_parent">
 
-        <androidx.cardview.widget.CardView
-            android:id="@+id/cvPrice"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/ivPreview"
-            android:layout_alignParentStart="true"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="20dp"
-            app:cardBackgroundColor="@color/price_red_trans"
-            app:cardCornerRadius="20dp">
+            <!-- Image slider -->
+            <ImageView
+                android:id="@+id/ivPreview"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_centerHorizontal="true" />
 
-            <TextView
-                android:id="@+id/tvPrice"
+            <!-- Product price -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cvPrice"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_below="@+id/ivPreview"
+                android:layout_alignParentStart="true"
                 android:layout_marginStart="20dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginEnd="20dp"
-                android:layout_marginBottom="5dp"
-                android:text="R2.00"
-                android:textColor="@color/price_red"
-                android:textSize="16sp"
-                android:textStyle="bold" />
-        </androidx.cardview.widget.CardView>
+                android:layout_marginTop="20dp"
+                app:cardBackgroundColor="@color/price_red_trans"
+                app:cardCornerRadius="20dp">
 
+                <TextView
+                    android:id="@+id/tvPrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="R2.00"
+                    android:textColor="@color/price_red"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
 
-        <TextView
-            android:id="@+id/tvHeading"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/cvPrice"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="20dp"
-            android:text="Bananas"
-            android:textSize="22sp"
-            android:textStyle="bold" />
-
-        <TextView
-            android:id="@+id/tvSeller"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/tvHeading"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="10dp"
-            android:text="Sold By :Tebogo mametja Store"
-            android:textSize="16sp" />
-
-        <androidx.cardview.widget.CardView
-            android:id="@+id/cvAddToCart"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/tvSeller"
-            android:layout_alignParentEnd="true"
-            android:layout_margin="20dp"
-            app:cardCornerRadius="10dp"
-            app:cardElevation="10dp">
-
+            <!-- Product Heading -->
             <TextView
-                android:id="@+id/tvAddToCart"
+                android:id="@+id/tvHeading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cvPrice"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:text="Bananas"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <!-- Product short description -->
+            <TextView
+                android:id="@+id/tvSeller"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvHeading"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:text="Sold By :Tebogo mametja Store"
+                android:textSize="16sp" />
+
+            <!-- Add to cart button -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cvAddToCart"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:background="@drawable/ripple_effect_green"
-                android:gravity="center"
-                android:onClick="AddToCart"
-                android:padding="10dp"
-                android:text="@string/add_to_cart"
-                android:textColor="@color/white"
-                android:textSize="20sp"
+                android:layout_below="@+id/tvSeller"
+                android:layout_alignParentEnd="true"
+                android:layout_margin="20dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp">
+
+                <TextView
+                    android:id="@+id/tvAddToCart"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/ripple_effect_green"
+                    android:gravity="center"
+                    android:onClick="AddToCart"
+                    android:padding="10dp"
+                    android:text="@string/add_to_cart"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/tvRelated"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cvAddToCart"
+                android:layout_marginStart="18dp"
+                android:text="Related Products"
+                android:textColor="@color/black"
+                android:textSize="16sp"
                 android:textStyle="bold" />
-        </androidx.cardview.widget.CardView>
-        <TextView
-            android:id="@+id/tvRelated"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/cvAddToCart"
-            android:layout_marginStart="18dp"
-            android:text="Related Products"
-            android:textSize="16sp"
-            android:textColor="@color/black"
-            android:textStyle="bold" />
 
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/recycleView"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_below="@+id/tvRelated"
-            android:layout_marginTop="10dp" />
+            <!-- Related products -->
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycleView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/tvRelated"
+                android:layout_marginTop="10dp" />
 
-        <com.google.android.material.tabs.TabLayout
-            android:id="@+id/tlTabs"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/recycleView">
-
-            <com.google.android.material.tabs.TabItem
-                android:layout_width="wrap_content"
+            <!-- More information tabs -->
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/tlTabs"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Product details" />
+                android:layout_below="@+id/recycleView"
+                app:tabTextAppearance="@style/TabLayoutStyle">
 
-            <com.google.android.material.tabs.TabItem
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Reviews" />
-        </com.google.android.material.tabs.TabLayout>
+                <com.google.android.material.tabs.TabItem
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Description" />
 
-        <androidx.viewpager.widget.ViewPager
-            android:id="@+id/vpViewPager"
-            android:layout_width="match_parent"
-            android:layout_height="400dp"
-            android:layout_below="@+id/tlTabs" />
-    </RelativeLayout>
-</ScrollView>
+                <com.google.android.material.tabs.TabItem
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Reviews" />
+
+                <com.google.android.material.tabs.TabItem
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Product ratings" />
+
+                <com.google.android.material.tabs.TabItem
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Vendor Policies" />
+            </com.google.android.material.tabs.TabLayout>
+
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/vpViewPager"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_below="@+id/tlTabs" />
+        </RelativeLayout>
+    </ScrollView>
 </RelativeLayout>
