@@ -27,14 +27,13 @@ import com.google.android.material.tabs.TabLayout;
 
 import java.util.ArrayList;
 
-public class    DetailedMallItemActivity extends AppCompatActivity {
+public class DetailedMallItemActivity extends AppCompatActivity {
 
     //Recycleview components
     private RecyclerView rvMallItems;
     private RelatedProductAdapter rvMallItemsAdapter;
     private RecyclerView.LayoutManager rvMallItemsLayoutManager;
     private ArrayList<MallItem> alMallItems = new ArrayList<>();
-
 
     private TextView tvHeadingTop, tvPrice, tvHeading, tvSeller, tvAddToCart, tvCart;
     private ImageView ivPreview;
