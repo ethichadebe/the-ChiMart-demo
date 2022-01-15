@@ -1,3 +1,6 @@
+com/example/chillersmarket/CategoryDetailActivity.java
+ com.example.chillersmarket.CategoryDetailActivity
+ com.example.chillersmarket.CategoryDetailActivity$1
 com/example/chillersmarket/Adapters/SliderAdapter.java
  com.example.chillersmarket.Adapters.SliderAdapter
  com.example.chillersmarket.Adapters.SliderAdapter$SliderAdapterViewHolder
@@ -20,21 +23,19 @@ com/example/chillersmarket/Adapters/MallAdapter.java
  com.example.chillersmarket.Adapters.MallAdapter$MallViewHolder$1
  com.example.chillersmarket.Adapters.MallAdapter$MallViewHolder$2
  com.example.chillersmarket.Adapters.MallAdapter$OnItemClickListener
-com/example/chillersmarket/Adapters/ListingAdapter.java
- com.example.chillersmarket.Adapters.ListingAdapter
- com.example.chillersmarket.Adapters.ListingAdapter$ListingViewHolder
+com/example/chillersmarket/fragments/ReviewsFragment.java
+ com.example.chillersmarket.fragments.ReviewsFragment
 com/example/chillersmarket/fragments/ProductDescriptionFragment.java
  com.example.chillersmarket.fragments.ProductDescriptionFragment
-com/example/chillersmarket/Adapters/RelatedProductAdapter.java
- com.example.chillersmarket.Adapters.RelatedProductAdapter
- com.example.chillersmarket.Adapters.RelatedProductAdapter$OnItemClickListener
- com.example.chillersmarket.Adapters.RelatedProductAdapter$RelatedProductViewHolder
- com.example.chillersmarket.Adapters.RelatedProductAdapter$RelatedProductViewHolder$1
- com.example.chillersmarket.Adapters.RelatedProductAdapter$RelatedProductViewHolder$2
+com/example/chillersmarket/Adapters/ReviewAdapter.java
+ com.example.chillersmarket.Adapters.ReviewAdapter
+ com.example.chillersmarket.Adapters.ReviewAdapter$ReviewViewHolder
 com/example/chillersmarket/RecyclewViewItems/ReviewItem.java
  com.example.chillersmarket.RecyclewViewItems.ReviewItem
 com/example/chillersmarket/fragments/HomeFragment.java
  com.example.chillersmarket.fragments.HomeFragment
+ com.example.chillersmarket.fragments.HomeFragment$1
+ com.example.chillersmarket.fragments.HomeFragment$2
 com/example/chillersmarket/fragments/ListingsFragment.java
  com.example.chillersmarket.fragments.ListingsFragment
 com/example/chillersmarket/fragments/ChillersMallFragment.java
@@ -49,14 +50,20 @@ com/example/chillersmarket/RecyclewViewItems/ListingItem.java
 com/example/chillersmarket/Adapters/HomeAdapter.java
  com.example.chillersmarket.Adapters.HomeAdapter
  com.example.chillersmarket.Adapters.HomeAdapter$HomeViewHolder
+ com.example.chillersmarket.Adapters.HomeAdapter$HomeViewHolder$1
+ com.example.chillersmarket.Adapters.HomeAdapter$OnItemClickListener
 com/example/chillersmarket/fragments/ProductRatingsFragment.java
  com.example.chillersmarket.fragments.ProductRatingsFragment
 com/example/chillersmarket/fragments/VendorPoliciesFragment.java
  com.example.chillersmarket.fragments.VendorPoliciesFragment
 com/example/chillersmarket/fragments/EventsFragment.java
  com.example.chillersmarket.fragments.EventsFragment
-com/example/chillersmarket/Adapters/ReviewAdapter.java
- com.example.chillersmarket.Adapters.ReviewAdapter
- com.example.chillersmarket.Adapters.ReviewAdapter$ReviewViewHolder
-com/example/chillersmarket/fragments/ReviewsFragment.java
- com.example.chillersmarket.fragments.ReviewsFragment
+com/example/chillersmarket/Adapters/ListingAdapter.java
+ com.example.chillersmarket.Adapters.ListingAdapter
+ com.example.chillersmarket.Adapters.ListingAdapter$ListingViewHolder
+com/example/chillersmarket/Adapters/RelatedProductAdapter.java
+ com.example.chillersmarket.Adapters.RelatedProductAdapter
+ com.example.chillersmarket.Adapters.RelatedProductAdapter$OnItemClickListener
+ com.example.chillersmarket.Adapters.RelatedProductAdapter$RelatedProductViewHolder
+ com.example.chillersmarket.Adapters.RelatedProductAdapter$RelatedProductViewHolder$1
+ com.example.chillersmarket.Adapters.RelatedProductAdapter$RelatedProductViewHolder$2
