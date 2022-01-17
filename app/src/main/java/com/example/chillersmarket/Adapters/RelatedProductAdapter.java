@@ -24,6 +24,7 @@ public class RelatedProductAdapter extends RecyclerView.Adapter<RelatedProductAd
     private static Context context;
 
     public static Context getContext() {
+
         return context;
     }
 
@@ -38,7 +39,6 @@ public class RelatedProductAdapter extends RecyclerView.Adapter<RelatedProductAd
     public void setOnItemClickListener(OnItemClickListener listener) {
         oiclListener = listener;
     }
-
 
     public static class RelatedProductViewHolder extends RecyclerView.ViewHolder {
         public ImageView ivPreview;
