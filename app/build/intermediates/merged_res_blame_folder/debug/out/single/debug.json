@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\garet\\AndroidStudioProjects\\Chillersmarket\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_ic_entertainment.png.flat",
-        "source": "C:\\Users\\garet\\AndroidStudioProjects\\Chillersmarket\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_entertainment.png"
-    },
-    {
         "merged": "C:\\Users\\garet\\AndroidStudioProjects\\Chillersmarket\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_account.xml.flat",
         "source": "C:\\Users\\garet\\AndroidStudioProjects\\Chillersmarket\\app\\src\\main\\res\\layout\\fragment_account.xml"
+    },
+    {
+        "merged": "C:\\Users\\garet\\AndroidStudioProjects\\Chillersmarket\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_ic_entertainment.png.flat",
+        "source": "C:\\Users\\garet\\AndroidStudioProjects\\Chillersmarket\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_entertainment.png"
     },
     {
         "merged": "C:\\Users\\garet\\AndroidStudioProjects\\Chillersmarket\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_circle_24.xml.flat",
@@ -126,6 +126,10 @@
     {
         "merged": "C:\\Users\\garet\\AndroidStudioProjects\\Chillersmarket\\app\\build\\intermediates\\merged_res\\debug\\drawable_actionbar_background.png.flat",
         "source": "C:\\Users\\garet\\AndroidStudioProjects\\Chillersmarket\\app\\src\\main\\res\\drawable\\actionbar_background.png"
+    },
+    {
+        "merged": "C:\\Users\\garet\\AndroidStudioProjects\\Chillersmarket\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_add_24.xml.flat",
+        "source": "C:\\Users\\garet\\AndroidStudioProjects\\Chillersmarket\\app\\src\\main\\res\\drawable\\ic_add_24.xml"
     },
     {
         "merged": "C:\\Users\\garet\\AndroidStudioProjects\\Chillersmarket\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_consulting.png.flat",
