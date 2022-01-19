@@ -19,17 +19,45 @@ import java.util.ArrayList;
 public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.HomeViewHolder> {
 
     private ArrayList<HomeItem> homeItems;
-    private Context context;
+    private static Context context;
+
+    public static Context getContext() {
+        return context;
+    }
+
+    private OnItemClickListener oiclListener;
+
+    public interface OnItemClickListener {
+        void onItemClick(int position, Context context);
+        void onAddToCartClick(int position);
+    }
+
+    public void setOnItemClickListener(OnItemClickListener listener) {
+        oiclListener = listener;
+    }
 
     public static class HomeViewHolder extends RecyclerView.ViewHolder {
         public ImageView ivRetail;
         public TextView tvRetail;
 
-        public HomeViewHolder(@NonNull View itemView) {
+        public HomeViewHolder(@NonNull View itemView, OnItemClickListener listener) {
             super(itemView);
 
             tvRetail = itemView.findViewById(R.id.tvRetail);
             ivRetail = itemView.findViewById(R.id.ivRetail);
+
+            itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    if (listener != null){
+                        int position = getAbsoluteAdapterPosition();
+
+                        if(position != RecyclerView.NO_POSITION){
+                            listener.onItemClick(position, getContext());
+                        }
+                    }
+                }
+            });
         }
     }
 
@@ -42,7 +70,7 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.HomeViewHolder
     @Override
     public HomeViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.home_item, parent, false);
-        HomeViewHolder homeViewHolder = new HomeViewHolder(view);
+        HomeViewHolder homeViewHolder = new HomeViewHolder(view, oiclListener);
 
         return homeViewHolder;
     }

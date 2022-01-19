@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:id="@+id/rlHeader"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/actionbar_background">
 
     <TextView
         android:id="@+id/home"
@@ -17,7 +24,7 @@
         android:layout_width="match_parent"
         android:layout_margin="5dp"
         android:layout_height="wrap_content"
-        app:cardCornerRadius="20dp">
+        app:cardCornerRadius="10dp">
 
         <com.smarteist.autoimageslider.SliderView
             android:id="@+id/slider"
@@ -38,12 +45,53 @@
             app:sliderScrollTimeInSec="1" />
 
         </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+<ScrollView
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:layout_below="@+id/rlHeader">
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/homeItemsRecycleView"
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_below="@+id/sliderCardView"
-        android:layout_marginTop="10dp"/>
+        android:layout_height="match_parent">
 
+        <TextView
+            android:id="@+id/tvRecentlyAdded"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sliderCardView"
+            android:layout_marginStart="18dp"
+            android:text="Recently Added"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            tools:ignore="NotSibling,UnknownId" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recentlyAddedRecycleView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/tvRecentlyAdded"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:id="@+id/tvPopularCategories"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/recentlyAddedRecycleView"
+            android:layout_marginStart="18dp"
+            android:text="Popular Categories"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            tools:ignore="NotSibling,UnknownId" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/homeItemsRecycleView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/tvPopularCategories"
+            android:layout_marginTop="10dp"/>
+    </RelativeLayout>
+</ScrollView>
 </RelativeLayout>
