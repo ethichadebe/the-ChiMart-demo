@@ -30,5 +30,23 @@
             android:layout_gravity="center|top"
             android:background="@drawable/round_corner"/>
 
+        <TextView
+            android:id="@+id/tvPopularItems"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sliderCardView"
+            android:layout_marginStart="18dp"
+            android:text="Popular Items"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/popularItemsRecycleView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/tvPopularItems"
+            android:layout_marginTop="10dp"/>
+
     </androidx.core.widget.NestedScrollView>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

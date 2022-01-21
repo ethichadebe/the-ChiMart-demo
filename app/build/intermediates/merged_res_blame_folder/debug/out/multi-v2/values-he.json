@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\garet\\AndroidStudioProjects\\Chillersmarket\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-he\\values-he.xml",
+            "outputFile": "C:\\Users\\fredd\\Documents\\Projects\\the-ChiMart-demo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-he\\values-he.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\garet\\.gradle\\caches\\transforms-3\\b2c1b391fa17fca176cbfb83f9380ffd\\transformed\\jetified-mapbox-android-sdk-9.0.0\\res\\values-he\\values-he.xml",
+                    "source": "C:\\Users\\fredd\\.gradle\\caches\\transforms-3\\b2c1b391fa17fca176cbfb83f9380ffd\\transformed\\jetified-mapbox-android-sdk-9.0.0\\res\\values-he\\values-he.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
