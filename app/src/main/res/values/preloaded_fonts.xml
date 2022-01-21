@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/changa_one</item>
+        <item>@font/coustard_black</item>
+        <item>@font/galindo</item>
+        <item>@font/montserrat_alternates_bold</item>
+        <item>@font/nova_slim</item>
+        <item>@font/poppins_bold</item>
+        <item>@font/source_sans_pro_black</item>
+    </array>
+</resources>
