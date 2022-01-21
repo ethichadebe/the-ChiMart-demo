@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:2:1-36:12
-INJECTED from C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:2:1-36:12
-INJECTED from C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:2:1-36:12
-INJECTED from C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:2:1-36:12
+ADDED from C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:2:1-39:12
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\garet\.gradle\caches\transforms-3\1508bc0f4d67cb1fb46dec23183d0585\transformed\material-1.4.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] C:\Users\garet\.gradle\caches\transforms-3\66bbb9fe8c9e1863a78a4ee4625746ef\transformed\constraintlayout-2.1.2\AndroidManifest.xml:2:1-11:12
 MERGED from [info.androidhive:fontawesome:0.0.5] C:\Users\garet\.gradle\caches\transforms-3\fc5b97d5ad01bef70e9fd9bb2969b47a\transformed\jetified-fontawesome-0.0.5\AndroidManifest.xml:2:1-11:12
@@ -56,20 +56,20 @@ MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\garet\.
 MERGED from [com.facebook.soloader:soloader:0.8.0] C:\Users\garet\.gradle\caches\transforms-3\de23b4bc92e80467b52b6f7c4a1b0835\transformed\jetified-soloader-0.8.0\AndroidManifest.xml:2:1-13:12
 MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:1.4.1] C:\Users\garet\.gradle\caches\transforms-3\f61bb3f8f6605e573ab380a44dcf5f88\transformed\jetified-mapbox-android-core-1.4.1\AndroidManifest.xml:2:1-13:12
 MERGED from [com.facebook.soloader:annotation:0.8.0] C:\Users\garet\.gradle\caches\transforms-3\e15b704c67fcc4847fcc10b2fac97be5\transformed\jetified-annotation-0.8.0\AndroidManifest.xml:2:1-13:12
-INJECTED from C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:2:1-36:12
-INJECTED from C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:2:1-36:12
-INJECTED from C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:2:1-39:12
 	package
 		ADDED from C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:3:5-41
 		INJECTED from C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:2:1-36:12
+		ADDED from C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:2:1-39:12
 		INJECTED from C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:2:1-36:12
+		ADDED from C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:2:1-39:12
 		INJECTED from C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:2:11-69
@@ -100,7 +100,7 @@ ADDED from C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\Andr
 	android:name
 		ADDED from C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:9:22-82
 application
-ADDED from C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:11:5-34:19
+ADDED from C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:11:5-37:19
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\garet\.gradle\caches\transforms-3\1508bc0f4d67cb1fb46dec23183d0585\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\garet\.gradle\caches\transforms-3\1508bc0f4d67cb1fb46dec23183d0585\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] C:\Users\garet\.gradle\caches\transforms-3\66bbb9fe8c9e1863a78a4ee4625746ef\transformed\constraintlayout-2.1.2\AndroidManifest.xml:9:5-20
@@ -141,38 +141,44 @@ MERGED from [com.facebook.soloader:annotation:0.8.0] C:\Users\garet\.gradle\cach
 		ADDED from C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:12:9-35
 	android:theme
 		ADDED from C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:17:9-52
-activity#com.example.chillersmarket.CartActivity
+activity#com.example.chillersmarket.SummaryActivity
 ADDED from C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:18:9-20:40
 	android:exported
 		ADDED from C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:20:13-37
 	android:name
-		ADDED from C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:19:13-41
+		ADDED from C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:19:13-44
+activity#com.example.chillersmarket.CartActivity
+ADDED from C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:21:9-23:40
+	android:exported
+		ADDED from C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:23:13-37
+	android:name
+		ADDED from C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:22:13-41
 activity#com.example.chillersmarket.DetailedMallItemActivity
-ADDED from C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:21:9-23:39
+ADDED from C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:24:9-26:39
 	android:exported
-		ADDED from C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:23:13-36
+		ADDED from C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:26:13-36
 	android:name
-		ADDED from C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:22:13-53
+		ADDED from C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:25:13-53
 activity#com.example.chillersmarket.CategoryDetailActivity
-ADDED from C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:24:9-60
+ADDED from C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:27:9-60
 	android:name
-		ADDED from C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:24:19-57
+		ADDED from C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:27:19-57
 activity#com.example.chillersmarket.MainActivity
-ADDED from C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:25:9-33:20
+ADDED from C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:28:9-36:20
 	android:exported
-		ADDED from C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:27:13-36
+		ADDED from C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:30:13-36
 	android:name
-		ADDED from C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:26:13-41
+		ADDED from C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:29:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:28:13-32:29
+ADDED from C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:31:13-35:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:29:17-69
+ADDED from C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:32:17-69
 	android:name
-		ADDED from C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:29:25-66
+		ADDED from C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:32:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:31:17-77
+ADDED from C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:34:17-77
 	android:name
-		ADDED from C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:31:27-74
+		ADDED from C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:34:27-74
 uses-sdk
 INJECTED from C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml

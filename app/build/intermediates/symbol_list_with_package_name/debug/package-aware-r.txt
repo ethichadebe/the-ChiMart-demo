@@ -2657,6 +2657,7 @@ layout activity_cart
 layout activity_category_detail
 layout activity_detailed_mall_item
 layout activity_main
+layout activity_summary
 layout cart_item
 layout custom_dialog
 layout design_bottom_navigation_item

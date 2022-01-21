@@ -1,32 +1,12 @@
-com/example/chillersmarket/RecyclewViewItems/ReviewItem.java
- com.example.chillersmarket.RecyclewViewItems.ReviewItem
-com/example/chillersmarket/RecyclewViewItems/MallItem.java
- com.example.chillersmarket.RecyclewViewItems.MallItem
-com/example/chillersmarket/RecyclewViewItems/HomeSlider.java
- com.example.chillersmarket.RecyclewViewItems.HomeSlider
-com/example/chillersmarket/RecyclewViewItems/HomeItem.java
- com.example.chillersmarket.RecyclewViewItems.HomeItem
-com/example/chillersmarket/Adapters/ViewPagerAdapter.java
- com.example.chillersmarket.Adapters.ViewPagerAdapter
-com/example/chillersmarket/RecyclewViewItems/ListingItem.java
- com.example.chillersmarket.RecyclewViewItems.ListingItem
-com/example/chillersmarket/RecyclewViewItems/CartItem.java
- com.example.chillersmarket.RecyclewViewItems.CartItem
-com/example/chillersmarket/BuildConfig.java
- com.example.chillersmarket.BuildConfig
 com/example/chillersmarket/CategoryDetailActivity.java
  com.example.chillersmarket.CategoryDetailActivity
  com.example.chillersmarket.CategoryDetailActivity$1
-com/example/chillersmarket/Adapters/SliderAdapter.java
- com.example.chillersmarket.Adapters.SliderAdapter
- com.example.chillersmarket.Adapters.SliderAdapter$SliderAdapterViewHolder
 com/example/chillersmarket/MainActivity.java
  com.example.chillersmarket.MainActivity
-com/example/chillersmarket/DetailedMallItemActivity.java
- com.example.chillersmarket.DetailedMallItemActivity
- com.example.chillersmarket.DetailedMallItemActivity$1
 com/example/chillersmarket/fragments/AccountFragment.java
  com.example.chillersmarket.fragments.AccountFragment
+com/example/chillersmarket/RecyclewViewItems/HomeItem.java
+ com.example.chillersmarket.RecyclewViewItems.HomeItem
 com/example/chillersmarket/Adapters/MallAdapter.java
  com.example.chillersmarket.Adapters.MallAdapter
  com.example.chillersmarket.Adapters.MallAdapter$MallViewHolder
@@ -36,35 +16,12 @@ com/example/chillersmarket/Adapters/MallAdapter.java
 com/example/chillersmarket/CartActivity.java
  com.example.chillersmarket.CartActivity
  com.example.chillersmarket.CartActivity$1
-com/example/chillersmarket/fragments/ReviewsFragment.java
- com.example.chillersmarket.fragments.ReviewsFragment
-com/example/chillersmarket/Adapters/CartAdapter.java
- com.example.chillersmarket.Adapters.CartAdapter
- com.example.chillersmarket.Adapters.CartAdapter$CartViewHolder
- com.example.chillersmarket.Adapters.CartAdapter$CartViewHolder$1
- com.example.chillersmarket.Adapters.CartAdapter$CartViewHolder$2
- com.example.chillersmarket.Adapters.CartAdapter$OnItemClickListener
 com/example/chillersmarket/fragments/ProductDescriptionFragment.java
  com.example.chillersmarket.fragments.ProductDescriptionFragment
-com/example/chillersmarket/Adapters/ReviewAdapter.java
- com.example.chillersmarket.Adapters.ReviewAdapter
- com.example.chillersmarket.Adapters.ReviewAdapter$ReviewViewHolder
-com/example/chillersmarket/fragments/HomeFragment.java
- com.example.chillersmarket.fragments.HomeFragment
- com.example.chillersmarket.fragments.HomeFragment$1
- com.example.chillersmarket.fragments.HomeFragment$2
-com/example/chillersmarket/fragments/ListingsFragment.java
- com.example.chillersmarket.fragments.ListingsFragment
-com/example/chillersmarket/fragments/ChillersMallFragment.java
- com.example.chillersmarket.fragments.ChillersMallFragment
- com.example.chillersmarket.fragments.ChillersMallFragment$1
-com/example/chillersmarket/Adapters/HomeAdapter.java
- com.example.chillersmarket.Adapters.HomeAdapter
- com.example.chillersmarket.Adapters.HomeAdapter$HomeViewHolder
- com.example.chillersmarket.Adapters.HomeAdapter$HomeViewHolder$1
- com.example.chillersmarket.Adapters.HomeAdapter$OnItemClickListener
-com/example/chillersmarket/fragments/ProductRatingsFragment.java
- com.example.chillersmarket.fragments.ProductRatingsFragment
+com/example/chillersmarket/BuildConfig.java
+ com.example.chillersmarket.BuildConfig
+com/example/chillersmarket/RecyclewViewItems/ListingItem.java
+ com.example.chillersmarket.RecyclewViewItems.ListingItem
 com/example/chillersmarket/fragments/VendorPoliciesFragment.java
  com.example.chillersmarket.fragments.VendorPoliciesFragment
 com/example/chillersmarket/fragments/EventsFragment.java
@@ -78,3 +35,48 @@ com/example/chillersmarket/Adapters/RelatedProductAdapter.java
  com.example.chillersmarket.Adapters.RelatedProductAdapter$RelatedProductViewHolder
  com.example.chillersmarket.Adapters.RelatedProductAdapter$RelatedProductViewHolder$1
  com.example.chillersmarket.Adapters.RelatedProductAdapter$RelatedProductViewHolder$2
+com/example/chillersmarket/Adapters/SliderAdapter.java
+ com.example.chillersmarket.Adapters.SliderAdapter
+ com.example.chillersmarket.Adapters.SliderAdapter$SliderAdapterViewHolder
+com/example/chillersmarket/RecyclewViewItems/HomeSlider.java
+ com.example.chillersmarket.RecyclewViewItems.HomeSlider
+com/example/chillersmarket/DetailedMallItemActivity.java
+ com.example.chillersmarket.DetailedMallItemActivity
+ com.example.chillersmarket.DetailedMallItemActivity$1
+com/example/chillersmarket/Adapters/ViewPagerAdapter.java
+ com.example.chillersmarket.Adapters.ViewPagerAdapter
+com/example/chillersmarket/RecyclewViewItems/CartItem.java
+ com.example.chillersmarket.RecyclewViewItems.CartItem
+com/example/chillersmarket/fragments/ReviewsFragment.java
+ com.example.chillersmarket.fragments.ReviewsFragment
+com/example/chillersmarket/Adapters/CartAdapter.java
+ com.example.chillersmarket.Adapters.CartAdapter
+ com.example.chillersmarket.Adapters.CartAdapter$CartViewHolder
+ com.example.chillersmarket.Adapters.CartAdapter$CartViewHolder$1
+ com.example.chillersmarket.Adapters.CartAdapter$CartViewHolder$2
+ com.example.chillersmarket.Adapters.CartAdapter$OnItemClickListener
+com/example/chillersmarket/SummaryActivity.java
+ com.example.chillersmarket.SummaryActivity
+com/example/chillersmarket/Adapters/ReviewAdapter.java
+ com.example.chillersmarket.Adapters.ReviewAdapter
+ com.example.chillersmarket.Adapters.ReviewAdapter$ReviewViewHolder
+com/example/chillersmarket/RecyclewViewItems/ReviewItem.java
+ com.example.chillersmarket.RecyclewViewItems.ReviewItem
+com/example/chillersmarket/fragments/HomeFragment.java
+ com.example.chillersmarket.fragments.HomeFragment
+ com.example.chillersmarket.fragments.HomeFragment$1
+ com.example.chillersmarket.fragments.HomeFragment$2
+com/example/chillersmarket/fragments/ListingsFragment.java
+ com.example.chillersmarket.fragments.ListingsFragment
+com/example/chillersmarket/fragments/ChillersMallFragment.java
+ com.example.chillersmarket.fragments.ChillersMallFragment
+ com.example.chillersmarket.fragments.ChillersMallFragment$1
+com/example/chillersmarket/RecyclewViewItems/MallItem.java
+ com.example.chillersmarket.RecyclewViewItems.MallItem
+com/example/chillersmarket/Adapters/HomeAdapter.java
+ com.example.chillersmarket.Adapters.HomeAdapter
+ com.example.chillersmarket.Adapters.HomeAdapter$HomeViewHolder
+ com.example.chillersmarket.Adapters.HomeAdapter$HomeViewHolder$1
+ com.example.chillersmarket.Adapters.HomeAdapter$OnItemClickListener
+com/example/chillersmarket/fragments/ProductRatingsFragment.java
+ com.example.chillersmarket.fragments.ProductRatingsFragment

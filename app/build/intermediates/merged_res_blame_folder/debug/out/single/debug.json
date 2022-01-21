@@ -64,6 +64,10 @@
         "source": "C:\\Users\\garet\\AndroidStudioProjects\\Chillersmarket\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
+        "merged": "C:\\Users\\garet\\AndroidStudioProjects\\Chillersmarket\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_summary.xml.flat",
+        "source": "C:\\Users\\garet\\AndroidStudioProjects\\Chillersmarket\\app\\src\\main\\res\\layout\\activity_summary.xml"
+    },
+    {
         "merged": "C:\\Users\\garet\\AndroidStudioProjects\\Chillersmarket\\app\\build\\intermediates\\merged_res\\debug\\drawable_round_corner.xml.flat",
         "source": "C:\\Users\\garet\\AndroidStudioProjects\\Chillersmarket\\app\\src\\main\\res\\drawable\\round_corner.xml"
     },
@@ -176,12 +180,12 @@
         "source": "C:\\Users\\garet\\AndroidStudioProjects\\Chillersmarket\\app\\src\\main\\res\\layout\\fragment_chillers_mall.xml"
     },
     {
-        "merged": "C:\\Users\\garet\\AndroidStudioProjects\\Chillersmarket\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_professionals.png.flat",
-        "source": "C:\\Users\\garet\\AndroidStudioProjects\\Chillersmarket\\app\\src\\main\\res\\drawable-xxhdpi\\ic_professionals.png"
-    },
-    {
         "merged": "C:\\Users\\garet\\AndroidStudioProjects\\Chillersmarket\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_cart.xml.flat",
         "source": "C:\\Users\\garet\\AndroidStudioProjects\\Chillersmarket\\app\\src\\main\\res\\layout\\activity_cart.xml"
+    },
+    {
+        "merged": "C:\\Users\\garet\\AndroidStudioProjects\\Chillersmarket\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_professionals.png.flat",
+        "source": "C:\\Users\\garet\\AndroidStudioProjects\\Chillersmarket\\app\\src\\main\\res\\drawable-xxhdpi\\ic_professionals.png"
     },
     {
         "merged": "C:\\Users\\garet\\AndroidStudioProjects\\Chillersmarket\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_person_24.xml.flat",
@@ -276,16 +280,16 @@
         "source": "C:\\Users\\garet\\AndroidStudioProjects\\Chillersmarket\\app\\src\\main\\res\\drawable-hdpi\\ic_entertainment.png"
     },
     {
+        "merged": "C:\\Users\\garet\\AndroidStudioProjects\\Chillersmarket\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_arrow_up_24.xml.flat",
+        "source": "C:\\Users\\garet\\AndroidStudioProjects\\Chillersmarket\\app\\src\\main\\res\\drawable\\ic_arrow_up_24.xml"
+    },
+    {
         "merged": "C:\\Users\\garet\\AndroidStudioProjects\\Chillersmarket\\app\\build\\intermediates\\merged_res\\debug\\raw_loading.json.flat",
         "source": "C:\\Users\\garet\\AndroidStudioProjects\\Chillersmarket\\app\\src\\main\\res\\raw\\loading.json"
     },
     {
         "merged": "C:\\Users\\garet\\AndroidStudioProjects\\Chillersmarket\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\garet\\AndroidStudioProjects\\Chillersmarket\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\garet\\AndroidStudioProjects\\Chillersmarket\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_arrow_up_24.xml.flat",
-        "source": "C:\\Users\\garet\\AndroidStudioProjects\\Chillersmarket\\app\\src\\main\\res\\drawable\\ic_arrow_up_24.xml"
     },
     {
         "merged": "C:\\Users\\garet\\AndroidStudioProjects\\Chillersmarket\\app\\build\\intermediates\\merged_res\\debug\\drawable_white_gradient.xml.flat",
@@ -308,16 +312,16 @@
         "source": "C:\\Users\\garet\\AndroidStudioProjects\\Chillersmarket\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_consulting.png"
     },
     {
+        "merged": "C:\\Users\\garet\\AndroidStudioProjects\\Chillersmarket\\app\\build\\intermediates\\merged_res\\debug\\layout_cart_item.xml.flat",
+        "source": "C:\\Users\\garet\\AndroidStudioProjects\\Chillersmarket\\app\\src\\main\\res\\layout\\cart_item.xml"
+    },
+    {
         "merged": "C:\\Users\\garet\\AndroidStudioProjects\\Chillersmarket\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_cart_24.xml.flat",
         "source": "C:\\Users\\garet\\AndroidStudioProjects\\Chillersmarket\\app\\src\\main\\res\\drawable\\ic_cart_24.xml"
     },
     {
         "merged": "C:\\Users\\garet\\AndroidStudioProjects\\Chillersmarket\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\garet\\AndroidStudioProjects\\Chillersmarket\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "C:\\Users\\garet\\AndroidStudioProjects\\Chillersmarket\\app\\build\\intermediates\\merged_res\\debug\\layout_cart_item.xml.flat",
-        "source": "C:\\Users\\garet\\AndroidStudioProjects\\Chillersmarket\\app\\src\\main\\res\\layout\\cart_item.xml"
     },
     {
         "merged": "C:\\Users\\garet\\AndroidStudioProjects\\Chillersmarket\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",

@@ -50,7 +50,7 @@
 26-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\garet\.gradle\caches\transforms-3\55498f6021de22b8cadbe322839d6c31\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:12:22-65
 27
 28    <application
-28-->C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:11:5-34:19
+28-->C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:11:5-37:19
 29        android:allowBackup="true"
 29-->C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:12:9-35
 30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -70,75 +70,81 @@
 38-->C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:17:9-52
 39        <activity
 39-->C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:18:9-20:40
-40            android:name="com.example.chillersmarket.CartActivity"
-40-->C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:19:13-41
+40            android:name="com.example.chillersmarket.SummaryActivity"
+40-->C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:19:13-44
 41            android:exported="false" />
 41-->C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:20:13-37
 42        <activity
-42-->C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:21:9-23:39
-43            android:name="com.example.chillersmarket.DetailedMallItemActivity"
-43-->C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:22:13-53
-44            android:exported="true" />
-44-->C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:23:13-36
-45        <activity android:name="com.example.chillersmarket.CategoryDetailActivity" />
-45-->C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:24:9-60
-45-->C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:24:19-57
-46        <activity
-46-->C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:25:9-33:20
-47            android:name="com.example.chillersmarket.MainActivity"
-47-->C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:26:13-41
-48            android:exported="true" >
-48-->C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:27:13-36
-49            <intent-filter>
-49-->C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:28:13-32:29
-50                <action android:name="android.intent.action.MAIN" />
-50-->C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:29:17-69
-50-->C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:29:25-66
-51
-52                <category android:name="android.intent.category.LAUNCHER" />
-52-->C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:31:17-77
-52-->C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:31:27-74
-53            </intent-filter>
-54        </activity>
-55
-56        <provider
-56-->[androidx.emoji2:emoji2:1.0.0] C:\Users\garet\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
-57            android:name="androidx.startup.InitializationProvider"
-57-->[androidx.emoji2:emoji2:1.0.0] C:\Users\garet\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
-58            android:authorities="com.example.chillersmarket.androidx-startup"
-58-->[androidx.emoji2:emoji2:1.0.0] C:\Users\garet\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
-59            android:exported="false" >
-59-->[androidx.emoji2:emoji2:1.0.0] C:\Users\garet\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
-60            <meta-data
-60-->[androidx.emoji2:emoji2:1.0.0] C:\Users\garet\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
-61                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-61-->[androidx.emoji2:emoji2:1.0.0] C:\Users\garet\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
-62                android:value="androidx.startup" />
-62-->[androidx.emoji2:emoji2:1.0.0] C:\Users\garet\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+42-->C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:21:9-23:40
+43            android:name="com.example.chillersmarket.CartActivity"
+43-->C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:22:13-41
+44            android:exported="false" />
+44-->C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:23:13-37
+45        <activity
+45-->C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:24:9-26:39
+46            android:name="com.example.chillersmarket.DetailedMallItemActivity"
+46-->C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:25:13-53
+47            android:exported="true" />
+47-->C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:26:13-36
+48        <activity android:name="com.example.chillersmarket.CategoryDetailActivity" />
+48-->C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:27:9-60
+48-->C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:27:19-57
+49        <activity
+49-->C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:28:9-36:20
+50            android:name="com.example.chillersmarket.MainActivity"
+50-->C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:29:13-41
+51            android:exported="true" >
+51-->C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:30:13-36
+52            <intent-filter>
+52-->C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:31:13-35:29
+53                <action android:name="android.intent.action.MAIN" />
+53-->C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:32:17-69
+53-->C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:32:25-66
+54
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:34:17-77
+55-->C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:34:27-74
+56            </intent-filter>
+57        </activity>
+58
+59        <provider
+59-->[androidx.emoji2:emoji2:1.0.0] C:\Users\garet\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+60            android:name="androidx.startup.InitializationProvider"
+60-->[androidx.emoji2:emoji2:1.0.0] C:\Users\garet\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+61            android:authorities="com.example.chillersmarket.androidx-startup"
+61-->[androidx.emoji2:emoji2:1.0.0] C:\Users\garet\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+62            android:exported="false" >
+62-->[androidx.emoji2:emoji2:1.0.0] C:\Users\garet\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
 63            <meta-data
-63-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\garet\.gradle\caches\transforms-3\0e4a425e61d135d109d64d5f17d999df\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
-64                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-64-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\garet\.gradle\caches\transforms-3\0e4a425e61d135d109d64d5f17d999df\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+63-->[androidx.emoji2:emoji2:1.0.0] C:\Users\garet\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+64                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+64-->[androidx.emoji2:emoji2:1.0.0] C:\Users\garet\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
 65                android:value="androidx.startup" />
-65-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\garet\.gradle\caches\transforms-3\0e4a425e61d135d109d64d5f17d999df\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
-66        </provider>
-67        <provider
-67-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\garet\.gradle\caches\transforms-3\55498f6021de22b8cadbe322839d6c31\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:18:9-22:39
-68            android:name="com.mapbox.android.telemetry.provider.MapboxTelemetryInitProvider"
-68-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\garet\.gradle\caches\transforms-3\55498f6021de22b8cadbe322839d6c31\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:19:13-93
-69            android:authorities="com.example.chillersmarket.mapboxtelemetryinitprovider"
-69-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\garet\.gradle\caches\transforms-3\55498f6021de22b8cadbe322839d6c31\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:20:13-79
-70            android:exported="false"
-70-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\garet\.gradle\caches\transforms-3\55498f6021de22b8cadbe322839d6c31\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:21:13-37
-71            android:initOrder="100" />
-71-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\garet\.gradle\caches\transforms-3\55498f6021de22b8cadbe322839d6c31\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:22:13-36
-72
-73        <service
-73-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\garet\.gradle\caches\transforms-3\55498f6021de22b8cadbe322839d6c31\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:24:9-26:72
-74            android:name="com.mapbox.android.telemetry.crash.CrashReporterJobIntentService"
-74-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\garet\.gradle\caches\transforms-3\55498f6021de22b8cadbe322839d6c31\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:25:13-92
-75            android:permission="android.permission.BIND_JOB_SERVICE" />
-75-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\garet\.gradle\caches\transforms-3\55498f6021de22b8cadbe322839d6c31\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:26:13-69
-76    </application>
-77
-78</manifest>
+65-->[androidx.emoji2:emoji2:1.0.0] C:\Users\garet\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+66            <meta-data
+66-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\garet\.gradle\caches\transforms-3\0e4a425e61d135d109d64d5f17d999df\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+67                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+67-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\garet\.gradle\caches\transforms-3\0e4a425e61d135d109d64d5f17d999df\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+68                android:value="androidx.startup" />
+68-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\garet\.gradle\caches\transforms-3\0e4a425e61d135d109d64d5f17d999df\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+69        </provider>
+70        <provider
+70-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\garet\.gradle\caches\transforms-3\55498f6021de22b8cadbe322839d6c31\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:18:9-22:39
+71            android:name="com.mapbox.android.telemetry.provider.MapboxTelemetryInitProvider"
+71-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\garet\.gradle\caches\transforms-3\55498f6021de22b8cadbe322839d6c31\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:19:13-93
+72            android:authorities="com.example.chillersmarket.mapboxtelemetryinitprovider"
+72-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\garet\.gradle\caches\transforms-3\55498f6021de22b8cadbe322839d6c31\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:20:13-79
+73            android:exported="false"
+73-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\garet\.gradle\caches\transforms-3\55498f6021de22b8cadbe322839d6c31\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:21:13-37
+74            android:initOrder="100" />
+74-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\garet\.gradle\caches\transforms-3\55498f6021de22b8cadbe322839d6c31\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:22:13-36
+75
+76        <service
+76-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\garet\.gradle\caches\transforms-3\55498f6021de22b8cadbe322839d6c31\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:24:9-26:72
+77            android:name="com.mapbox.android.telemetry.crash.CrashReporterJobIntentService"
+77-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\garet\.gradle\caches\transforms-3\55498f6021de22b8cadbe322839d6c31\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:25:13-92
+78            android:permission="android.permission.BIND_JOB_SERVICE" />
+78-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\garet\.gradle\caches\transforms-3\55498f6021de22b8cadbe322839d6c31\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:26:13-69
+79    </application>
+80
+81</manifest>
