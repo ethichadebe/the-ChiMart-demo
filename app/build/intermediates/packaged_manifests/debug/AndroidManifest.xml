@@ -37,6 +37,12 @@
         android:testOnly="true"
         android:theme="@style/Theme.ChillersMarket" >
         <activity
+            android:name="com.example.chillersmarket.SummaryActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.chillersmarket.CartActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.chillersmarket.DetailedMallItemActivity"
             android:exported="true" />
         <activity android:name="com.example.chillersmarket.CategoryDetailActivity" />

@@ -16,6 +16,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ChillersMarket">
         <activity
+            android:name=".SummaryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CartActivity"
+            android:exported="false" />
+        <activity
             android:name=".DetailedMallItemActivity"
             android:exported="true" />
         <activity

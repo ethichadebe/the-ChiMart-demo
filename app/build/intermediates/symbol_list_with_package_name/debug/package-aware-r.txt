@@ -1404,6 +1404,7 @@ color test_mtrl_calendar_day
 color test_mtrl_calendar_day_selected
 color tooltip_background_dark
 color tooltip_background_light
+color transparent
 color white
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
@@ -1937,12 +1938,16 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable custom_input
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable dp
+drawable ic_add_24
+drawable ic_arrow_down_24
+drawable ic_arrow_up_24
 drawable ic_baseline_circle_24
 drawable ic_baseline_remove_24
 drawable ic_business
@@ -2029,6 +2034,7 @@ drawable test_custom_background
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable white_gradient
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -2170,6 +2176,8 @@ id custom
 id customPanel
 id cut
 id cvAddToCart
+id cvApplyCoupon
+id cvCheckout
 id cvIcon
 id cvPrice
 id date_picker_actions
@@ -2216,6 +2224,7 @@ id enterAlwaysCollapsed
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
+id fab
 id fade
 id fill
 id fill_horizontal
@@ -2270,9 +2279,11 @@ id item2
 id item3
 id item4
 id item_touch_helper_previous_elevation
+id ivAdd
 id ivIcon
 id ivPreview
 id ivRetail
+id ivSubtract
 id jumpToEnd
 id jumpToStart
 id labeled
@@ -2285,6 +2296,8 @@ id line3
 id linear
 id listMode
 id list_item
+id llCoupon
+id llQuantity
 id mapView
 id masked
 id match_constraint
@@ -2343,6 +2356,7 @@ id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
 id myimage
+id nItems
 id nav_account
 id nav_events
 id nav_home
@@ -2398,6 +2412,7 @@ id rightToLeft
 id right_icon
 id right_side
 id rlCart
+id rlCheckout
 id rlHeader
 id rlView
 id rounded
@@ -2520,9 +2535,11 @@ id transition_scene_layoutid_cache
 id transition_transform
 id triangle
 id tvAddToCart
+id tvApplyCoupon
 id tvBusinessName
 id tvCart
 id tvCategory
+id tvCheckout
 id tvDate
 id tvDetails
 id tvHeading
@@ -2532,6 +2549,7 @@ id tvName
 id tvNumber
 id tvPopularCategories
 id tvPrice
+id tvQuantity
 id tvRecentlyAdded
 id tvRelated
 id tvRetail
@@ -2635,9 +2653,12 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_cart
 layout activity_category_detail
 layout activity_detailed_mall_item
 layout activity_main
+layout activity_summary
+layout cart_item
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog

@@ -6,133 +6,145 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="23"
-8-->C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml
+8-->C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="31" />
-9-->C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml
+9-->C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:5:5-67
-11-->C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:5:22-64
+11-->C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:5:22-64
 12    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-12-->C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:6:5-77
-12-->C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:6:22-74
+12-->C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:6:5-77
+12-->C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:6:22-74
 13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-13-->C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:7:5-79
-13-->C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:7:22-76
+13-->C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:7:5-79
+13-->C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:7:22-76
 14    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-14-->C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:8:5-81
-14-->C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:8:22-78
+14-->C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:8:5-81
+14-->C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:8:22-78
 15    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
-15-->C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:9:5-85
-15-->C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:9:22-82
+15-->C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:9:5-85
+15-->C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:9:22-82
 16
 17    <uses-feature
-17-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.0.0] C:\Users\fredd\.gradle\caches\transforms-3\b2c1b391fa17fca176cbfb83f9380ffd\transformed\jetified-mapbox-android-sdk-9.0.0\AndroidManifest.xml:9:5-11:35
+17-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.0.0] C:\Users\garet\.gradle\caches\transforms-3\b2c1b391fa17fca176cbfb83f9380ffd\transformed\jetified-mapbox-android-sdk-9.0.0\AndroidManifest.xml:9:5-11:35
 18        android:glEsVersion="0x00020000"
-18-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.0.0] C:\Users\fredd\.gradle\caches\transforms-3\b2c1b391fa17fca176cbfb83f9380ffd\transformed\jetified-mapbox-android-sdk-9.0.0\AndroidManifest.xml:10:9-41
+18-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.0.0] C:\Users\garet\.gradle\caches\transforms-3\b2c1b391fa17fca176cbfb83f9380ffd\transformed\jetified-mapbox-android-sdk-9.0.0\AndroidManifest.xml:10:9-41
 19        android:required="true" />
-19-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.0.0] C:\Users\fredd\.gradle\caches\transforms-3\b2c1b391fa17fca176cbfb83f9380ffd\transformed\jetified-mapbox-android-sdk-9.0.0\AndroidManifest.xml:11:9-32
+19-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.0.0] C:\Users\garet\.gradle\caches\transforms-3\b2c1b391fa17fca176cbfb83f9380ffd\transformed\jetified-mapbox-android-sdk-9.0.0\AndroidManifest.xml:11:9-32
 20    <uses-feature
-20-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.0.0] C:\Users\fredd\.gradle\caches\transforms-3\b2c1b391fa17fca176cbfb83f9380ffd\transformed\jetified-mapbox-android-sdk-9.0.0\AndroidManifest.xml:12:5-14:36
+20-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.0.0] C:\Users\garet\.gradle\caches\transforms-3\b2c1b391fa17fca176cbfb83f9380ffd\transformed\jetified-mapbox-android-sdk-9.0.0\AndroidManifest.xml:12:5-14:36
 21        android:name="android.hardware.wifi"
-21-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.0.0] C:\Users\fredd\.gradle\caches\transforms-3\b2c1b391fa17fca176cbfb83f9380ffd\transformed\jetified-mapbox-android-sdk-9.0.0\AndroidManifest.xml:13:9-45
+21-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.0.0] C:\Users\garet\.gradle\caches\transforms-3\b2c1b391fa17fca176cbfb83f9380ffd\transformed\jetified-mapbox-android-sdk-9.0.0\AndroidManifest.xml:13:9-45
 22        android:required="false" />
-22-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.0.0] C:\Users\fredd\.gradle\caches\transforms-3\b2c1b391fa17fca176cbfb83f9380ffd\transformed\jetified-mapbox-android-sdk-9.0.0\AndroidManifest.xml:14:9-33
+22-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.0.0] C:\Users\garet\.gradle\caches\transforms-3\b2c1b391fa17fca176cbfb83f9380ffd\transformed\jetified-mapbox-android-sdk-9.0.0\AndroidManifest.xml:14:9-33
 23
 24    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-24-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.0.0] C:\Users\fredd\.gradle\caches\transforms-3\b2c1b391fa17fca176cbfb83f9380ffd\transformed\jetified-mapbox-android-sdk-9.0.0\AndroidManifest.xml:17:5-79
-24-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.0.0] C:\Users\fredd\.gradle\caches\transforms-3\b2c1b391fa17fca176cbfb83f9380ffd\transformed\jetified-mapbox-android-sdk-9.0.0\AndroidManifest.xml:17:22-76
+24-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.0.0] C:\Users\garet\.gradle\caches\transforms-3\b2c1b391fa17fca176cbfb83f9380ffd\transformed\jetified-mapbox-android-sdk-9.0.0\AndroidManifest.xml:17:5-79
+24-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.0.0] C:\Users\garet\.gradle\caches\transforms-3\b2c1b391fa17fca176cbfb83f9380ffd\transformed\jetified-mapbox-android-sdk-9.0.0\AndroidManifest.xml:17:22-76
 25    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Required for CrashReporterJobIntentService on API levels below 25 -->
-25-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.0.0] C:\Users\fredd\.gradle\caches\transforms-3\b2c1b391fa17fca176cbfb83f9380ffd\transformed\jetified-mapbox-android-sdk-9.0.0\AndroidManifest.xml:18:5-76
-25-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.0.0] C:\Users\fredd\.gradle\caches\transforms-3\b2c1b391fa17fca176cbfb83f9380ffd\transformed\jetified-mapbox-android-sdk-9.0.0\AndroidManifest.xml:18:22-73
+25-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.0.0] C:\Users\garet\.gradle\caches\transforms-3\b2c1b391fa17fca176cbfb83f9380ffd\transformed\jetified-mapbox-android-sdk-9.0.0\AndroidManifest.xml:18:5-76
+25-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.0.0] C:\Users\garet\.gradle\caches\transforms-3\b2c1b391fa17fca176cbfb83f9380ffd\transformed\jetified-mapbox-android-sdk-9.0.0\AndroidManifest.xml:18:22-73
 26    <uses-permission android:name="android.permission.WAKE_LOCK" />
-26-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\fredd\.gradle\caches\transforms-3\55498f6021de22b8cadbe322839d6c31\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:12:5-68
-26-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\fredd\.gradle\caches\transforms-3\55498f6021de22b8cadbe322839d6c31\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:12:22-65
+26-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\garet\.gradle\caches\transforms-3\55498f6021de22b8cadbe322839d6c31\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:12:5-68
+26-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\garet\.gradle\caches\transforms-3\55498f6021de22b8cadbe322839d6c31\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:12:22-65
 27
 28    <application
-28-->C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:11:5-33:19
+28-->C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:11:5-39:19
 29        android:allowBackup="true"
-29-->C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:12:9-35
+29-->C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:12:9-35
 30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-30-->[androidx.core:core:1.7.0] C:\Users\fredd\.gradle\caches\transforms-3\9339927e08badd09bc5459e4ba900d5f\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+30-->[androidx.core:core:1.7.0] C:\Users\garet\.gradle\caches\transforms-3\9339927e08badd09bc5459e4ba900d5f\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 31        android:debuggable="true"
 32        android:extractNativeLibs="false"
 33        android:icon="@mipmap/ic_launcher"
-33-->C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:13:9-43
+33-->C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:13:9-43
 34        android:label="@string/app_name"
-34-->C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:14:9-41
+34-->C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:14:9-41
 35        android:roundIcon="@mipmap/ic_launcher_round"
-35-->C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:15:9-54
+35-->C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:15:9-54
 36        android:supportsRtl="true"
-36-->C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:16:9-35
+36-->C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:16:9-35
 37        android:testOnly="true"
 38        android:theme="@style/Theme.ChillersMarket" >
-38-->C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:17:9-52
+38-->C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:17:9-52
 39        <activity
-39-->C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:18:9-20:39
-40            android:name="com.example.chillersmarket.DetailedMallItemActivity"
-40-->C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:19:13-53
-41            android:exported="true" />
-41-->C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:20:13-36
-42        <activity android:name="com.example.chillersmarket.CategoryDetailActivity" />
-42-->C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:21:9-23:15
-42-->C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:22:13-51
-43        <activity
-43-->C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:24:9-32:20
-44            android:name="com.example.chillersmarket.MainActivity"
-44-->C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:25:13-41
-45            android:exported="true" >
-45-->C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:26:13-36
-46            <intent-filter>
-46-->C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:27:13-31:29
-47                <action android:name="android.intent.action.MAIN" />
-47-->C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:28:17-69
-47-->C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:28:25-66
-48
-49                <category android:name="android.intent.category.LAUNCHER" />
-49-->C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:30:17-77
-49-->C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:30:27-74
-50            </intent-filter>
-51        </activity>
-52
-53        <provider
-53-->[androidx.emoji2:emoji2:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
-54            android:name="androidx.startup.InitializationProvider"
-54-->[androidx.emoji2:emoji2:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
-55            android:authorities="com.example.chillersmarket.androidx-startup"
-55-->[androidx.emoji2:emoji2:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
-56            android:exported="false" >
-56-->[androidx.emoji2:emoji2:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
-57            <meta-data
-57-->[androidx.emoji2:emoji2:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
-58                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-58-->[androidx.emoji2:emoji2:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
-59                android:value="androidx.startup" />
-59-->[androidx.emoji2:emoji2:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
-60            <meta-data
-60-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\fredd\.gradle\caches\transforms-3\0e4a425e61d135d109d64d5f17d999df\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
-61                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-61-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\fredd\.gradle\caches\transforms-3\0e4a425e61d135d109d64d5f17d999df\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
-62                android:value="androidx.startup" />
-62-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\fredd\.gradle\caches\transforms-3\0e4a425e61d135d109d64d5f17d999df\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
-63        </provider>
-64        <provider
-64-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\fredd\.gradle\caches\transforms-3\55498f6021de22b8cadbe322839d6c31\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:18:9-22:39
-65            android:name="com.mapbox.android.telemetry.provider.MapboxTelemetryInitProvider"
-65-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\fredd\.gradle\caches\transforms-3\55498f6021de22b8cadbe322839d6c31\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:19:13-93
-66            android:authorities="com.example.chillersmarket.mapboxtelemetryinitprovider"
-66-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\fredd\.gradle\caches\transforms-3\55498f6021de22b8cadbe322839d6c31\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:20:13-79
-67            android:exported="false"
-67-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\fredd\.gradle\caches\transforms-3\55498f6021de22b8cadbe322839d6c31\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:21:13-37
-68            android:initOrder="100" />
-68-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\fredd\.gradle\caches\transforms-3\55498f6021de22b8cadbe322839d6c31\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:22:13-36
-69
-70        <service
-70-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\fredd\.gradle\caches\transforms-3\55498f6021de22b8cadbe322839d6c31\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:24:9-26:72
-71            android:name="com.mapbox.android.telemetry.crash.CrashReporterJobIntentService"
-71-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\fredd\.gradle\caches\transforms-3\55498f6021de22b8cadbe322839d6c31\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:25:13-92
-72            android:permission="android.permission.BIND_JOB_SERVICE" />
-72-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\fredd\.gradle\caches\transforms-3\55498f6021de22b8cadbe322839d6c31\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:26:13-69
-73    </application>
-74
-75</manifest>
+39-->C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:18:9-20:40
+40            android:name="com.example.chillersmarket.SummaryActivity"
+40-->C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:19:13-44
+41            android:exported="false" />
+41-->C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:20:13-37
+42        <activity
+42-->C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:21:9-23:40
+43            android:name="com.example.chillersmarket.CartActivity"
+43-->C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:22:13-41
+44            android:exported="false" />
+44-->C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:23:13-37
+45        <activity
+45-->C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:24:9-26:39
+46            android:name="com.example.chillersmarket.DetailedMallItemActivity"
+46-->C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:25:13-53
+47            android:exported="true" />
+47-->C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:26:13-36
+48        <activity android:name="com.example.chillersmarket.CategoryDetailActivity" />
+48-->C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:27:9-29:15
+48-->C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:28:13-51
+49        <activity
+49-->C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:30:9-38:20
+50            android:name="com.example.chillersmarket.MainActivity"
+50-->C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:31:13-41
+51            android:exported="true" >
+51-->C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:32:13-36
+52            <intent-filter>
+52-->C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:33:13-37:29
+53                <action android:name="android.intent.action.MAIN" />
+53-->C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:34:17-69
+53-->C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:34:25-66
+54
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:36:17-77
+55-->C:\Users\garet\AndroidStudioProjects\Chillersmarket\app\src\main\AndroidManifest.xml:36:27-74
+56            </intent-filter>
+57        </activity>
+58
+59        <provider
+59-->[androidx.emoji2:emoji2:1.0.0] C:\Users\garet\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+60            android:name="androidx.startup.InitializationProvider"
+60-->[androidx.emoji2:emoji2:1.0.0] C:\Users\garet\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+61            android:authorities="com.example.chillersmarket.androidx-startup"
+61-->[androidx.emoji2:emoji2:1.0.0] C:\Users\garet\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+62            android:exported="false" >
+62-->[androidx.emoji2:emoji2:1.0.0] C:\Users\garet\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+63            <meta-data
+63-->[androidx.emoji2:emoji2:1.0.0] C:\Users\garet\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+64                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+64-->[androidx.emoji2:emoji2:1.0.0] C:\Users\garet\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+65                android:value="androidx.startup" />
+65-->[androidx.emoji2:emoji2:1.0.0] C:\Users\garet\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+66            <meta-data
+66-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\garet\.gradle\caches\transforms-3\0e4a425e61d135d109d64d5f17d999df\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+67                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+67-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\garet\.gradle\caches\transforms-3\0e4a425e61d135d109d64d5f17d999df\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+68                android:value="androidx.startup" />
+68-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\garet\.gradle\caches\transforms-3\0e4a425e61d135d109d64d5f17d999df\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+69        </provider>
+70        <provider
+70-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\garet\.gradle\caches\transforms-3\55498f6021de22b8cadbe322839d6c31\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:18:9-22:39
+71            android:name="com.mapbox.android.telemetry.provider.MapboxTelemetryInitProvider"
+71-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\garet\.gradle\caches\transforms-3\55498f6021de22b8cadbe322839d6c31\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:19:13-93
+72            android:authorities="com.example.chillersmarket.mapboxtelemetryinitprovider"
+72-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\garet\.gradle\caches\transforms-3\55498f6021de22b8cadbe322839d6c31\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:20:13-79
+73            android:exported="false"
+73-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\garet\.gradle\caches\transforms-3\55498f6021de22b8cadbe322839d6c31\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:21:13-37
+74            android:initOrder="100" />
+74-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\garet\.gradle\caches\transforms-3\55498f6021de22b8cadbe322839d6c31\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:22:13-36
+75
+76        <service
+76-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\garet\.gradle\caches\transforms-3\55498f6021de22b8cadbe322839d6c31\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:24:9-26:72
+77            android:name="com.mapbox.android.telemetry.crash.CrashReporterJobIntentService"
+77-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\garet\.gradle\caches\transforms-3\55498f6021de22b8cadbe322839d6c31\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:25:13-92
+78            android:permission="android.permission.BIND_JOB_SERVICE" />
+78-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\garet\.gradle\caches\transforms-3\55498f6021de22b8cadbe322839d6c31\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:26:13-69
+79    </application>
+80
+81</manifest>
