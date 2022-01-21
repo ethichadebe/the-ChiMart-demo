@@ -2,8 +2,10 @@ package com.example.chillersmarket;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
+import android.view.View;
 import android.view.WindowManager;
 import android.widget.TextView;
 
@@ -68,4 +70,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    public void cart(View view) {
+        startActivity(new Intent(this, CartActivity.class));
+    }
 }

@@ -41,9 +41,9 @@ public class MallAdapter extends RecyclerView.Adapter<MallAdapter.MallViewHolder
 
 
     public static class MallViewHolder extends RecyclerView.ViewHolder {
-        public ImageView ivPreview;
-        public CardView cvAddToCart;
-        public TextView tvPrice, tvHeading, tvSeller;
+        private ImageView ivPreview;
+        private CardView cvAddToCart;
+        private TextView tvPrice, tvHeading, tvSeller;
 
         public MallViewHolder(@NonNull View itemView, OnItemClickListener listener) {
             super(itemView);

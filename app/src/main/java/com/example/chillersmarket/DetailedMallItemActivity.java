@@ -7,6 +7,7 @@ import static com.example.chillersmarket.fragments.ChillersMallFragment.ITEM_PRI
 import static com.example.chillersmarket.fragments.ChillersMallFragment.ITEM_SELLER;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
@@ -148,5 +149,9 @@ public class DetailedMallItemActivity extends AppCompatActivity {
      */
     public void AddToCart(View view) {
         tvCart.setText(String.valueOf(nItems++));
+    }
+
+    public void cart(View view) {
+        startActivity(new Intent(this, CartActivity.class));
     }
 }

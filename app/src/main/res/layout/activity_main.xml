@@ -13,6 +13,8 @@
 
         <RelativeLayout
             android:layout_width="?attr/actionBarSize"
+            android:background="@drawable/ripple_effect_white"
+            android:onClick="cart"
             android:layout_height="?attr/actionBarSize"
             android:layout_alignParentEnd="true">
 
@@ -28,22 +30,22 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentTop="true"
                 android:layout_alignParentEnd="true"
-                app:cardCornerRadius="500dp"
                 android:layout_margin="5dp"
-                app:cardBackgroundColor="@color/green">
+                app:cardBackgroundColor="@color/green"
+                app:cardCornerRadius="500dp">
 
                 <TextView
                     android:id="@+id/tvnCartItems"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
-                    android:layout_marginEnd="8dp"
                     android:layout_marginTop="4dp"
-                    android:textColor="@color/white"
-                    android:textStyle="bold"
+                    android:layout_marginEnd="8dp"
                     android:layout_marginBottom="4dp"
                     android:text="5"
-                    android:textSize="12sp"/>
+                    android:textColor="@color/white"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
             </androidx.cardview.widget.CardView>
         </RelativeLayout>
     </RelativeLayout>

@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\fredd\\Documents\\Projects\\the-ChiMart-demo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh-rCN\\values-zh-rCN.xml",
+            "outputFile": "C:\\Users\\garet\\AndroidStudioProjects\\Chillersmarket\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh-rCN\\values-zh-rCN.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\fredd\\.gradle\\caches\\transforms-3\\9339927e08badd09bc5459e4ba900d5f\\transformed\\core-1.7.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "102",
-                        "startColumns": "4",
-                        "startOffsets": "7821",
-                        "endColumns": "100",
-                        "endOffsets": "7917"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\fredd\\.gradle\\caches\\transforms-3\\46d15f5c58a469270eeba15db4463d05\\transformed\\appcompat-1.4.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "source": "C:\\Users\\garet\\.gradle\\caches\\transforms-3\\46d15f5c58a469270eeba15db4463d05\\transformed\\appcompat-1.4.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -38,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\fredd\\.gradle\\caches\\transforms-3\\1508bc0f4d67cb1fb46dec23183d0585\\transformed\\material-1.4.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "source": "C:\\Users\\garet\\.gradle\\caches\\transforms-3\\1508bc0f4d67cb1fb46dec23183d0585\\transformed\\material-1.4.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
                     "from": {
                         "startLines": "2,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -57,7 +40,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\fredd\\.gradle\\caches\\transforms-3\\b2c1b391fa17fca176cbfb83f9380ffd\\transformed\\jetified-mapbox-android-sdk-9.0.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "source": "C:\\Users\\garet\\.gradle\\caches\\transforms-3\\b2c1b391fa17fca176cbfb83f9380ffd\\transformed\\jetified-mapbox-android-sdk-9.0.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -71,6 +54,23 @@
                         "startOffsets": "3406,3487,3587,3656,3724,3793,3868,3955,4060,4141,4234,4319,4433,4493",
                         "endColumns": "80,99,68,67,68,74,86,104,80,92,84,113,59,64",
                         "endOffsets": "3482,3582,3651,3719,3788,3863,3950,4055,4136,4229,4314,4428,4488,4553"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\garet\\.gradle\\caches\\transforms-3\\9339927e08badd09bc5459e4ba900d5f\\transformed\\core-1.7.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "102",
+                        "startColumns": "4",
+                        "startOffsets": "7821",
+                        "endColumns": "100",
+                        "endOffsets": "7917"
                     }
                 }
             ]
