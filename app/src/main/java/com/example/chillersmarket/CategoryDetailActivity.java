@@ -37,6 +37,7 @@ public class CategoryDetailActivity extends AppCompatActivity implements OnMapRe
         Mapbox.getInstance(CategoryDetailActivity.this, getString(R.string.mapbox_access_token));
         setContentView(R.layout.activity_category_detail);
 
+        //Setup mapView
         mapView = (MapView) findViewById(R.id.mapView);
         mapView.getMapAsync(this);
 
