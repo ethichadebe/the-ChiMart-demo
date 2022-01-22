@@ -2026,6 +2026,7 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable ripple_effect_green
+drawable ripple_effect_green_click
 drawable ripple_effect_white
 drawable round_corner
 drawable round_corner_bottom
