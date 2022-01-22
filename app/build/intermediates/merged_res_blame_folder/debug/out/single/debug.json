@@ -64,12 +64,12 @@
         "source": "C:\\Users\\garet\\AndroidStudioProjects\\Chillersmarket\\app\\src\\main\\res\\drawable\\ic_home.xml"
     },
     {
-        "merged": "C:\\Users\\garet\\AndroidStudioProjects\\Chillersmarket\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_business.png.flat",
-        "source": "C:\\Users\\garet\\AndroidStudioProjects\\Chillersmarket\\app\\src\\main\\res\\drawable-xhdpi\\ic_business.png"
-    },
-    {
         "merged": "C:\\Users\\garet\\AndroidStudioProjects\\Chillersmarket\\app\\build\\intermediates\\merged_res\\debug\\font_source_sans_pro_black.xml.flat",
         "source": "C:\\Users\\garet\\AndroidStudioProjects\\Chillersmarket\\app\\src\\main\\res\\font\\source_sans_pro_black.xml"
+    },
+    {
+        "merged": "C:\\Users\\garet\\AndroidStudioProjects\\Chillersmarket\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_business.png.flat",
+        "source": "C:\\Users\\garet\\AndroidStudioProjects\\Chillersmarket\\app\\src\\main\\res\\drawable-xhdpi\\ic_business.png"
     },
     {
         "merged": "C:\\Users\\garet\\AndroidStudioProjects\\Chillersmarket\\app\\build\\intermediates\\merged_res\\debug\\drawable_ripple_effect_green.xml.flat",
@@ -188,12 +188,12 @@
         "source": "C:\\Users\\garet\\AndroidStudioProjects\\Chillersmarket\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_consulting.png"
     },
     {
-        "merged": "C:\\Users\\garet\\AndroidStudioProjects\\Chillersmarket\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\garet\\AndroidStudioProjects\\Chillersmarket\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
-    },
-    {
         "merged": "C:\\Users\\garet\\AndroidStudioProjects\\Chillersmarket\\app\\build\\intermediates\\merged_res\\debug\\layout_cart_item.xml.flat",
         "source": "C:\\Users\\garet\\AndroidStudioProjects\\Chillersmarket\\app\\src\\main\\res\\layout\\cart_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\garet\\AndroidStudioProjects\\Chillersmarket\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\garet\\AndroidStudioProjects\\Chillersmarket\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
         "merged": "C:\\Users\\garet\\AndroidStudioProjects\\Chillersmarket\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
