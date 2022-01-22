@@ -5,14 +5,93 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:mapbox="http://schemas.android.com/apk/res-auto">
 
-        <com.mapbox.mapboxsdk.maps.MapView
-            android:id="@+id/mapView"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            mapbox:mapbox_cameraTargetLat="-26.209040"
-            mapbox:mapbox_cameraTargetLng="28.033544"
-            mapbox:mapbox_cameraZoom="7"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
+    <!-- Status Bar -->
+    <RelativeLayout
+        android:id="@+id/rlHeader"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/actionbar_background">
+
+    <info.androidhive.fontawesome.FontTextView
+        android:id="@+id/ftvBack"
+        android:layout_width="?attr/actionBarSize"
+        android:layout_height="match_parent"
+        android:background="@drawable/ripple_effect_white"
+        android:gravity="center"
+        android:onClick="back"
+        android:text="@string/fa_angle_left_solid"
+        android:textColor="#fff"
+        android:textSize="32sp"
+        app:solid_icon="true" />
+
+    <TextView
+        android:id="@+id/tvHeadingTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_toStartOf="@+id/rlCart"
+        android:layout_toEndOf="@id/ftvBack"
+        android:text="Popular Categories"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:id="@+id/rlCart"
+        android:layout_width="?attr/actionBarSize"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentEnd="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/ic_shopping_bag"
+            android:backgroundTint="@color/white" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/green"
+            app:cardCornerRadius="500dp">
+
+            <TextView
+                android:id="@+id/tvCart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="4dp"
+                android:text="5"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+    </RelativeLayout>
+
+    <!-- MAP -->
+    <com.mapbox.mapboxsdk.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rlHeader"
+        mapbox:mapbox_cameraTargetLat="-26.209040"
+        mapbox:mapbox_cameraTargetLng="28.033544"
+        mapbox:mapbox_cameraZoom="7"/>
+    </RelativeLayout>
+
+    <!-- Bottom Sheet -->
     <androidx.core.widget.NestedScrollView
         android:id="@+id/category_detail_bottom_sheet"
         android:layout_width="match_parent"
@@ -27,8 +106,7 @@
             android:layout_height="wrap_content"
             android:src="@drawable/ic_baseline_remove_24"
             android:scaleType="centerCrop"
-            android:layout_gravity="center|top"
-            android:background="@drawable/round_corner"/>
+            android:layout_gravity="center|top"/>
 
     </androidx.core.widget.NestedScrollView>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
