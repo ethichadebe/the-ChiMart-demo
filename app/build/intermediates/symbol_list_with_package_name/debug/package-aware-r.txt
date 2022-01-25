@@ -2042,6 +2042,7 @@ id CTRL
 id FUNCTION
 id META
 id NO_DEBUG
+id OnOfferItemsRecycleView
 id SHIFT
 id SHOW_ALL
 id SHOW_PATH
@@ -2330,6 +2331,7 @@ id month_navigation_fragment_toggle
 id month_navigation_next
 id month_navigation_previous
 id month_title
+id morePopularCategoriesRecycleView
 id motion_base
 id mtrl_anchor_parent
 id mtrl_calendar_day_selector_frame
@@ -2397,6 +2399,7 @@ id pathRelative
 id peekHeight
 id percent
 id pin
+id popularItemsRecycleView
 id position
 id postLayout
 id progress_circular
@@ -2545,9 +2548,12 @@ id tvDetails
 id tvHeading
 id tvHeadingTop
 id tvLocation
+id tvMorePopularCategories
 id tvName
 id tvNumber
+id tvOnOfferItems
 id tvPopularCategories
+id tvPopularItems
 id tvPrice
 id tvQuantity
 id tvRecentlyAdded

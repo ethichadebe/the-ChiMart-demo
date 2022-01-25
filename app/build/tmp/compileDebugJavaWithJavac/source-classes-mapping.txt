@@ -1,6 +1,9 @@
 com/example/chillersmarket/CategoryDetailActivity.java
  com.example.chillersmarket.CategoryDetailActivity
  com.example.chillersmarket.CategoryDetailActivity$1
+ com.example.chillersmarket.CategoryDetailActivity$2
+ com.example.chillersmarket.CategoryDetailActivity$3
+ com.example.chillersmarket.CategoryDetailActivity$4
 com/example/chillersmarket/MainActivity.java
  com.example.chillersmarket.MainActivity
 com/example/chillersmarket/fragments/AccountFragment.java
