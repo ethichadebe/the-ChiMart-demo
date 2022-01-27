@@ -9,6 +9,8 @@
         android:id="@+id/sliderCardView"
         android:layout_width="match_parent"
         app:cardElevation="5dp"
+        android:layout_margin="15dp"
+        app:cardCornerRadius="25dp"
         android:layout_height="wrap_content">
 
         <com.smarteist.autoimageslider.SliderView

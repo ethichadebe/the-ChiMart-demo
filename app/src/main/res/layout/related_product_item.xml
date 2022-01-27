@@ -4,79 +4,82 @@
     android:layout_width="185dp"
     android:layout_height="wrap_content"
     android:layout_margin="10dp"
-    app:cardElevation="7dp"
-    app:cardCornerRadius="25dp">
-
+    app:cardCornerRadius="25dp"
+    app:cardElevation="7dp">
     <RelativeLayout
         android:layout_width="match_parent"
-        android:background="@drawable/ripple_effect_green_click"
         android:layout_height="wrap_content">
-
         <ImageView
             android:id="@+id/ivPreview"
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:src="@mipmap/ic_launcher" />
 
-        <TextView
-            android:id="@+id/tvPrice"
-            android:layout_width="wrap_content"
+
+        <RelativeLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/ivPreview"
-            android:layout_marginStart="10dp"
-            android:layout_marginTop="10dp"
-            android:fontFamily="@font/changa_one"
-            android:text="R3,859.00"
-            android:textColor="#FF0000"
-            android:textSize="16sp"
-            android:textStyle="bold" />
-
-        <TextView
-            android:id="@+id/tvHeading"
-            android:layout_width="wrap_content"
-            android:layout_height="45dp"
-            android:layout_below="@id/tvPrice"
-            android:layout_marginStart="10dp"
-            android:layout_marginEnd="10dp"
-            android:layout_marginTop="7dp"
-            android:text="Gazebo"
-            android:textSize="16sp" />
-
-        <TextView
-            android:id="@+id/tvSeller"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/tvHeading"
-            android:layout_alignParentStart="true"
-            android:layout_marginStart="10dp"
-            android:layout_marginTop="5dp"
-            android:layout_toStartOf="@+id/cvAddToCart"
-            android:text="Gazebo"
-            android:textSize="12sp" />
-
-        <androidx.cardview.widget.CardView
-            android:id="@+id/cvAddToCart"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:layout_below="@id/tvHeading"
-            android:layout_alignParentEnd="true"
-            android:layout_marginStart="10dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginEnd="10dp"
-            android:layout_marginBottom="10dp"
-            android:background="@drawable/ripple_effect_green"
-            app:cardBackgroundColor="@color/green"
-            app:cardCornerRadius="50dp"
-            app:cardElevation="5dp">
+            android:background="@drawable/ripple_effect_green_click"
+            android:paddingStart="10dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="7dp"
+            android:paddingEnd="-10dp">
 
             <TextView
-                android:id="@+id/vAddToCart"
-                android:layout_width="20dp"
-                android:layout_height="20dp"
-                android:layout_gravity="center"
-                android:background="@drawable/ic_shopping_bag"
-                android:backgroundTint="@color/white" />
-        </androidx.cardview.widget.CardView>
+                android:id="@+id/tvHeading"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_marginEnd="10dp"
+                android:text="Gazebo"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tvPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/tvSeller"
+                android:layout_below="@id/tvHeading"
+                android:fontFamily="@font/changa_one"
+                android:gravity="center"
+                android:text="R3,859.00"
+                android:textColor="#FF0000"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvSeller"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cvAddToCart"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="5dp"
+                android:layout_toStartOf="@+id/cvAddToCart"
+                android:text="Gazebo"
+                android:textSize="12sp" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cvAddToCart"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:layout_below="@id/tvHeading"
+                android:layout_alignParentEnd="true"
+                android:background="@drawable/ripple_effect_green"
+                app:cardBackgroundColor="@color/green"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp">
+
+                <TextView
+                    android:id="@+id/vAddToCart"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="5dp"
+                    android:background="@drawable/ic_shopping_bag"
+                    android:backgroundTint="@color/white" />
+            </androidx.cardview.widget.CardView>
+
+        </RelativeLayout>
 
     </RelativeLayout>
 </androidx.cardview.widget.CardView>

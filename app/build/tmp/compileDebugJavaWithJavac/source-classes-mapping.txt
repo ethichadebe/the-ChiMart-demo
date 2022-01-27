@@ -1,5 +1,6 @@
-com/example/chillersmarket/fragments/ProductRatingsFragment.java
- com.example.chillersmarket.fragments.ProductRatingsFragment
+com/example/chillersmarket/CategoryDetailActivity.java
+ com.example.chillersmarket.CategoryDetailActivity
+ com.example.chillersmarket.CategoryDetailActivity$1
 com/example/chillersmarket/MainActivity.java
  com.example.chillersmarket.MainActivity
 com/example/chillersmarket/fragments/AccountFragment.java
@@ -61,11 +62,10 @@ com/example/chillersmarket/Adapters/ReviewAdapter.java
  com.example.chillersmarket.Adapters.ReviewAdapter$ReviewViewHolder
 com/example/chillersmarket/RecyclewViewItems/ReviewItem.java
  com.example.chillersmarket.RecyclewViewItems.ReviewItem
-com/example/chillersmarket/Adapters/HomeAdapter.java
- com.example.chillersmarket.Adapters.HomeAdapter
- com.example.chillersmarket.Adapters.HomeAdapter$HomeViewHolder
- com.example.chillersmarket.Adapters.HomeAdapter$HomeViewHolder$1
- com.example.chillersmarket.Adapters.HomeAdapter$OnItemClickListener
+com/example/chillersmarket/fragments/HomeFragment.java
+ com.example.chillersmarket.fragments.HomeFragment
+ com.example.chillersmarket.fragments.HomeFragment$1
+ com.example.chillersmarket.fragments.HomeFragment$2
 com/example/chillersmarket/fragments/ListingsFragment.java
  com.example.chillersmarket.fragments.ListingsFragment
 com/example/chillersmarket/fragments/ChillersMallFragment.java
@@ -73,10 +73,10 @@ com/example/chillersmarket/fragments/ChillersMallFragment.java
  com.example.chillersmarket.fragments.ChillersMallFragment$1
 com/example/chillersmarket/RecyclewViewItems/MallItem.java
  com.example.chillersmarket.RecyclewViewItems.MallItem
-com/example/chillersmarket/CategoryDetailActivity.java
- com.example.chillersmarket.CategoryDetailActivity
- com.example.chillersmarket.CategoryDetailActivity$1
-com/example/chillersmarket/fragments/HomeFragment.java
- com.example.chillersmarket.fragments.HomeFragment
- com.example.chillersmarket.fragments.HomeFragment$1
- com.example.chillersmarket.fragments.HomeFragment$2
+com/example/chillersmarket/Adapters/HomeAdapter.java
+ com.example.chillersmarket.Adapters.HomeAdapter
+ com.example.chillersmarket.Adapters.HomeAdapter$HomeViewHolder
+ com.example.chillersmarket.Adapters.HomeAdapter$HomeViewHolder$1
+ com.example.chillersmarket.Adapters.HomeAdapter$OnItemClickListener
+com/example/chillersmarket/fragments/ProductRatingsFragment.java
+ com.example.chillersmarket.fragments.ProductRatingsFragment
