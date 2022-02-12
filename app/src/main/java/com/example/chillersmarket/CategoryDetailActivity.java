@@ -75,12 +75,12 @@ public class CategoryDetailActivity extends AppCompatActivity implements OnMapRe
         alMallItems.add(new MallItem("https://chillersmarket.com/wp-content/uploads/2021/12/Flags_27-04-300x300.png", "R250.00 Free", "Orange 3D disk earrings", "Sold By : nondumisomkhatshwa"));
         alMallItems.add(new MallItem("https://chillersmarket.com/wp-content/uploads/2021/12/pOP-uP-bANNER-05-300x300.jpg", "R250.00", "Rainbow/Floral headbands", "Sold By : nondumisomkhatshwa"));
 
-        homeItems.add(new HomeItem("Entertainment", R.drawable.ic_entertainment));
-        homeItems.add(new HomeItem("Retail", R.drawable.ic_shopping_bag));
-        homeItems.add(new HomeItem("Engineering", R.drawable.ic_business));
-        homeItems.add(new HomeItem("Consulting", R.drawable.ic_consulting));
-        homeItems.add(new HomeItem("Practitioners", R.drawable.ic_professionals));
-        homeItems.add(new HomeItem("Tourism", R.drawable.ic_food));
+        homeItems.add(new HomeItem("", R.drawable.ic_entertainment));
+        homeItems.add(new HomeItem("", R.drawable.ic_shopping_bag));
+        homeItems.add(new HomeItem("", R.drawable.ic_business));
+        homeItems.add(new HomeItem("", R.drawable.ic_consulting));
+        homeItems.add(new HomeItem("", R.drawable.ic_professionals));
+        homeItems.add(new HomeItem("", R.drawable.ic_food));
 
         //Setup Home Item RecyclerView display
         recyclerView = findViewById(R.id.morePopularCategoriesRecycleView);
