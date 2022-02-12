@@ -16,7 +16,7 @@ import com.example.chillersmarket.RecyclewViewItems.HomeItem;
 
 import java.util.ArrayList;
 
-public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.HomeViewHolder> {
+public class PopularCategoryAdapter extends RecyclerView.Adapter<PopularCategoryAdapter.PopularCategoryViewHolder> {
 
     private ArrayList<HomeItem> homeItems;
     private static Context context;
@@ -25,34 +25,35 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.HomeViewHolder
         return context;
     }
 
-    private OnItemClickListener onItemClickListener;
+    private OnItemClickListener onClickListener;
 
     public interface OnItemClickListener {
         void onItemClick(int position, Context context);
+
         void onAddToCartClick(int position);
     }
 
     public void setOnItemClickListener(OnItemClickListener listener) {
-        onItemClickListener = listener;
+        onClickListener = listener;
     }
 
-    public static class HomeViewHolder extends RecyclerView.ViewHolder {
-        public ImageView ivRetail;
-        public TextView tvRetail;
+    public static class PopularCategoryViewHolder extends RecyclerView.ViewHolder {
+        public ImageView ivPopularCategory;
+        public TextView tvPopularCategory;
 
-        public HomeViewHolder(@NonNull View itemView, OnItemClickListener listener) {
+        public PopularCategoryViewHolder(@NonNull View itemView, OnItemClickListener listener) {
             super(itemView);
 
-            tvRetail = itemView.findViewById(R.id.tvRetail);
-            ivRetail = itemView.findViewById(R.id.ivRetail);
+            tvPopularCategory = itemView.findViewById(R.id.tvPopularCategory);
+            ivPopularCategory = itemView.findViewById(R.id.ivPopularCategory);
 
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    if (listener != null){
+                    if (listener != null) {
                         int position = getAbsoluteAdapterPosition();
 
-                        if(position != RecyclerView.NO_POSITION){
+                        if (position != RecyclerView.NO_POSITION) {
                             listener.onItemClick(position, getContext());
                         }
                     }
@@ -61,29 +62,27 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.HomeViewHolder
         }
     }
 
-    public HomeAdapter(Context context, ArrayList<HomeItem> homeItems) {
+    public PopularCategoryAdapter(Context context, ArrayList<HomeItem> homeItems) {
         this.context = context;
         this.homeItems = homeItems;
     }
 
     @NonNull
     @Override
-    public HomeViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.home_item, parent, false);
-        HomeViewHolder homeViewHolder = new HomeViewHolder(view, onItemClickListener);
-
-        return homeViewHolder;
+    public PopularCategoryViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.popular_category_item, parent, false);
+        PopularCategoryViewHolder popularCategoryViewHolder = new PopularCategoryViewHolder(view, onClickListener);
+        return popularCategoryViewHolder;
     }
 
     @Override
-    public void onBindViewHolder(@NonNull HomeViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull PopularCategoryViewHolder holder, int position) {
         HomeItem currentHomeItem = homeItems.get(position);
 
         Glide.with(context).load(currentHomeItem.getStrRetail())
                 .centerCrop().placeholder(currentHomeItem.getIcon())
-                .into(holder.ivRetail);
-
-        holder.tvRetail.setText(currentHomeItem.getStrRetail());
+                .into(holder.ivPopularCategory);
+        holder.tvPopularCategory.setText(currentHomeItem.getStrRetail());
     }
 
     @Override

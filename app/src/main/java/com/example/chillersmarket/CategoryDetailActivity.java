@@ -1,41 +1,28 @@
 package com.example.chillersmarket;
 
-import static com.example.chillersmarket.fragments.ChillersMallFragment.ITEM_CATEGORY;
-import static com.example.chillersmarket.fragments.ChillersMallFragment.ITEM_HEADING;
-import static com.example.chillersmarket.fragments.ChillersMallFragment.ITEM_PREVIEW;
-import static com.example.chillersmarket.fragments.ChillersMallFragment.ITEM_PRICE;
-import static com.example.chillersmarket.fragments.ChillersMallFragment.ITEM_SELLER;
-
 import android.content.Context;
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.chillersmarket.Adapters.HomeAdapter;
+import com.example.chillersmarket.Adapters.PopularCategoryAdapter;
 import com.example.chillersmarket.Adapters.RelatedProductAdapter;
 import com.example.chillersmarket.RecyclewViewItems.HomeItem;
 import com.example.chillersmarket.RecyclewViewItems.MallItem;
 import com.google.android.material.bottomsheet.BottomSheetBehavior;
-import com.mapbox.android.core.permissions.PermissionsListener;
-
-import android.os.Bundle;
 
 import com.mapbox.mapboxsdk.Mapbox;
 import com.mapbox.mapboxsdk.maps.MapboxMap;
 import com.mapbox.mapboxsdk.maps.OnMapReadyCallback;
 import com.mapbox.mapboxsdk.maps.MapView;
-import com.mapbox.mapboxsdk.maps.MapboxMap;
 import com.mapbox.mapboxsdk.maps.Style;
 
 import java.util.ArrayList;
-import java.util.List;
 
 
 public class CategoryDetailActivity extends AppCompatActivity implements OnMapReadyCallback {
@@ -57,9 +44,9 @@ public class CategoryDetailActivity extends AppCompatActivity implements OnMapRe
     private ArrayList<MallItem> alMallItems = new ArrayList<>();
 
     //Home Items RecyclerView components
-    private RecyclerView rvHomeItems;
-    private HomeAdapter rvHomeItemsAdapter;
-    private RecyclerView.LayoutManager rvHomeItemsLayoutManager;
+    private RecyclerView recyclerView;
+    private PopularCategoryAdapter popularCategoryAdapter;
+    private RecyclerView.LayoutManager popularCategoryLayoutManager;
     private ArrayList<HomeItem> homeItems = new ArrayList<>();
 
     private int nItems = 0;
@@ -89,14 +76,14 @@ public class CategoryDetailActivity extends AppCompatActivity implements OnMapRe
         alMallItems.add(new MallItem("https://chillersmarket.com/wp-content/uploads/2021/12/pOP-uP-bANNER-05-300x300.jpg", "R250.00", "Rainbow/Floral headbands", "Sold By : nondumisomkhatshwa"));
 
         homeItems.add(new HomeItem("Entertainment", R.drawable.ic_entertainment));
-        homeItems.add(new HomeItem("Chillers Retail", R.drawable.ic_shopping_bag));
-        homeItems.add(new HomeItem("Construction, Engineering, Transport, Logistics", R.drawable.ic_business));
-        homeItems.add(new HomeItem("Consulting Services", R.drawable.ic_consulting));
-        homeItems.add(new HomeItem("Professionals/Practitioners", R.drawable.ic_professionals));
-        homeItems.add(new HomeItem("Agriculture, Manufacturing, Food, Tourism", R.drawable.ic_food));
+        homeItems.add(new HomeItem("Retail", R.drawable.ic_shopping_bag));
+        homeItems.add(new HomeItem("Engineering", R.drawable.ic_business));
+        homeItems.add(new HomeItem("Consulting", R.drawable.ic_consulting));
+        homeItems.add(new HomeItem("Practitioners", R.drawable.ic_professionals));
+        homeItems.add(new HomeItem("Tourism", R.drawable.ic_food));
 
         //Setup Home Item RecyclerView display
-        rvHomeItems = findViewById(R.id.morePopularCategoriesRecycleView);
+        recyclerView = findViewById(R.id.morePopularCategoriesRecycleView);
         buildPopularCategoriesRecycleView();
 
 
@@ -108,29 +95,25 @@ public class CategoryDetailActivity extends AppCompatActivity implements OnMapRe
      * Setup RecycleView display for PopularCategories
      */
     private void buildPopularCategoriesRecycleView(){
-        rvHomeItems.setHasFixedSize(true);
-        rvHomeItemsLayoutManager = new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false);
-        rvHomeItemsAdapter = new HomeAdapter(this, homeItems);
+        recyclerView.setHasFixedSize(true);
+        popularCategoryLayoutManager = new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false);
+        popularCategoryAdapter = new PopularCategoryAdapter(this, homeItems);
+        recyclerView.setLayoutManager(popularCategoryLayoutManager);
+        recyclerView.setAdapter(popularCategoryAdapter);
 
-        rvHomeItems.setLayoutManager(rvHomeItemsLayoutManager);
-        rvHomeItems.setAdapter(rvHomeItemsAdapter);
-
-        rvHomeItemsAdapter.setOnItemClickListener(new HomeAdapter.OnItemClickListener() {
+        popularCategoryAdapter.setOnItemClickListener(new PopularCategoryAdapter.OnItemClickListener() {
 
             @Override
             public void onItemClick(int position, Context c){
                 finish();
-
                 startActivity(getIntent());
             }
 
             @Override
             public void onAddToCartClick(int position) {
-
             }
         });
     }
-
 
     /**
      * Setup RecycleView display for PopularItems
