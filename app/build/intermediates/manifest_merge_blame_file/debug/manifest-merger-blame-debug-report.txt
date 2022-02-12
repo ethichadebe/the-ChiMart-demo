@@ -27,34 +27,34 @@
 15-->C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:9:22-82
 16
 17    <uses-feature
-17-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.0.0] C:\Users\fredd\.gradle\caches\transforms-3\0a813f88f8d567e5e020713427989d03\transformed\jetified-mapbox-android-sdk-9.0.0\AndroidManifest.xml:9:5-11:35
+17-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.0.0] C:\Users\fredd\.gradle\caches\transforms-3\4fb53f69c23c6750ded6a7bf4e9062ae\transformed\jetified-mapbox-android-sdk-9.0.0\AndroidManifest.xml:9:5-11:35
 18        android:glEsVersion="0x00020000"
-18-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.0.0] C:\Users\fredd\.gradle\caches\transforms-3\0a813f88f8d567e5e020713427989d03\transformed\jetified-mapbox-android-sdk-9.0.0\AndroidManifest.xml:10:9-41
+18-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.0.0] C:\Users\fredd\.gradle\caches\transforms-3\4fb53f69c23c6750ded6a7bf4e9062ae\transformed\jetified-mapbox-android-sdk-9.0.0\AndroidManifest.xml:10:9-41
 19        android:required="true" />
-19-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.0.0] C:\Users\fredd\.gradle\caches\transforms-3\0a813f88f8d567e5e020713427989d03\transformed\jetified-mapbox-android-sdk-9.0.0\AndroidManifest.xml:11:9-32
+19-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.0.0] C:\Users\fredd\.gradle\caches\transforms-3\4fb53f69c23c6750ded6a7bf4e9062ae\transformed\jetified-mapbox-android-sdk-9.0.0\AndroidManifest.xml:11:9-32
 20    <uses-feature
-20-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.0.0] C:\Users\fredd\.gradle\caches\transforms-3\0a813f88f8d567e5e020713427989d03\transformed\jetified-mapbox-android-sdk-9.0.0\AndroidManifest.xml:12:5-14:36
+20-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.0.0] C:\Users\fredd\.gradle\caches\transforms-3\4fb53f69c23c6750ded6a7bf4e9062ae\transformed\jetified-mapbox-android-sdk-9.0.0\AndroidManifest.xml:12:5-14:36
 21        android:name="android.hardware.wifi"
-21-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.0.0] C:\Users\fredd\.gradle\caches\transforms-3\0a813f88f8d567e5e020713427989d03\transformed\jetified-mapbox-android-sdk-9.0.0\AndroidManifest.xml:13:9-45
+21-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.0.0] C:\Users\fredd\.gradle\caches\transforms-3\4fb53f69c23c6750ded6a7bf4e9062ae\transformed\jetified-mapbox-android-sdk-9.0.0\AndroidManifest.xml:13:9-45
 22        android:required="false" />
-22-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.0.0] C:\Users\fredd\.gradle\caches\transforms-3\0a813f88f8d567e5e020713427989d03\transformed\jetified-mapbox-android-sdk-9.0.0\AndroidManifest.xml:14:9-33
+22-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.0.0] C:\Users\fredd\.gradle\caches\transforms-3\4fb53f69c23c6750ded6a7bf4e9062ae\transformed\jetified-mapbox-android-sdk-9.0.0\AndroidManifest.xml:14:9-33
 23
 24    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-24-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.0.0] C:\Users\fredd\.gradle\caches\transforms-3\0a813f88f8d567e5e020713427989d03\transformed\jetified-mapbox-android-sdk-9.0.0\AndroidManifest.xml:17:5-79
-24-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.0.0] C:\Users\fredd\.gradle\caches\transforms-3\0a813f88f8d567e5e020713427989d03\transformed\jetified-mapbox-android-sdk-9.0.0\AndroidManifest.xml:17:22-76
+24-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.0.0] C:\Users\fredd\.gradle\caches\transforms-3\4fb53f69c23c6750ded6a7bf4e9062ae\transformed\jetified-mapbox-android-sdk-9.0.0\AndroidManifest.xml:17:5-79
+24-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.0.0] C:\Users\fredd\.gradle\caches\transforms-3\4fb53f69c23c6750ded6a7bf4e9062ae\transformed\jetified-mapbox-android-sdk-9.0.0\AndroidManifest.xml:17:22-76
 25    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Required for CrashReporterJobIntentService on API levels below 25 -->
-25-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.0.0] C:\Users\fredd\.gradle\caches\transforms-3\0a813f88f8d567e5e020713427989d03\transformed\jetified-mapbox-android-sdk-9.0.0\AndroidManifest.xml:18:5-76
-25-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.0.0] C:\Users\fredd\.gradle\caches\transforms-3\0a813f88f8d567e5e020713427989d03\transformed\jetified-mapbox-android-sdk-9.0.0\AndroidManifest.xml:18:22-73
+25-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.0.0] C:\Users\fredd\.gradle\caches\transforms-3\4fb53f69c23c6750ded6a7bf4e9062ae\transformed\jetified-mapbox-android-sdk-9.0.0\AndroidManifest.xml:18:5-76
+25-->[com.mapbox.mapboxsdk:mapbox-android-sdk:9.0.0] C:\Users\fredd\.gradle\caches\transforms-3\4fb53f69c23c6750ded6a7bf4e9062ae\transformed\jetified-mapbox-android-sdk-9.0.0\AndroidManifest.xml:18:22-73
 26    <uses-permission android:name="android.permission.WAKE_LOCK" />
-26-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\fredd\.gradle\caches\transforms-3\b4f8fa4ca95226a6ef3b7b8c3cf930a3\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:12:5-68
-26-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\fredd\.gradle\caches\transforms-3\b4f8fa4ca95226a6ef3b7b8c3cf930a3\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:12:22-65
+26-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\fredd\.gradle\caches\transforms-3\fb49879c5a7e3abb1c902c57c4055bb6\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:12:5-68
+26-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\fredd\.gradle\caches\transforms-3\fb49879c5a7e3abb1c902c57c4055bb6\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:12:22-65
 27
 28    <application
 28-->C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:11:5-39:19
 29        android:allowBackup="true"
 29-->C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:12:9-35
 30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-30-->[androidx.core:core:1.7.0] C:\Users\fredd\.gradle\caches\transforms-3\46678933633e897331f6cbff7aabb141\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+30-->[androidx.core:core:1.7.0] C:\Users\fredd\.gradle\caches\transforms-3\d79cd730aff89e16bbe6bbee05f6ceb1\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 31        android:debuggable="true"
 32        android:extractNativeLibs="false"
 33        android:icon="@mipmap/ic_launcher"
@@ -108,43 +108,43 @@
 57        </activity>
 58
 59        <provider
-59-->[androidx.emoji2:emoji2:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\76c467336cfde2066e93b5d8011c588c\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+59-->[androidx.emoji2:emoji2:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\a041a9a952b29f6964d85f5771c8e429\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
 60            android:name="androidx.startup.InitializationProvider"
-60-->[androidx.emoji2:emoji2:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\76c467336cfde2066e93b5d8011c588c\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+60-->[androidx.emoji2:emoji2:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\a041a9a952b29f6964d85f5771c8e429\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
 61            android:authorities="com.example.chillersmarket.androidx-startup"
-61-->[androidx.emoji2:emoji2:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\76c467336cfde2066e93b5d8011c588c\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+61-->[androidx.emoji2:emoji2:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\a041a9a952b29f6964d85f5771c8e429\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
 62            android:exported="false" >
-62-->[androidx.emoji2:emoji2:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\76c467336cfde2066e93b5d8011c588c\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+62-->[androidx.emoji2:emoji2:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\a041a9a952b29f6964d85f5771c8e429\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
 63            <meta-data
-63-->[androidx.emoji2:emoji2:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\76c467336cfde2066e93b5d8011c588c\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+63-->[androidx.emoji2:emoji2:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\a041a9a952b29f6964d85f5771c8e429\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
 64                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-64-->[androidx.emoji2:emoji2:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\76c467336cfde2066e93b5d8011c588c\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+64-->[androidx.emoji2:emoji2:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\a041a9a952b29f6964d85f5771c8e429\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
 65                android:value="androidx.startup" />
-65-->[androidx.emoji2:emoji2:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\76c467336cfde2066e93b5d8011c588c\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+65-->[androidx.emoji2:emoji2:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\a041a9a952b29f6964d85f5771c8e429\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
 66            <meta-data
-66-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\fredd\.gradle\caches\transforms-3\86073857aad360c8a4bae9b934e55cac\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+66-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\fredd\.gradle\caches\transforms-3\2d2b81fd1f5d13f7e9fe71a47a19c028\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
 67                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-67-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\fredd\.gradle\caches\transforms-3\86073857aad360c8a4bae9b934e55cac\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+67-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\fredd\.gradle\caches\transforms-3\2d2b81fd1f5d13f7e9fe71a47a19c028\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
 68                android:value="androidx.startup" />
-68-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\fredd\.gradle\caches\transforms-3\86073857aad360c8a4bae9b934e55cac\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+68-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\fredd\.gradle\caches\transforms-3\2d2b81fd1f5d13f7e9fe71a47a19c028\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
 69        </provider>
 70        <provider
-70-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\fredd\.gradle\caches\transforms-3\b4f8fa4ca95226a6ef3b7b8c3cf930a3\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:18:9-22:39
+70-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\fredd\.gradle\caches\transforms-3\fb49879c5a7e3abb1c902c57c4055bb6\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:18:9-22:39
 71            android:name="com.mapbox.android.telemetry.provider.MapboxTelemetryInitProvider"
-71-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\fredd\.gradle\caches\transforms-3\b4f8fa4ca95226a6ef3b7b8c3cf930a3\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:19:13-93
+71-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\fredd\.gradle\caches\transforms-3\fb49879c5a7e3abb1c902c57c4055bb6\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:19:13-93
 72            android:authorities="com.example.chillersmarket.mapboxtelemetryinitprovider"
-72-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\fredd\.gradle\caches\transforms-3\b4f8fa4ca95226a6ef3b7b8c3cf930a3\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:20:13-79
+72-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\fredd\.gradle\caches\transforms-3\fb49879c5a7e3abb1c902c57c4055bb6\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:20:13-79
 73            android:exported="false"
-73-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\fredd\.gradle\caches\transforms-3\b4f8fa4ca95226a6ef3b7b8c3cf930a3\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:21:13-37
+73-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\fredd\.gradle\caches\transforms-3\fb49879c5a7e3abb1c902c57c4055bb6\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:21:13-37
 74            android:initOrder="100" />
-74-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\fredd\.gradle\caches\transforms-3\b4f8fa4ca95226a6ef3b7b8c3cf930a3\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:22:13-36
+74-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\fredd\.gradle\caches\transforms-3\fb49879c5a7e3abb1c902c57c4055bb6\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:22:13-36
 75
 76        <service
-76-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\fredd\.gradle\caches\transforms-3\b4f8fa4ca95226a6ef3b7b8c3cf930a3\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:24:9-26:72
+76-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\fredd\.gradle\caches\transforms-3\fb49879c5a7e3abb1c902c57c4055bb6\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:24:9-26:72
 77            android:name="com.mapbox.android.telemetry.crash.CrashReporterJobIntentService"
-77-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\fredd\.gradle\caches\transforms-3\b4f8fa4ca95226a6ef3b7b8c3cf930a3\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:25:13-92
+77-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\fredd\.gradle\caches\transforms-3\fb49879c5a7e3abb1c902c57c4055bb6\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:25:13-92
 78            android:permission="android.permission.BIND_JOB_SERVICE" />
-78-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\fredd\.gradle\caches\transforms-3\b4f8fa4ca95226a6ef3b7b8c3cf930a3\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:26:13-69
+78-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\fredd\.gradle\caches\transforms-3\fb49879c5a7e3abb1c902c57c4055bb6\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:26:13-69
 79    </application>
 80
 81</manifest>

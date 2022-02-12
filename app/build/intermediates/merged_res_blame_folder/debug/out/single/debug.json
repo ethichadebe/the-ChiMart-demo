@@ -140,6 +140,10 @@
         "source": "C:\\Users\\fredd\\Documents\\Projects\\the-ChiMart-demo\\app\\src\\main\\res\\drawable\\custom_input.xml"
     },
     {
+        "merged": "C:\\Users\\fredd\\Documents\\Projects\\the-ChiMart-demo\\app\\build\\intermediates\\merged_res\\debug\\layout_popular_category_item.xml.flat",
+        "source": "C:\\Users\\fredd\\Documents\\Projects\\the-ChiMart-demo\\app\\src\\main\\res\\layout\\popular_category_item.xml"
+    },
+    {
         "merged": "C:\\Users\\fredd\\Documents\\Projects\\the-ChiMart-demo\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_ic_business.png.flat",
         "source": "C:\\Users\\fredd\\Documents\\Projects\\the-ChiMart-demo\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_business.png"
     },
@@ -198,6 +202,10 @@
     {
         "merged": "C:\\Users\\fredd\\Documents\\Projects\\the-ChiMart-demo\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_business.png.flat",
         "source": "C:\\Users\\fredd\\Documents\\Projects\\the-ChiMart-demo\\app\\src\\main\\res\\drawable-xhdpi\\ic_business.png"
+    },
+    {
+        "merged": "C:\\Users\\fredd\\Documents\\Projects\\the-ChiMart-demo\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_more.xml.flat",
+        "source": "C:\\Users\\fredd\\Documents\\Projects\\the-ChiMart-demo\\app\\src\\main\\res\\drawable-xxhdpi\\ic_more.xml"
     },
     {
         "merged": "C:\\Users\\fredd\\Documents\\Projects\\the-ChiMart-demo\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_cart_24.xml.flat",

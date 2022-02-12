@@ -4,58 +4,59 @@ ADDED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\Andro
 INJECTED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:2:1-41:12
 INJECTED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:2:1-41:12
 INJECTED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:2:1-41:12
-MERGED from [com.google.android.material:material:1.4.0] C:\Users\fredd\.gradle\caches\transforms-3\bf8eecf50a31b54082a6f9e21d3a7e9f\transformed\material-1.4.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] C:\Users\fredd\.gradle\caches\transforms-3\14220841d05aa13bea2d7e6105c33a93\transformed\constraintlayout-2.1.2\AndroidManifest.xml:2:1-11:12
-MERGED from [info.androidhive:fontawesome:0.0.5] C:\Users\fredd\.gradle\caches\transforms-3\b658891916e777c2ccdd81a89b250fa0\transformed\jetified-fontawesome-0.0.5\AndroidManifest.xml:2:1-11:12
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-plugin-annotation-v9:0.8.0] C:\Users\fredd\.gradle\caches\transforms-3\b3ffd9824219bb7857700e6072b5496b\transformed\jetified-mapbox-android-plugin-annotation-v9-0.8.0\AndroidManifest.xml:2:1-9:12
-MERGED from [androidx.appcompat:appcompat:1.4.0] C:\Users\fredd\.gradle\caches\transforms-3\455602a2ffdb7279f396aedf8319ff0a\transformed\appcompat-1.4.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\e7169441fcc569dcbb8890b3832d5ade\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\fredd\.gradle\caches\transforms-3\4faa967e741c1c87f9dbdd4a137af1d4\transformed\recyclerview-1.2.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\b8f3cd1adc2299894ae656ed8cc2c6e7\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\fredd\.gradle\caches\transforms-3\a1da2b4d3c64e4025e34d2a223344792\transformed\jetified-glide-4.12.0\AndroidManifest.xml:2:1-12:12
-MERGED from [com.github.smarteist:autoimageslider:1.3.9] C:\Users\fredd\.gradle\caches\transforms-3\c6c5bde4cdbc3699d09a89d1bc39a3ff\transformed\jetified-autoimageslider-1.3.9\AndroidManifest.xml:2:1-17:12
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.0.0] C:\Users\fredd\.gradle\caches\transforms-3\0a813f88f8d567e5e020713427989d03\transformed\jetified-mapbox-android-sdk-9.0.0\AndroidManifest.xml:2:1-21:12
-MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\fredd\.gradle\caches\transforms-3\b497f96fe258c69fab9a7dbedcb5971d\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.activity:activity:1.2.4] C:\Users\fredd\.gradle\caches\transforms-3\cdab481e51984801ec56d9fecb78d0e7\transformed\jetified-activity-1.2.4\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat-resources:1.4.0] C:\Users\fredd\.gradle\caches\transforms-3\78c5aef1a780c4bfb3e62c88e60d3f80\transformed\jetified-appcompat-resources-1.4.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\e700c5f89b2ce5cafc1c01fbcd2425ea\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\f0fff8a6e644cd22d842d53c32b16e79\transformed\jetified-emoji2-views-helper-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\76c467336cfde2066e93b5d8011c588c\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:17:1-37:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\fredd\.gradle\caches\transforms-3\121e3847daf018e9ad4563b862e57b41\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\29e1d9ab961da49de4f24ec20069fef0\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.transition:transition:1.2.0] C:\Users\fredd\.gradle\caches\transforms-3\2104a3b47c2ad91cbf74de817ce56cb2\transformed\transition-1.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\fredd\.gradle\caches\transforms-3\e8aa565060f205ca64e08b1c945eb0ee\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\fredd\.gradle\caches\transforms-3\a6d8c703e4dd07a7280a3954ce0bffce\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\d60bf579b964a722f8cb44f81fad0ee0\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\4cf6ad0c78359a2eb415f8a7066aad5b\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-gestures:0.6.0] C:\Users\fredd\.gradle\caches\transforms-3\1ccae40ac32b5d97a48d73485ab0dbb9\transformed\jetified-mapbox-android-gestures-0.6.0\AndroidManifest.xml:2:1-11:12
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\fredd\.gradle\caches\transforms-3\b4f8fa4ca95226a6ef3b7b8c3cf930a3\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:2:1-29:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\6aab3b11836e18c263be3a542ebcf766\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\865ff83c11d207a48da98f1b11f320f8\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.7.0] C:\Users\fredd\.gradle\caches\transforms-3\46678933633e897331f6cbff7aabb141\transformed\core-1.7.0\AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\b5d39852e6a666256f87ee42d2b48944\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\fredd\.gradle\caches\transforms-3\a02f9a2904d7802a3b63a2a7adf40f76\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\fredd\.gradle\caches\transforms-3\f6335e3503cec60afe4ca8767928b945\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\fredd\.gradle\caches\transforms-3\fe359a465c368be3cc6eeb4f6d16e10d\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:17:1-24:12
-MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\fredd\.gradle\caches\transforms-3\36887a39b3182c04a9dce7581240db78\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\fredd\.gradle\caches\transforms-3\735e6e3fb6c6b4f554dd52d81f0f8cb9\transformed\exifinterface-1.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-accounts:0.7.0] C:\Users\fredd\.gradle\caches\transforms-3\de6129e92fec8eb3746e62283cd0d33d\transformed\jetified-mapbox-android-accounts-0.7.0\AndroidManifest.xml:2:1-9:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\fredd\.gradle\caches\transforms-3\2df74d9279148af31c563a4f985550aa\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\fredd\.gradle\caches\transforms-3\86073857aad360c8a4bae9b934e55cac\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:17:1-37:12
-MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\8a0fe8b1bde829f28680860e8b135f53\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:17:1-33:12
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\b6a8579929616b428338349e2f827a54\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\fredd\.gradle\caches\transforms-3\b97a8f40b63810244ab41e2fa0059751\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\fredd\.gradle\caches\transforms-3\05e9b55f5c591fbb0f5d6ca416656aae\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\fredd\.gradle\caches\transforms-3\103aa8018b440ad9ce2201ab7bc819cb\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\fredd\.gradle\caches\transforms-3\ac30691d8566f4f9cef55d99ccfb03a4\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\00cc0f5b3215ee1f60046e4e5c8104d7\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\099ec21cb31cf6c527e845124037106b\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\42e3b2b67944f4744bed163492aa1591\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\c35deb218a42f6b1ccb34889e38f5e8d\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\fredd\.gradle\caches\transforms-3\fbfc5bdfc5ab314b7e57d9519930a100\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [com.facebook.soloader:soloader:0.8.0] C:\Users\fredd\.gradle\caches\transforms-3\cb86f531b15ed7f57e1327ee4a1aa484\transformed\jetified-soloader-0.8.0\AndroidManifest.xml:2:1-13:12
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:1.4.1] C:\Users\fredd\.gradle\caches\transforms-3\c5c4d9e9e5e4dd19315e80bca4b5f293\transformed\jetified-mapbox-android-core-1.4.1\AndroidManifest.xml:2:1-13:12
-MERGED from [com.facebook.soloader:annotation:0.8.0] C:\Users\fredd\.gradle\caches\transforms-3\17373f3e236c7d0761016c74a49ff590\transformed\jetified-annotation-0.8.0\AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\fredd\.gradle\caches\transforms-3\cf53bd8ec7c668980ed1494d0729c2d3\transformed\material-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] C:\Users\fredd\.gradle\caches\transforms-3\f68cd11ba0e371f6166b02fb4fe646e3\transformed\constraintlayout-2.1.2\AndroidManifest.xml:2:1-11:12
+MERGED from [info.androidhive:fontawesome:0.0.5] C:\Users\fredd\.gradle\caches\transforms-3\e4871c5556d6012a8b6f5a8e16986f0c\transformed\jetified-fontawesome-0.0.5\AndroidManifest.xml:2:1-11:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-plugin-annotation-v9:0.8.0] C:\Users\fredd\.gradle\caches\transforms-3\7fa03a2834f45861e24821be77669868\transformed\jetified-mapbox-android-plugin-annotation-v9-0.8.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.appcompat:appcompat:1.4.0] C:\Users\fredd\.gradle\caches\transforms-3\6b7ce8086a02393fa2437d9bcd86951a\transformed\appcompat-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\6399ac92cb7386cb9f8892cc4a9f9d83\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\fredd\.gradle\caches\transforms-3\6e056fe9387d974cc5275b12f3f4cc34\transformed\recyclerview-1.2.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\1648afe76d9977ee93c09ab751f2f3d2\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\fredd\.gradle\caches\transforms-3\285e1e357882ec5eb6dddc4db309d0a2\transformed\jetified-glide-4.12.0\AndroidManifest.xml:2:1-12:12
+MERGED from [com.github.smarteist:autoimageslider:1.3.9] C:\Users\fredd\.gradle\caches\transforms-3\4142e7ecee26567699e33b58bfb97884\transformed\jetified-autoimageslider-1.3.9\AndroidManifest.xml:2:1-17:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.0.0] C:\Users\fredd\.gradle\caches\transforms-3\4fb53f69c23c6750ded6a7bf4e9062ae\transformed\jetified-mapbox-android-sdk-9.0.0\AndroidManifest.xml:2:1-21:12
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\fredd\.gradle\caches\transforms-3\381c3d1d8983f6ae70117b7dabc2bc42\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\fredd\.gradle\caches\transforms-3\3cb6e4bd4bbac15b8ccc094d3a98038c\transformed\jetified-activity-1.2.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.4.0] C:\Users\fredd\.gradle\caches\transforms-3\04982c0b1d507e2395f50c6989611dfe\transformed\jetified-appcompat-resources-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\270ef717598669917ca11e6929fbf038\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\38c6daca6283bd410f1e40b15ebd6111\transformed\jetified-emoji2-views-helper-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\a041a9a952b29f6964d85f5771c8e429\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\fredd\.gradle\caches\transforms-3\7b483ed8cace7cbeb68210ec22e9d57d\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\2e22dd565cf67b3eed0616b6ac60058d\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\fredd\.gradle\caches\transforms-3\0f0951a46932f404b724b23d844aa899\transformed\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\fredd\.gradle\caches\transforms-3\0dcfa1cd4aa507d228d98096990059cb\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\fredd\.gradle\caches\transforms-3\a5fb3efea6bb885b0723d20d650071de\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\8380bed6daadbbe3a8cba9c5f06b0b1a\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\9664ea38118da461b6dd462bbcb9f1c3\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-gestures:0.6.0] C:\Users\fredd\.gradle\caches\transforms-3\b96179baa2f5bc71376a84bf1e53a1b0\transformed\jetified-mapbox-android-gestures-0.6.0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\fredd\.gradle\caches\transforms-3\fb49879c5a7e3abb1c902c57c4055bb6\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:2:1-29:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\26d9bf60f45e9aae9e5cbc6c55121aa1\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\7081a5a2bcd9405b3ad58308f65cfb76\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.7.0] C:\Users\fredd\.gradle\caches\transforms-3\d79cd730aff89e16bbe6bbee05f6ceb1\transformed\core-1.7.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\3feb125bde765e3a7ce040272998719f\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\fredd\.gradle\caches\transforms-3\0c19e2cac0de035377b717c0b7d0847e\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\fredd\.gradle\caches\transforms-3\2367dd3cefb7d3ede6ba2a7ea6f9944f\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\fredd\.gradle\caches\transforms-3\c2d22890153d152fb886521169a6882b\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\fredd\.gradle\caches\transforms-3\767f097fb049270aae99830e96cbc843\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\fredd\.gradle\caches\transforms-3\df67c3c56ff6ac0a03b6c739c1c3980d\transformed\exifinterface-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-accounts:0.7.0] C:\Users\fredd\.gradle\caches\transforms-3\65729387cbfca8e0d5696d1f7fd537b7\transformed\jetified-mapbox-android-accounts-0.7.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\fredd\.gradle\caches\transforms-3\5b87768edbf745fb4a1eca52174a075f\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\fredd\.gradle\caches\transforms-3\2d2b81fd1f5d13f7e9fe71a47a19c028\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\fbe45aa889faf8ec6ce53d389d990a07\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\2fbd9e012fc6d2801e64986b1a3c936f\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\fredd\.gradle\caches\transforms-3\215d2375ef41cf08f101d01cb28a757f\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\fredd\.gradle\caches\transforms-3\aaa81cfd6586ec39adee1868a6e523e9\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\fredd\.gradle\caches\transforms-3\7ce0499ae5e491afef9ccf65e0f9d963\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\fredd\.gradle\caches\transforms-3\4227bc7bf4fb80fb99ec5fa0207a526d\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\ea4c74a463f932c7b3d59f048c7fce9c\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\57efdfd5e38be7dfb61096ec9d2dfb7d\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\188194eaa07a6d35d237de0dd9b6ac24\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\17156df85410c057d296e1b383c94b8c\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\fredd\.gradle\caches\transforms-3\b9f1e8c573315cd4a72aa63b5cbbe489\transformed\jetified-circleimageview-3.0.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\fredd\.gradle\caches\transforms-3\1d4140b3ab3f7eaa9a9cf573d4e787c2\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.soloader:soloader:0.8.0] C:\Users\fredd\.gradle\caches\transforms-3\75b5786a07ebfba7b53d893139c4c5fe\transformed\jetified-soloader-0.8.0\AndroidManifest.xml:2:1-13:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:1.4.1] C:\Users\fredd\.gradle\caches\transforms-3\2b41f099db9a7081d7a00755d51cfec5\transformed\jetified-mapbox-android-core-1.4.1\AndroidManifest.xml:2:1-13:12
+MERGED from [com.facebook.soloader:annotation:0.8.0] C:\Users\fredd\.gradle\caches\transforms-3\caec1c31cb26e0cfcdfca63c30361a89\transformed\jetified-annotation-0.8.0\AndroidManifest.xml:2:1-13:12
 INJECTED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:2:1-41:12
 INJECTED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:2:1-41:12
 INJECTED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:2:1-41:12
@@ -75,10 +76,10 @@ INJECTED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\An
 		ADDED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
 ADDED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:5:5-67
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.0.0] C:\Users\fredd\.gradle\caches\transforms-3\0a813f88f8d567e5e020713427989d03\transformed\jetified-mapbox-android-sdk-9.0.0\AndroidManifest.xml:16:5-67
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.0.0] C:\Users\fredd\.gradle\caches\transforms-3\0a813f88f8d567e5e020713427989d03\transformed\jetified-mapbox-android-sdk-9.0.0\AndroidManifest.xml:16:5-67
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\fredd\.gradle\caches\transforms-3\b4f8fa4ca95226a6ef3b7b8c3cf930a3\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:15:5-67
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\fredd\.gradle\caches\transforms-3\b4f8fa4ca95226a6ef3b7b8c3cf930a3\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:15:5-67
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.0.0] C:\Users\fredd\.gradle\caches\transforms-3\4fb53f69c23c6750ded6a7bf4e9062ae\transformed\jetified-mapbox-android-sdk-9.0.0\AndroidManifest.xml:16:5-67
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.0.0] C:\Users\fredd\.gradle\caches\transforms-3\4fb53f69c23c6750ded6a7bf4e9062ae\transformed\jetified-mapbox-android-sdk-9.0.0\AndroidManifest.xml:16:5-67
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\fredd\.gradle\caches\transforms-3\fb49879c5a7e3abb1c902c57c4055bb6\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:15:5-67
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\fredd\.gradle\caches\transforms-3\fb49879c5a7e3abb1c902c57c4055bb6\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:15:5-67
 	android:name
 		ADDED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:5:22-64
 uses-permission#android.permission.FOREGROUND_SERVICE
@@ -87,8 +88,8 @@ ADDED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\Andro
 		ADDED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:6:22-74
 uses-permission#android.permission.ACCESS_FINE_LOCATION
 ADDED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:7:5-79
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.0.0] C:\Users\fredd\.gradle\caches\transforms-3\0a813f88f8d567e5e020713427989d03\transformed\jetified-mapbox-android-sdk-9.0.0\AndroidManifest.xml:19:5-79
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.0.0] C:\Users\fredd\.gradle\caches\transforms-3\0a813f88f8d567e5e020713427989d03\transformed\jetified-mapbox-android-sdk-9.0.0\AndroidManifest.xml:19:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.0.0] C:\Users\fredd\.gradle\caches\transforms-3\4fb53f69c23c6750ded6a7bf4e9062ae\transformed\jetified-mapbox-android-sdk-9.0.0\AndroidManifest.xml:19:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.0.0] C:\Users\fredd\.gradle\caches\transforms-3\4fb53f69c23c6750ded6a7bf4e9062ae\transformed\jetified-mapbox-android-sdk-9.0.0\AndroidManifest.xml:19:5-79
 	android:name
 		ADDED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:7:22-76
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
@@ -101,34 +102,36 @@ ADDED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\Andro
 		ADDED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:9:22-82
 application
 ADDED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:11:5-39:19
-MERGED from [com.google.android.material:material:1.4.0] C:\Users\fredd\.gradle\caches\transforms-3\bf8eecf50a31b54082a6f9e21d3a7e9f\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.material:material:1.4.0] C:\Users\fredd\.gradle\caches\transforms-3\bf8eecf50a31b54082a6f9e21d3a7e9f\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] C:\Users\fredd\.gradle\caches\transforms-3\14220841d05aa13bea2d7e6105c33a93\transformed\constraintlayout-2.1.2\AndroidManifest.xml:9:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] C:\Users\fredd\.gradle\caches\transforms-3\14220841d05aa13bea2d7e6105c33a93\transformed\constraintlayout-2.1.2\AndroidManifest.xml:9:5-20
-MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\fredd\.gradle\caches\transforms-3\a1da2b4d3c64e4025e34d2a223344792\transformed\jetified-glide-4.12.0\AndroidManifest.xml:10:5-20
-MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\fredd\.gradle\caches\transforms-3\a1da2b4d3c64e4025e34d2a223344792\transformed\jetified-glide-4.12.0\AndroidManifest.xml:10:5-20
-MERGED from [com.github.smarteist:autoimageslider:1.3.9] C:\Users\fredd\.gradle\caches\transforms-3\c6c5bde4cdbc3699d09a89d1bc39a3ff\transformed\jetified-autoimageslider-1.3.9\AndroidManifest.xml:11:5-15:19
-MERGED from [com.github.smarteist:autoimageslider:1.3.9] C:\Users\fredd\.gradle\caches\transforms-3\c6c5bde4cdbc3699d09a89d1bc39a3ff\transformed\jetified-autoimageslider-1.3.9\AndroidManifest.xml:11:5-15:19
-MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\76c467336cfde2066e93b5d8011c588c\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:25:5-35:19
-MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\76c467336cfde2066e93b5d8011c588c\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:25:5-35:19
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\fredd\.gradle\caches\transforms-3\b4f8fa4ca95226a6ef3b7b8c3cf930a3\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:17:5-27:19
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\fredd\.gradle\caches\transforms-3\b4f8fa4ca95226a6ef3b7b8c3cf930a3\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:17:5-27:19
-MERGED from [androidx.core:core:1.7.0] C:\Users\fredd\.gradle\caches\transforms-3\46678933633e897331f6cbff7aabb141\transformed\core-1.7.0\AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.7.0] C:\Users\fredd\.gradle\caches\transforms-3\46678933633e897331f6cbff7aabb141\transformed\core-1.7.0\AndroidManifest.xml:24:5-89
-MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\fredd\.gradle\caches\transforms-3\36887a39b3182c04a9dce7581240db78\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:9:5-20
-MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\fredd\.gradle\caches\transforms-3\36887a39b3182c04a9dce7581240db78\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:9:5-20
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\fredd\.gradle\caches\transforms-3\2df74d9279148af31c563a4f985550aa\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\fredd\.gradle\caches\transforms-3\2df74d9279148af31c563a4f985550aa\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\fredd\.gradle\caches\transforms-3\86073857aad360c8a4bae9b934e55cac\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:25:5-35:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\fredd\.gradle\caches\transforms-3\86073857aad360c8a4bae9b934e55cac\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:25:5-35:19
-MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\8a0fe8b1bde829f28680860e8b135f53\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:25:5-31:19
-MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\8a0fe8b1bde829f28680860e8b135f53\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:25:5-31:19
-MERGED from [com.facebook.soloader:soloader:0.8.0] C:\Users\fredd\.gradle\caches\transforms-3\cb86f531b15ed7f57e1327ee4a1aa484\transformed\jetified-soloader-0.8.0\AndroidManifest.xml:11:5-20
-MERGED from [com.facebook.soloader:soloader:0.8.0] C:\Users\fredd\.gradle\caches\transforms-3\cb86f531b15ed7f57e1327ee4a1aa484\transformed\jetified-soloader-0.8.0\AndroidManifest.xml:11:5-20
-MERGED from [com.facebook.soloader:annotation:0.8.0] C:\Users\fredd\.gradle\caches\transforms-3\17373f3e236c7d0761016c74a49ff590\transformed\jetified-annotation-0.8.0\AndroidManifest.xml:11:5-20
-MERGED from [com.facebook.soloader:annotation:0.8.0] C:\Users\fredd\.gradle\caches\transforms-3\17373f3e236c7d0761016c74a49ff590\transformed\jetified-annotation-0.8.0\AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\fredd\.gradle\caches\transforms-3\cf53bd8ec7c668980ed1494d0729c2d3\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\fredd\.gradle\caches\transforms-3\cf53bd8ec7c668980ed1494d0729c2d3\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] C:\Users\fredd\.gradle\caches\transforms-3\f68cd11ba0e371f6166b02fb4fe646e3\transformed\constraintlayout-2.1.2\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] C:\Users\fredd\.gradle\caches\transforms-3\f68cd11ba0e371f6166b02fb4fe646e3\transformed\constraintlayout-2.1.2\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\fredd\.gradle\caches\transforms-3\285e1e357882ec5eb6dddc4db309d0a2\transformed\jetified-glide-4.12.0\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\fredd\.gradle\caches\transforms-3\285e1e357882ec5eb6dddc4db309d0a2\transformed\jetified-glide-4.12.0\AndroidManifest.xml:10:5-20
+MERGED from [com.github.smarteist:autoimageslider:1.3.9] C:\Users\fredd\.gradle\caches\transforms-3\4142e7ecee26567699e33b58bfb97884\transformed\jetified-autoimageslider-1.3.9\AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.smarteist:autoimageslider:1.3.9] C:\Users\fredd\.gradle\caches\transforms-3\4142e7ecee26567699e33b58bfb97884\transformed\jetified-autoimageslider-1.3.9\AndroidManifest.xml:11:5-15:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\a041a9a952b29f6964d85f5771c8e429\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\a041a9a952b29f6964d85f5771c8e429\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:25:5-35:19
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\fredd\.gradle\caches\transforms-3\fb49879c5a7e3abb1c902c57c4055bb6\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:17:5-27:19
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\fredd\.gradle\caches\transforms-3\fb49879c5a7e3abb1c902c57c4055bb6\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:17:5-27:19
+MERGED from [androidx.core:core:1.7.0] C:\Users\fredd\.gradle\caches\transforms-3\d79cd730aff89e16bbe6bbee05f6ceb1\transformed\core-1.7.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.7.0] C:\Users\fredd\.gradle\caches\transforms-3\d79cd730aff89e16bbe6bbee05f6ceb1\transformed\core-1.7.0\AndroidManifest.xml:24:5-89
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\fredd\.gradle\caches\transforms-3\767f097fb049270aae99830e96cbc843\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\fredd\.gradle\caches\transforms-3\767f097fb049270aae99830e96cbc843\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:9:5-20
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\fredd\.gradle\caches\transforms-3\5b87768edbf745fb4a1eca52174a075f\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\fredd\.gradle\caches\transforms-3\5b87768edbf745fb4a1eca52174a075f\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\fredd\.gradle\caches\transforms-3\2d2b81fd1f5d13f7e9fe71a47a19c028\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\fredd\.gradle\caches\transforms-3\2d2b81fd1f5d13f7e9fe71a47a19c028\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\fbe45aa889faf8ec6ce53d389d990a07\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\fbe45aa889faf8ec6ce53d389d990a07\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:25:5-31:19
+MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\fredd\.gradle\caches\transforms-3\b9f1e8c573315cd4a72aa63b5cbbe489\transformed\jetified-circleimageview-3.0.0\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\fredd\.gradle\caches\transforms-3\b9f1e8c573315cd4a72aa63b5cbbe489\transformed\jetified-circleimageview-3.0.0\AndroidManifest.xml:9:5-20
+MERGED from [com.facebook.soloader:soloader:0.8.0] C:\Users\fredd\.gradle\caches\transforms-3\75b5786a07ebfba7b53d893139c4c5fe\transformed\jetified-soloader-0.8.0\AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.8.0] C:\Users\fredd\.gradle\caches\transforms-3\75b5786a07ebfba7b53d893139c4c5fe\transformed\jetified-soloader-0.8.0\AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:annotation:0.8.0] C:\Users\fredd\.gradle\caches\transforms-3\caec1c31cb26e0cfcdfca63c30361a89\transformed\jetified-annotation-0.8.0\AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:annotation:0.8.0] C:\Users\fredd\.gradle\caches\transforms-3\caec1c31cb26e0cfcdfca63c30361a89\transformed\jetified-annotation-0.8.0\AndroidManifest.xml:11:5-20
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.7.0] C:\Users\fredd\.gradle\caches\transforms-3\46678933633e897331f6cbff7aabb141\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.7.0] C:\Users\fredd\.gradle\caches\transforms-3\d79cd730aff89e16bbe6bbee05f6ceb1\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
 		ADDED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:16:9-35
 	android:label
@@ -183,110 +186,112 @@ uses-sdk
 INJECTED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml
-MERGED from [com.google.android.material:material:1.4.0] C:\Users\fredd\.gradle\caches\transforms-3\bf8eecf50a31b54082a6f9e21d3a7e9f\transformed\material-1.4.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.material:material:1.4.0] C:\Users\fredd\.gradle\caches\transforms-3\bf8eecf50a31b54082a6f9e21d3a7e9f\transformed\material-1.4.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] C:\Users\fredd\.gradle\caches\transforms-3\14220841d05aa13bea2d7e6105c33a93\transformed\constraintlayout-2.1.2\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] C:\Users\fredd\.gradle\caches\transforms-3\14220841d05aa13bea2d7e6105c33a93\transformed\constraintlayout-2.1.2\AndroidManifest.xml:5:5-7:41
-MERGED from [info.androidhive:fontawesome:0.0.5] C:\Users\fredd\.gradle\caches\transforms-3\b658891916e777c2ccdd81a89b250fa0\transformed\jetified-fontawesome-0.0.5\AndroidManifest.xml:7:5-9:41
-MERGED from [info.androidhive:fontawesome:0.0.5] C:\Users\fredd\.gradle\caches\transforms-3\b658891916e777c2ccdd81a89b250fa0\transformed\jetified-fontawesome-0.0.5\AndroidManifest.xml:7:5-9:41
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-plugin-annotation-v9:0.8.0] C:\Users\fredd\.gradle\caches\transforms-3\b3ffd9824219bb7857700e6072b5496b\transformed\jetified-mapbox-android-plugin-annotation-v9-0.8.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-plugin-annotation-v9:0.8.0] C:\Users\fredd\.gradle\caches\transforms-3\b3ffd9824219bb7857700e6072b5496b\transformed\jetified-mapbox-android-plugin-annotation-v9-0.8.0\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.appcompat:appcompat:1.4.0] C:\Users\fredd\.gradle\caches\transforms-3\455602a2ffdb7279f396aedf8319ff0a\transformed\appcompat-1.4.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat:1.4.0] C:\Users\fredd\.gradle\caches\transforms-3\455602a2ffdb7279f396aedf8319ff0a\transformed\appcompat-1.4.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\e7169441fcc569dcbb8890b3832d5ade\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\e7169441fcc569dcbb8890b3832d5ade\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\fredd\.gradle\caches\transforms-3\4faa967e741c1c87f9dbdd4a137af1d4\transformed\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\fredd\.gradle\caches\transforms-3\4faa967e741c1c87f9dbdd4a137af1d4\transformed\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\b8f3cd1adc2299894ae656ed8cc2c6e7\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\b8f3cd1adc2299894ae656ed8cc2c6e7\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\fredd\.gradle\caches\transforms-3\a1da2b4d3c64e4025e34d2a223344792\transformed\jetified-glide-4.12.0\AndroidManifest.xml:6:5-8:41
-MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\fredd\.gradle\caches\transforms-3\a1da2b4d3c64e4025e34d2a223344792\transformed\jetified-glide-4.12.0\AndroidManifest.xml:6:5-8:41
-MERGED from [com.github.smarteist:autoimageslider:1.3.9] C:\Users\fredd\.gradle\caches\transforms-3\c6c5bde4cdbc3699d09a89d1bc39a3ff\transformed\jetified-autoimageslider-1.3.9\AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.smarteist:autoimageslider:1.3.9] C:\Users\fredd\.gradle\caches\transforms-3\c6c5bde4cdbc3699d09a89d1bc39a3ff\transformed\jetified-autoimageslider-1.3.9\AndroidManifest.xml:7:5-9:41
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.0.0] C:\Users\fredd\.gradle\caches\transforms-3\0a813f88f8d567e5e020713427989d03\transformed\jetified-mapbox-android-sdk-9.0.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.0.0] C:\Users\fredd\.gradle\caches\transforms-3\0a813f88f8d567e5e020713427989d03\transformed\jetified-mapbox-android-sdk-9.0.0\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\fredd\.gradle\caches\transforms-3\b497f96fe258c69fab9a7dbedcb5971d\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\fredd\.gradle\caches\transforms-3\b497f96fe258c69fab9a7dbedcb5971d\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.2.4] C:\Users\fredd\.gradle\caches\transforms-3\cdab481e51984801ec56d9fecb78d0e7\transformed\jetified-activity-1.2.4\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.2.4] C:\Users\fredd\.gradle\caches\transforms-3\cdab481e51984801ec56d9fecb78d0e7\transformed\jetified-activity-1.2.4\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.4.0] C:\Users\fredd\.gradle\caches\transforms-3\78c5aef1a780c4bfb3e62c88e60d3f80\transformed\jetified-appcompat-resources-1.4.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.4.0] C:\Users\fredd\.gradle\caches\transforms-3\78c5aef1a780c4bfb3e62c88e60d3f80\transformed\jetified-appcompat-resources-1.4.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\e700c5f89b2ce5cafc1c01fbcd2425ea\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\e700c5f89b2ce5cafc1c01fbcd2425ea\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\f0fff8a6e644cd22d842d53c32b16e79\transformed\jetified-emoji2-views-helper-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\f0fff8a6e644cd22d842d53c32b16e79\transformed\jetified-emoji2-views-helper-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\76c467336cfde2066e93b5d8011c588c\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\76c467336cfde2066e93b5d8011c588c\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\fredd\.gradle\caches\transforms-3\121e3847daf018e9ad4563b862e57b41\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\fredd\.gradle\caches\transforms-3\121e3847daf018e9ad4563b862e57b41\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\29e1d9ab961da49de4f24ec20069fef0\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\29e1d9ab961da49de4f24ec20069fef0\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.transition:transition:1.2.0] C:\Users\fredd\.gradle\caches\transforms-3\2104a3b47c2ad91cbf74de817ce56cb2\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.2.0] C:\Users\fredd\.gradle\caches\transforms-3\2104a3b47c2ad91cbf74de817ce56cb2\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\fredd\.gradle\caches\transforms-3\e8aa565060f205ca64e08b1c945eb0ee\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\fredd\.gradle\caches\transforms-3\e8aa565060f205ca64e08b1c945eb0ee\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\fredd\.gradle\caches\transforms-3\a6d8c703e4dd07a7280a3954ce0bffce\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\fredd\.gradle\caches\transforms-3\a6d8c703e4dd07a7280a3954ce0bffce\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\d60bf579b964a722f8cb44f81fad0ee0\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\d60bf579b964a722f8cb44f81fad0ee0\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\4cf6ad0c78359a2eb415f8a7066aad5b\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\4cf6ad0c78359a2eb415f8a7066aad5b\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-gestures:0.6.0] C:\Users\fredd\.gradle\caches\transforms-3\1ccae40ac32b5d97a48d73485ab0dbb9\transformed\jetified-mapbox-android-gestures-0.6.0\AndroidManifest.xml:7:5-9:41
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-gestures:0.6.0] C:\Users\fredd\.gradle\caches\transforms-3\1ccae40ac32b5d97a48d73485ab0dbb9\transformed\jetified-mapbox-android-gestures-0.6.0\AndroidManifest.xml:7:5-9:41
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\fredd\.gradle\caches\transforms-3\b4f8fa4ca95226a6ef3b7b8c3cf930a3\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:7:5-9:41
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\fredd\.gradle\caches\transforms-3\b4f8fa4ca95226a6ef3b7b8c3cf930a3\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:7:5-9:41
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\6aab3b11836e18c263be3a542ebcf766\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\6aab3b11836e18c263be3a542ebcf766\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\865ff83c11d207a48da98f1b11f320f8\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\865ff83c11d207a48da98f1b11f320f8\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.7.0] C:\Users\fredd\.gradle\caches\transforms-3\46678933633e897331f6cbff7aabb141\transformed\core-1.7.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.7.0] C:\Users\fredd\.gradle\caches\transforms-3\46678933633e897331f6cbff7aabb141\transformed\core-1.7.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\b5d39852e6a666256f87ee42d2b48944\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\b5d39852e6a666256f87ee42d2b48944\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\fredd\.gradle\caches\transforms-3\a02f9a2904d7802a3b63a2a7adf40f76\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\fredd\.gradle\caches\transforms-3\a02f9a2904d7802a3b63a2a7adf40f76\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\fredd\.gradle\caches\transforms-3\f6335e3503cec60afe4ca8767928b945\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\fredd\.gradle\caches\transforms-3\f6335e3503cec60afe4ca8767928b945\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\fredd\.gradle\caches\transforms-3\fe359a465c368be3cc6eeb4f6d16e10d\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\fredd\.gradle\caches\transforms-3\fe359a465c368be3cc6eeb4f6d16e10d\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\fredd\.gradle\caches\transforms-3\36887a39b3182c04a9dce7581240db78\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\fredd\.gradle\caches\transforms-3\36887a39b3182c04a9dce7581240db78\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\fredd\.gradle\caches\transforms-3\735e6e3fb6c6b4f554dd52d81f0f8cb9\transformed\exifinterface-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\fredd\.gradle\caches\transforms-3\735e6e3fb6c6b4f554dd52d81f0f8cb9\transformed\exifinterface-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-accounts:0.7.0] C:\Users\fredd\.gradle\caches\transforms-3\de6129e92fec8eb3746e62283cd0d33d\transformed\jetified-mapbox-android-accounts-0.7.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-accounts:0.7.0] C:\Users\fredd\.gradle\caches\transforms-3\de6129e92fec8eb3746e62283cd0d33d\transformed\jetified-mapbox-android-accounts-0.7.0\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\fredd\.gradle\caches\transforms-3\2df74d9279148af31c563a4f985550aa\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\fredd\.gradle\caches\transforms-3\2df74d9279148af31c563a4f985550aa\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\fredd\.gradle\caches\transforms-3\86073857aad360c8a4bae9b934e55cac\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\fredd\.gradle\caches\transforms-3\86073857aad360c8a4bae9b934e55cac\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\8a0fe8b1bde829f28680860e8b135f53\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\8a0fe8b1bde829f28680860e8b135f53\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\b6a8579929616b428338349e2f827a54\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\b6a8579929616b428338349e2f827a54\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\fredd\.gradle\caches\transforms-3\b97a8f40b63810244ab41e2fa0059751\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\fredd\.gradle\caches\transforms-3\b97a8f40b63810244ab41e2fa0059751\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\fredd\.gradle\caches\transforms-3\05e9b55f5c591fbb0f5d6ca416656aae\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\fredd\.gradle\caches\transforms-3\05e9b55f5c591fbb0f5d6ca416656aae\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\fredd\.gradle\caches\transforms-3\103aa8018b440ad9ce2201ab7bc819cb\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\fredd\.gradle\caches\transforms-3\103aa8018b440ad9ce2201ab7bc819cb\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\fredd\.gradle\caches\transforms-3\ac30691d8566f4f9cef55d99ccfb03a4\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\fredd\.gradle\caches\transforms-3\ac30691d8566f4f9cef55d99ccfb03a4\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\00cc0f5b3215ee1f60046e4e5c8104d7\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\00cc0f5b3215ee1f60046e4e5c8104d7\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\099ec21cb31cf6c527e845124037106b\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\099ec21cb31cf6c527e845124037106b\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\42e3b2b67944f4744bed163492aa1591\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\42e3b2b67944f4744bed163492aa1591\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\c35deb218a42f6b1ccb34889e38f5e8d\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\c35deb218a42f6b1ccb34889e38f5e8d\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\fredd\.gradle\caches\transforms-3\fbfc5bdfc5ab314b7e57d9519930a100\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\fredd\.gradle\caches\transforms-3\fbfc5bdfc5ab314b7e57d9519930a100\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [com.facebook.soloader:soloader:0.8.0] C:\Users\fredd\.gradle\caches\transforms-3\cb86f531b15ed7f57e1327ee4a1aa484\transformed\jetified-soloader-0.8.0\AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.soloader:soloader:0.8.0] C:\Users\fredd\.gradle\caches\transforms-3\cb86f531b15ed7f57e1327ee4a1aa484\transformed\jetified-soloader-0.8.0\AndroidManifest.xml:7:5-9:41
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:1.4.1] C:\Users\fredd\.gradle\caches\transforms-3\c5c4d9e9e5e4dd19315e80bca4b5f293\transformed\jetified-mapbox-android-core-1.4.1\AndroidManifest.xml:7:5-9:41
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:1.4.1] C:\Users\fredd\.gradle\caches\transforms-3\c5c4d9e9e5e4dd19315e80bca4b5f293\transformed\jetified-mapbox-android-core-1.4.1\AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.soloader:annotation:0.8.0] C:\Users\fredd\.gradle\caches\transforms-3\17373f3e236c7d0761016c74a49ff590\transformed\jetified-annotation-0.8.0\AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.soloader:annotation:0.8.0] C:\Users\fredd\.gradle\caches\transforms-3\17373f3e236c7d0761016c74a49ff590\transformed\jetified-annotation-0.8.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\fredd\.gradle\caches\transforms-3\cf53bd8ec7c668980ed1494d0729c2d3\transformed\material-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\fredd\.gradle\caches\transforms-3\cf53bd8ec7c668980ed1494d0729c2d3\transformed\material-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] C:\Users\fredd\.gradle\caches\transforms-3\f68cd11ba0e371f6166b02fb4fe646e3\transformed\constraintlayout-2.1.2\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] C:\Users\fredd\.gradle\caches\transforms-3\f68cd11ba0e371f6166b02fb4fe646e3\transformed\constraintlayout-2.1.2\AndroidManifest.xml:5:5-7:41
+MERGED from [info.androidhive:fontawesome:0.0.5] C:\Users\fredd\.gradle\caches\transforms-3\e4871c5556d6012a8b6f5a8e16986f0c\transformed\jetified-fontawesome-0.0.5\AndroidManifest.xml:7:5-9:41
+MERGED from [info.androidhive:fontawesome:0.0.5] C:\Users\fredd\.gradle\caches\transforms-3\e4871c5556d6012a8b6f5a8e16986f0c\transformed\jetified-fontawesome-0.0.5\AndroidManifest.xml:7:5-9:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-plugin-annotation-v9:0.8.0] C:\Users\fredd\.gradle\caches\transforms-3\7fa03a2834f45861e24821be77669868\transformed\jetified-mapbox-android-plugin-annotation-v9-0.8.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-plugin-annotation-v9:0.8.0] C:\Users\fredd\.gradle\caches\transforms-3\7fa03a2834f45861e24821be77669868\transformed\jetified-mapbox-android-plugin-annotation-v9-0.8.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.4.0] C:\Users\fredd\.gradle\caches\transforms-3\6b7ce8086a02393fa2437d9bcd86951a\transformed\appcompat-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.4.0] C:\Users\fredd\.gradle\caches\transforms-3\6b7ce8086a02393fa2437d9bcd86951a\transformed\appcompat-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\6399ac92cb7386cb9f8892cc4a9f9d83\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\6399ac92cb7386cb9f8892cc4a9f9d83\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\fredd\.gradle\caches\transforms-3\6e056fe9387d974cc5275b12f3f4cc34\transformed\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\fredd\.gradle\caches\transforms-3\6e056fe9387d974cc5275b12f3f4cc34\transformed\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\1648afe76d9977ee93c09ab751f2f3d2\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\1648afe76d9977ee93c09ab751f2f3d2\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\fredd\.gradle\caches\transforms-3\285e1e357882ec5eb6dddc4db309d0a2\transformed\jetified-glide-4.12.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\fredd\.gradle\caches\transforms-3\285e1e357882ec5eb6dddc4db309d0a2\transformed\jetified-glide-4.12.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.smarteist:autoimageslider:1.3.9] C:\Users\fredd\.gradle\caches\transforms-3\4142e7ecee26567699e33b58bfb97884\transformed\jetified-autoimageslider-1.3.9\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.smarteist:autoimageslider:1.3.9] C:\Users\fredd\.gradle\caches\transforms-3\4142e7ecee26567699e33b58bfb97884\transformed\jetified-autoimageslider-1.3.9\AndroidManifest.xml:7:5-9:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.0.0] C:\Users\fredd\.gradle\caches\transforms-3\4fb53f69c23c6750ded6a7bf4e9062ae\transformed\jetified-mapbox-android-sdk-9.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.0.0] C:\Users\fredd\.gradle\caches\transforms-3\4fb53f69c23c6750ded6a7bf4e9062ae\transformed\jetified-mapbox-android-sdk-9.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\fredd\.gradle\caches\transforms-3\381c3d1d8983f6ae70117b7dabc2bc42\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\fredd\.gradle\caches\transforms-3\381c3d1d8983f6ae70117b7dabc2bc42\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\fredd\.gradle\caches\transforms-3\3cb6e4bd4bbac15b8ccc094d3a98038c\transformed\jetified-activity-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\fredd\.gradle\caches\transforms-3\3cb6e4bd4bbac15b8ccc094d3a98038c\transformed\jetified-activity-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.0] C:\Users\fredd\.gradle\caches\transforms-3\04982c0b1d507e2395f50c6989611dfe\transformed\jetified-appcompat-resources-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.0] C:\Users\fredd\.gradle\caches\transforms-3\04982c0b1d507e2395f50c6989611dfe\transformed\jetified-appcompat-resources-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\270ef717598669917ca11e6929fbf038\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\270ef717598669917ca11e6929fbf038\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\38c6daca6283bd410f1e40b15ebd6111\transformed\jetified-emoji2-views-helper-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\38c6daca6283bd410f1e40b15ebd6111\transformed\jetified-emoji2-views-helper-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\a041a9a952b29f6964d85f5771c8e429\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\a041a9a952b29f6964d85f5771c8e429\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\fredd\.gradle\caches\transforms-3\7b483ed8cace7cbeb68210ec22e9d57d\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\fredd\.gradle\caches\transforms-3\7b483ed8cace7cbeb68210ec22e9d57d\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\2e22dd565cf67b3eed0616b6ac60058d\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\2e22dd565cf67b3eed0616b6ac60058d\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\fredd\.gradle\caches\transforms-3\0f0951a46932f404b724b23d844aa899\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\fredd\.gradle\caches\transforms-3\0f0951a46932f404b724b23d844aa899\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\fredd\.gradle\caches\transforms-3\0dcfa1cd4aa507d228d98096990059cb\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\fredd\.gradle\caches\transforms-3\0dcfa1cd4aa507d228d98096990059cb\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\fredd\.gradle\caches\transforms-3\a5fb3efea6bb885b0723d20d650071de\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\fredd\.gradle\caches\transforms-3\a5fb3efea6bb885b0723d20d650071de\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\8380bed6daadbbe3a8cba9c5f06b0b1a\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\8380bed6daadbbe3a8cba9c5f06b0b1a\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\9664ea38118da461b6dd462bbcb9f1c3\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\9664ea38118da461b6dd462bbcb9f1c3\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-gestures:0.6.0] C:\Users\fredd\.gradle\caches\transforms-3\b96179baa2f5bc71376a84bf1e53a1b0\transformed\jetified-mapbox-android-gestures-0.6.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-gestures:0.6.0] C:\Users\fredd\.gradle\caches\transforms-3\b96179baa2f5bc71376a84bf1e53a1b0\transformed\jetified-mapbox-android-gestures-0.6.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\fredd\.gradle\caches\transforms-3\fb49879c5a7e3abb1c902c57c4055bb6\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\fredd\.gradle\caches\transforms-3\fb49879c5a7e3abb1c902c57c4055bb6\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\26d9bf60f45e9aae9e5cbc6c55121aa1\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\26d9bf60f45e9aae9e5cbc6c55121aa1\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\7081a5a2bcd9405b3ad58308f65cfb76\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\7081a5a2bcd9405b3ad58308f65cfb76\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.7.0] C:\Users\fredd\.gradle\caches\transforms-3\d79cd730aff89e16bbe6bbee05f6ceb1\transformed\core-1.7.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] C:\Users\fredd\.gradle\caches\transforms-3\d79cd730aff89e16bbe6bbee05f6ceb1\transformed\core-1.7.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\3feb125bde765e3a7ce040272998719f\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\3feb125bde765e3a7ce040272998719f\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\fredd\.gradle\caches\transforms-3\0c19e2cac0de035377b717c0b7d0847e\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\fredd\.gradle\caches\transforms-3\0c19e2cac0de035377b717c0b7d0847e\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\fredd\.gradle\caches\transforms-3\2367dd3cefb7d3ede6ba2a7ea6f9944f\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\fredd\.gradle\caches\transforms-3\2367dd3cefb7d3ede6ba2a7ea6f9944f\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\fredd\.gradle\caches\transforms-3\c2d22890153d152fb886521169a6882b\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\fredd\.gradle\caches\transforms-3\c2d22890153d152fb886521169a6882b\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\fredd\.gradle\caches\transforms-3\767f097fb049270aae99830e96cbc843\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\fredd\.gradle\caches\transforms-3\767f097fb049270aae99830e96cbc843\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\fredd\.gradle\caches\transforms-3\df67c3c56ff6ac0a03b6c739c1c3980d\transformed\exifinterface-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\fredd\.gradle\caches\transforms-3\df67c3c56ff6ac0a03b6c739c1c3980d\transformed\exifinterface-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-accounts:0.7.0] C:\Users\fredd\.gradle\caches\transforms-3\65729387cbfca8e0d5696d1f7fd537b7\transformed\jetified-mapbox-android-accounts-0.7.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-accounts:0.7.0] C:\Users\fredd\.gradle\caches\transforms-3\65729387cbfca8e0d5696d1f7fd537b7\transformed\jetified-mapbox-android-accounts-0.7.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\fredd\.gradle\caches\transforms-3\5b87768edbf745fb4a1eca52174a075f\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\fredd\.gradle\caches\transforms-3\5b87768edbf745fb4a1eca52174a075f\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\fredd\.gradle\caches\transforms-3\2d2b81fd1f5d13f7e9fe71a47a19c028\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\fredd\.gradle\caches\transforms-3\2d2b81fd1f5d13f7e9fe71a47a19c028\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\fbe45aa889faf8ec6ce53d389d990a07\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\fbe45aa889faf8ec6ce53d389d990a07\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\2fbd9e012fc6d2801e64986b1a3c936f\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\2fbd9e012fc6d2801e64986b1a3c936f\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\fredd\.gradle\caches\transforms-3\215d2375ef41cf08f101d01cb28a757f\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\fredd\.gradle\caches\transforms-3\215d2375ef41cf08f101d01cb28a757f\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\fredd\.gradle\caches\transforms-3\aaa81cfd6586ec39adee1868a6e523e9\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\fredd\.gradle\caches\transforms-3\aaa81cfd6586ec39adee1868a6e523e9\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\fredd\.gradle\caches\transforms-3\7ce0499ae5e491afef9ccf65e0f9d963\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\fredd\.gradle\caches\transforms-3\7ce0499ae5e491afef9ccf65e0f9d963\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\fredd\.gradle\caches\transforms-3\4227bc7bf4fb80fb99ec5fa0207a526d\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\fredd\.gradle\caches\transforms-3\4227bc7bf4fb80fb99ec5fa0207a526d\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\ea4c74a463f932c7b3d59f048c7fce9c\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\ea4c74a463f932c7b3d59f048c7fce9c\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\57efdfd5e38be7dfb61096ec9d2dfb7d\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\57efdfd5e38be7dfb61096ec9d2dfb7d\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\188194eaa07a6d35d237de0dd9b6ac24\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\188194eaa07a6d35d237de0dd9b6ac24\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\17156df85410c057d296e1b383c94b8c\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\17156df85410c057d296e1b383c94b8c\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\fredd\.gradle\caches\transforms-3\b9f1e8c573315cd4a72aa63b5cbbe489\transformed\jetified-circleimageview-3.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\fredd\.gradle\caches\transforms-3\b9f1e8c573315cd4a72aa63b5cbbe489\transformed\jetified-circleimageview-3.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\fredd\.gradle\caches\transforms-3\1d4140b3ab3f7eaa9a9cf573d4e787c2\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\fredd\.gradle\caches\transforms-3\1d4140b3ab3f7eaa9a9cf573d4e787c2\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.facebook.soloader:soloader:0.8.0] C:\Users\fredd\.gradle\caches\transforms-3\75b5786a07ebfba7b53d893139c4c5fe\transformed\jetified-soloader-0.8.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.8.0] C:\Users\fredd\.gradle\caches\transforms-3\75b5786a07ebfba7b53d893139c4c5fe\transformed\jetified-soloader-0.8.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:1.4.1] C:\Users\fredd\.gradle\caches\transforms-3\2b41f099db9a7081d7a00755d51cfec5\transformed\jetified-mapbox-android-core-1.4.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:1.4.1] C:\Users\fredd\.gradle\caches\transforms-3\2b41f099db9a7081d7a00755d51cfec5\transformed\jetified-mapbox-android-core-1.4.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:annotation:0.8.0] C:\Users\fredd\.gradle\caches\transforms-3\caec1c31cb26e0cfcdfca63c30361a89\transformed\jetified-annotation-0.8.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:annotation:0.8.0] C:\Users\fredd\.gradle\caches\transforms-3\caec1c31cb26e0cfcdfca63c30361a89\transformed\jetified-annotation-0.8.0\AndroidManifest.xml:7:5-9:41
 INJECTED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
@@ -298,74 +303,74 @@ INJECTED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\An
 		ADDED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml
 uses-feature#0x00020000
-ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.0.0] C:\Users\fredd\.gradle\caches\transforms-3\0a813f88f8d567e5e020713427989d03\transformed\jetified-mapbox-android-sdk-9.0.0\AndroidManifest.xml:9:5-11:35
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.0.0] C:\Users\fredd\.gradle\caches\transforms-3\4fb53f69c23c6750ded6a7bf4e9062ae\transformed\jetified-mapbox-android-sdk-9.0.0\AndroidManifest.xml:9:5-11:35
 	android:glEsVersion
-		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.0.0] C:\Users\fredd\.gradle\caches\transforms-3\0a813f88f8d567e5e020713427989d03\transformed\jetified-mapbox-android-sdk-9.0.0\AndroidManifest.xml:10:9-41
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.0.0] C:\Users\fredd\.gradle\caches\transforms-3\4fb53f69c23c6750ded6a7bf4e9062ae\transformed\jetified-mapbox-android-sdk-9.0.0\AndroidManifest.xml:10:9-41
 	android:required
-		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.0.0] C:\Users\fredd\.gradle\caches\transforms-3\0a813f88f8d567e5e020713427989d03\transformed\jetified-mapbox-android-sdk-9.0.0\AndroidManifest.xml:11:9-32
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.0.0] C:\Users\fredd\.gradle\caches\transforms-3\4fb53f69c23c6750ded6a7bf4e9062ae\transformed\jetified-mapbox-android-sdk-9.0.0\AndroidManifest.xml:11:9-32
 uses-feature#android.hardware.wifi
-ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.0.0] C:\Users\fredd\.gradle\caches\transforms-3\0a813f88f8d567e5e020713427989d03\transformed\jetified-mapbox-android-sdk-9.0.0\AndroidManifest.xml:12:5-14:36
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.0.0] C:\Users\fredd\.gradle\caches\transforms-3\4fb53f69c23c6750ded6a7bf4e9062ae\transformed\jetified-mapbox-android-sdk-9.0.0\AndroidManifest.xml:12:5-14:36
 	android:required
-		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.0.0] C:\Users\fredd\.gradle\caches\transforms-3\0a813f88f8d567e5e020713427989d03\transformed\jetified-mapbox-android-sdk-9.0.0\AndroidManifest.xml:14:9-33
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.0.0] C:\Users\fredd\.gradle\caches\transforms-3\4fb53f69c23c6750ded6a7bf4e9062ae\transformed\jetified-mapbox-android-sdk-9.0.0\AndroidManifest.xml:14:9-33
 	android:name
-		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.0.0] C:\Users\fredd\.gradle\caches\transforms-3\0a813f88f8d567e5e020713427989d03\transformed\jetified-mapbox-android-sdk-9.0.0\AndroidManifest.xml:13:9-45
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.0.0] C:\Users\fredd\.gradle\caches\transforms-3\4fb53f69c23c6750ded6a7bf4e9062ae\transformed\jetified-mapbox-android-sdk-9.0.0\AndroidManifest.xml:13:9-45
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.0.0] C:\Users\fredd\.gradle\caches\transforms-3\0a813f88f8d567e5e020713427989d03\transformed\jetified-mapbox-android-sdk-9.0.0\AndroidManifest.xml:17:5-79
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\fredd\.gradle\caches\transforms-3\b4f8fa4ca95226a6ef3b7b8c3cf930a3\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:13:5-79
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\fredd\.gradle\caches\transforms-3\b4f8fa4ca95226a6ef3b7b8c3cf930a3\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:13:5-79
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:1.4.1] C:\Users\fredd\.gradle\caches\transforms-3\c5c4d9e9e5e4dd19315e80bca4b5f293\transformed\jetified-mapbox-android-core-1.4.1\AndroidManifest.xml:11:5-79
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:1.4.1] C:\Users\fredd\.gradle\caches\transforms-3\c5c4d9e9e5e4dd19315e80bca4b5f293\transformed\jetified-mapbox-android-core-1.4.1\AndroidManifest.xml:11:5-79
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.0.0] C:\Users\fredd\.gradle\caches\transforms-3\4fb53f69c23c6750ded6a7bf4e9062ae\transformed\jetified-mapbox-android-sdk-9.0.0\AndroidManifest.xml:17:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\fredd\.gradle\caches\transforms-3\fb49879c5a7e3abb1c902c57c4055bb6\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:13:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\fredd\.gradle\caches\transforms-3\fb49879c5a7e3abb1c902c57c4055bb6\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:13:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:1.4.1] C:\Users\fredd\.gradle\caches\transforms-3\2b41f099db9a7081d7a00755d51cfec5\transformed\jetified-mapbox-android-core-1.4.1\AndroidManifest.xml:11:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:1.4.1] C:\Users\fredd\.gradle\caches\transforms-3\2b41f099db9a7081d7a00755d51cfec5\transformed\jetified-mapbox-android-core-1.4.1\AndroidManifest.xml:11:5-79
 	android:name
-		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.0.0] C:\Users\fredd\.gradle\caches\transforms-3\0a813f88f8d567e5e020713427989d03\transformed\jetified-mapbox-android-sdk-9.0.0\AndroidManifest.xml:17:22-76
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.0.0] C:\Users\fredd\.gradle\caches\transforms-3\4fb53f69c23c6750ded6a7bf4e9062ae\transformed\jetified-mapbox-android-sdk-9.0.0\AndroidManifest.xml:17:22-76
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.0.0] C:\Users\fredd\.gradle\caches\transforms-3\0a813f88f8d567e5e020713427989d03\transformed\jetified-mapbox-android-sdk-9.0.0\AndroidManifest.xml:18:5-76
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\fredd\.gradle\caches\transforms-3\b4f8fa4ca95226a6ef3b7b8c3cf930a3\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:14:5-76
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\fredd\.gradle\caches\transforms-3\b4f8fa4ca95226a6ef3b7b8c3cf930a3\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:14:5-76
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.0.0] C:\Users\fredd\.gradle\caches\transforms-3\4fb53f69c23c6750ded6a7bf4e9062ae\transformed\jetified-mapbox-android-sdk-9.0.0\AndroidManifest.xml:18:5-76
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\fredd\.gradle\caches\transforms-3\fb49879c5a7e3abb1c902c57c4055bb6\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:14:5-76
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\fredd\.gradle\caches\transforms-3\fb49879c5a7e3abb1c902c57c4055bb6\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:14:5-76
 	android:name
-		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.0.0] C:\Users\fredd\.gradle\caches\transforms-3\0a813f88f8d567e5e020713427989d03\transformed\jetified-mapbox-android-sdk-9.0.0\AndroidManifest.xml:18:22-73
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:9.0.0] C:\Users\fredd\.gradle\caches\transforms-3\4fb53f69c23c6750ded6a7bf4e9062ae\transformed\jetified-mapbox-android-sdk-9.0.0\AndroidManifest.xml:18:22-73
 provider#androidx.startup.InitializationProvider
-ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\76c467336cfde2066e93b5d8011c588c\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\fredd\.gradle\caches\transforms-3\86073857aad360c8a4bae9b934e55cac\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:26:9-34:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\fredd\.gradle\caches\transforms-3\86073857aad360c8a4bae9b934e55cac\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:26:9-34:20
-MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\8a0fe8b1bde829f28680860e8b135f53\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:26:9-30:34
-MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\8a0fe8b1bde829f28680860e8b135f53\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:26:9-30:34
+ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\a041a9a952b29f6964d85f5771c8e429\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\fredd\.gradle\caches\transforms-3\2d2b81fd1f5d13f7e9fe71a47a19c028\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\fredd\.gradle\caches\transforms-3\2d2b81fd1f5d13f7e9fe71a47a19c028\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\fbe45aa889faf8ec6ce53d389d990a07\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\fbe45aa889faf8ec6ce53d389d990a07\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:26:9-30:34
 	tools:node
-		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\76c467336cfde2066e93b5d8011c588c\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:30:13-31
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\a041a9a952b29f6964d85f5771c8e429\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:30:13-31
 	android:authorities
-		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\76c467336cfde2066e93b5d8011c588c\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\a041a9a952b29f6964d85f5771c8e429\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
 	android:exported
-		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\76c467336cfde2066e93b5d8011c588c\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\a041a9a952b29f6964d85f5771c8e429\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
 	android:name
-		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\76c467336cfde2066e93b5d8011c588c\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\a041a9a952b29f6964d85f5771c8e429\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
 meta-data#androidx.emoji2.text.EmojiCompatInitializer
-ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\76c467336cfde2066e93b5d8011c588c\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\a041a9a952b29f6964d85f5771c8e429\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
 	android:value
-		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\76c467336cfde2066e93b5d8011c588c\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\a041a9a952b29f6964d85f5771c8e429\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
 	android:name
-		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\76c467336cfde2066e93b5d8011c588c\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\a041a9a952b29f6964d85f5771c8e429\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
 uses-permission#android.permission.WAKE_LOCK
-ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\fredd\.gradle\caches\transforms-3\b4f8fa4ca95226a6ef3b7b8c3cf930a3\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:12:5-68
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\fredd\.gradle\caches\transforms-3\fb49879c5a7e3abb1c902c57c4055bb6\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:12:5-68
 	android:name
-		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\fredd\.gradle\caches\transforms-3\b4f8fa4ca95226a6ef3b7b8c3cf930a3\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:12:22-65
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\fredd\.gradle\caches\transforms-3\fb49879c5a7e3abb1c902c57c4055bb6\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:12:22-65
 provider#com.mapbox.android.telemetry.provider.MapboxTelemetryInitProvider
-ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\fredd\.gradle\caches\transforms-3\b4f8fa4ca95226a6ef3b7b8c3cf930a3\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:18:9-22:39
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\fredd\.gradle\caches\transforms-3\fb49879c5a7e3abb1c902c57c4055bb6\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:18:9-22:39
 	android:authorities
-		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\fredd\.gradle\caches\transforms-3\b4f8fa4ca95226a6ef3b7b8c3cf930a3\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:20:13-79
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\fredd\.gradle\caches\transforms-3\fb49879c5a7e3abb1c902c57c4055bb6\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:20:13-79
 	android:exported
-		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\fredd\.gradle\caches\transforms-3\b4f8fa4ca95226a6ef3b7b8c3cf930a3\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:21:13-37
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\fredd\.gradle\caches\transforms-3\fb49879c5a7e3abb1c902c57c4055bb6\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:21:13-37
 	android:initOrder
-		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\fredd\.gradle\caches\transforms-3\b4f8fa4ca95226a6ef3b7b8c3cf930a3\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:22:13-36
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\fredd\.gradle\caches\transforms-3\fb49879c5a7e3abb1c902c57c4055bb6\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:22:13-36
 	android:name
-		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\fredd\.gradle\caches\transforms-3\b4f8fa4ca95226a6ef3b7b8c3cf930a3\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:19:13-93
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\fredd\.gradle\caches\transforms-3\fb49879c5a7e3abb1c902c57c4055bb6\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:19:13-93
 service#com.mapbox.android.telemetry.crash.CrashReporterJobIntentService
-ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\fredd\.gradle\caches\transforms-3\b4f8fa4ca95226a6ef3b7b8c3cf930a3\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:24:9-26:72
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\fredd\.gradle\caches\transforms-3\fb49879c5a7e3abb1c902c57c4055bb6\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:24:9-26:72
 	android:permission
-		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\fredd\.gradle\caches\transforms-3\b4f8fa4ca95226a6ef3b7b8c3cf930a3\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:26:13-69
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\fredd\.gradle\caches\transforms-3\fb49879c5a7e3abb1c902c57c4055bb6\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:26:13-69
 	android:name
-		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\fredd\.gradle\caches\transforms-3\b4f8fa4ca95226a6ef3b7b8c3cf930a3\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:25:13-92
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.1] C:\Users\fredd\.gradle\caches\transforms-3\fb49879c5a7e3abb1c902c57c4055bb6\transformed\jetified-mapbox-android-telemetry-4.7.1\AndroidManifest.xml:25:13-92
 meta-data#androidx.lifecycle.ProcessLifecycleInitializer
-ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\fredd\.gradle\caches\transforms-3\86073857aad360c8a4bae9b934e55cac\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\fredd\.gradle\caches\transforms-3\2d2b81fd1f5d13f7e9fe71a47a19c028\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
 	android:value
-		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\fredd\.gradle\caches\transforms-3\86073857aad360c8a4bae9b934e55cac\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\fredd\.gradle\caches\transforms-3\2d2b81fd1f5d13f7e9fe71a47a19c028\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
 	android:name
-		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\fredd\.gradle\caches\transforms-3\86073857aad360c8a4bae9b934e55cac\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\fredd\.gradle\caches\transforms-3\2d2b81fd1f5d13f7e9fe71a47a19c028\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
