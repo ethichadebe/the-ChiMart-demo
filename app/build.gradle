@@ -61,4 +61,7 @@ dependencies {
     //implementation 'com.mapbox.maps:android:10.2.0'
     implementation 'com.mapbox.mapboxsdk:mapbox-android-sdk:9.0.0'
     implementation 'com.mapbox.mapboxsdk:mapbox-android-plugin-annotation-v9:0.8.0'
+
+    //for circular image
+    implementation 'de.hdodenhof:circleimageview:3.0.0'
 }

@@ -25,7 +25,7 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.HomeViewHolder
         return context;
     }
 
-    private OnItemClickListener oiclListener;
+    private OnItemClickListener onItemClickListener;
 
     public interface OnItemClickListener {
         void onItemClick(int position, Context context);
@@ -33,7 +33,7 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.HomeViewHolder
     }
 
     public void setOnItemClickListener(OnItemClickListener listener) {
-        oiclListener = listener;
+        onItemClickListener = listener;
     }
 
     public static class HomeViewHolder extends RecyclerView.ViewHolder {
@@ -70,7 +70,7 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.HomeViewHolder
     @Override
     public HomeViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.home_item, parent, false);
-        HomeViewHolder homeViewHolder = new HomeViewHolder(view, oiclListener);
+        HomeViewHolder homeViewHolder = new HomeViewHolder(view, onItemClickListener);
 
         return homeViewHolder;
     }
