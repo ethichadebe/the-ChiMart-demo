@@ -18,53 +18,9 @@
             android:layout_height="match_parent"
             android:layout_width="match_parent"/>
 
-<!--        <RelativeLayout-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content">-->
-
-<!--            <de.hdodenhof.circleimageview.CircleImageView-->
-<!--                android:id="@+id/profileCircleImageView"-->
-<!--                android:layout_width="60dp"-->
-<!--                android:layout_height="60dp"-->
-<!--                app:civ_border_width="2dp"-->
-<!--                app:civ_border_color="#b0c4de"-->
-<!--                android:src="@drawable/dp"-->
-<!--                android:layout_marginTop="15dp"-->
-<!--                android:layout_marginRight="10dp"/>-->
-
-<!--            <TextView-->
-<!--                android:id="@+id/usernameTextView"-->
-<!--                android:textColor="#020000"-->
-<!--                android:textSize="16sp"-->
-<!--                android:text="Freddie Mokwena"-->
-<!--                android:textStyle="bold"-->
-<!--                android:layout_marginTop="20dp"-->
-<!--                android:layout_toRightOf="@id/profileCircleImageView"-->
-<!--                android:layout_height="match_parent"-->
-<!--                android:layout_width="match_parent"/>-->
-
-<!--            <TextView-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:layout_height="match_parent"-->
-<!--                android:layout_below="@id/usernameTextView"-->
-<!--                android:layout_marginTop="15dp"-->
-<!--                android:text="Edit personal details"-->
-<!--                android:textColor="#5D5C5C"-->
-<!--                android:layout_toRightOf="@id/profileCircleImageView"-->
-<!--                android:textSize="16sp"-->
-<!--                android:textStyle="bold" />-->
-
-<!--            <ImageView-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:src="@drawable/ic_more"-->
-<!--                android:layout_alignParentRight="true"-->
-<!--                android:layout_centerVertical="true"/>-->
-
-<!--        </RelativeLayout>-->
-
         <!-- Profile Heading -->
         <TextView
+            android:id="@+id/txtProfile"
             android:textStyle="bold"
             android:textColor="#5D5C5C"
             android:layout_width="match_parent"
@@ -74,28 +30,35 @@
             android:layout_height="wrap_content"/>
 
         <TextView
+            android:id="@+id/txtEditProfile"
             android:drawableRight="@drawable/ic_more"
             android:text="Edit Profile"
             android:layout_marginTop="15dp"
             android:layout_height="match_parent"
+            android:background="?attr/selectableItemBackground"
             android:layout_width="match_parent"/>
 
         <TextView
+            android:id="@+id/txtChangePassword"
             android:drawableRight="@drawable/ic_more"
             android:layout_marginTop="20dp"
             android:text="Change Password"
             android:layout_height="match_parent"
+            android:background="?attr/selectableItemBackground"
             android:layout_width="match_parent"/>
 
         <TextView
+            android:id="@+id/txtOrderHistory"
             android:drawableRight="@drawable/ic_more"
             android:layout_marginTop="20dp"
             android:text="Orders"
             android:layout_height="match_parent"
+            android:background="?attr/selectableItemBackground"
             android:layout_width="match_parent"/>
 
         <!-- Add Listing Heading -->
         <TextView
+            android:id="@+id/txtAddListing"
             android:drawableRight="@drawable/ic_more"
             android:textStyle="bold"
             android:textColor="#5D5C5C"
@@ -103,30 +66,12 @@
             android:textSize="20sp"
             android:layout_marginTop="35dp"
             android:text="Add Listing"
+            android:background="?attr/selectableItemBackground"
             android:layout_height="wrap_content"/>
 
-<!--        <TextView-->
-<!--            android:drawableRight="@drawable/ic_more"-->
-<!--            android:text="Startup"-->
-<!--            android:layout_marginTop="15dp"-->
-<!--            android:layout_height="match_parent"-->
-<!--            android:layout_width="match_parent"/>-->
-
-<!--        <TextView-->
-<!--            android:drawableRight="@drawable/ic_more"-->
-<!--            android:layout_marginTop="20dp"-->
-<!--            android:text="Medium"-->
-<!--            android:layout_height="match_parent"-->
-<!--            android:layout_width="match_parent"/>-->
-
-<!--        <TextView-->
-<!--            android:drawableRight="@drawable/ic_more"-->
-<!--            android:layout_marginTop="20dp"-->
-<!--            android:text="Established"-->
-<!--            android:layout_height="match_parent"-->
-<!--            android:layout_width="match_parent"/>-->
-
+        <!-- Settings Heading -->
         <TextView
+            android:id="@+id/txtSettings"
             android:textStyle="bold"
             android:textColor="#5D5C5C"
             android:layout_width="match_parent"
@@ -136,21 +81,26 @@
             android:layout_height="wrap_content"/>
 
         <TextView
+            android:id="@+id/txtNotifications"
             android:drawableRight="@drawable/ic_more"
             android:text="Notifications"
             android:layout_marginTop="15dp"
             android:layout_height="match_parent"
+            android:background="?attr/selectableItemBackground"
             android:layout_width="match_parent"/>
 
         <TextView
+            android:id="@+id/txtSignInUp"
             android:drawableRight="@drawable/ic_more"
             android:text="Sign in / Sign up"
             android:layout_marginTop="20dp"
             android:layout_height="match_parent"
+            android:background="?attr/selectableItemBackground"
             android:layout_width="match_parent"/>
 
         <!-- Contact Details Heading -->
         <TextView
+            android:id="@+id/txtHelp"
             android:drawableRight="@drawable/ic_more"
             android:textStyle="bold"
             android:textColor="#5D5C5C"
@@ -158,8 +108,10 @@
             android:textSize="20sp"
             android:layout_marginTop="35dp"
             android:text="Help"
+            android:background="?attr/selectableItemBackground"
             android:layout_height="wrap_content"/>
 
+        <!-- Version Heading -->
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
