@@ -9,6 +9,7 @@
     <color name="almost_transparent">#11000000</color>
     <color name="transparent">#00FFFFFF</color>
     <color name="green">#07717f</color>
+    <color name="green_background">#1BBBF8FF</color>
     <color name="white">#FFFFFFFF</color>
     <color name="grey">#AAAAAA</color>
     <color name="price_red">#ff5a5f</color>

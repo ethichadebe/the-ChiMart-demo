@@ -1280,6 +1280,7 @@ int color error_color_material_light 0x7f05005b
 int color foreground_material_dark 0x7f05005c
 int color foreground_material_light 0x7f05005d
 int color green 0x7f05005e
+int color green_background 0x7f0500e0
 int color grey 0x7f05005f
 int color highlighted_text_material_dark 0x7f050060
 int color highlighted_text_material_light 0x7f050061
