@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\fredd\\Documents\\Projects\\the-ChiMart-demo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w320dp-land-v13\\values-w320dp-land-v13.xml",
+            "outputFile": "C:\\Users\\garet\\AndroidStudioProjects\\the-ChiMart-demo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w320dp-land-v13\\values-w320dp-land-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\fredd\\.gradle\\caches\\transforms-3\\cf53bd8ec7c668980ed1494d0729c2d3\\transformed\\material-1.4.0\\res\\values-w320dp-land-v13\\values-w320dp-land-v13.xml",
+                    "source": "C:\\Users\\garet\\.gradle\\caches\\transforms-3\\cf53bd8ec7c668980ed1494d0729c2d3\\transformed\\material-1.4.0\\res\\values-w320dp-land-v13\\values-w320dp-land-v13.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

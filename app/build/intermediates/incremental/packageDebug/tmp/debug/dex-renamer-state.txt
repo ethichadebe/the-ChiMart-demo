@@ -1,19 +1,19 @@
-#Sat Feb 12 23:24:05 CAT 2022
+#Wed Feb 23 21:25:42 CAT 2022
 path.4=8/classes.dex
 path.3=4/classes.dex
 path.2=14/classes.dex
 path.1=0/classes.dex
 path.5=9/classes.dex
 path.0=classes.dex
-base.4=C\:\\Users\\fredd\\Documents\\Projects\\the-ChiMart-demo\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\8\\classes.dex
-base.3=C\:\\Users\\fredd\\Documents\\Projects\\the-ChiMart-demo\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\4\\classes.dex
-base.2=C\:\\Users\\fredd\\Documents\\Projects\\the-ChiMart-demo\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\14\\classes.dex
-base.1=C\:\\Users\\fredd\\Documents\\Projects\\the-ChiMart-demo\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.0=C\:\\Users\\fredd\\Documents\\Projects\\the-ChiMart-demo\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.4=C\:\\Users\\garet\\AndroidStudioProjects\\the-ChiMart-demo\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\8\\classes.dex
+base.3=C\:\\Users\\garet\\AndroidStudioProjects\\the-ChiMart-demo\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\4\\classes.dex
+base.2=C\:\\Users\\garet\\AndroidStudioProjects\\the-ChiMart-demo\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\14\\classes.dex
+base.1=C\:\\Users\\garet\\AndroidStudioProjects\\the-ChiMart-demo\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.0=C\:\\Users\\garet\\AndroidStudioProjects\\the-ChiMart-demo\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
 renamed.5=classes6.dex
 renamed.4=classes5.dex
-base.5=C\:\\Users\\fredd\\Documents\\Projects\\the-ChiMart-demo\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\9\\classes.dex
+base.5=C\:\\Users\\garet\\AndroidStudioProjects\\the-ChiMart-demo\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\9\\classes.dex
