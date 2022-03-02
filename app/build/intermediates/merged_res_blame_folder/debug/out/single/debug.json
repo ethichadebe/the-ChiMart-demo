@@ -68,12 +68,12 @@
         "source": "C:\\Users\\garet\\AndroidStudioProjects\\the-ChiMart-demo\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\garet\\AndroidStudioProjects\\the-ChiMart-demo\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_ic_consulting.png.flat",
-        "source": "C:\\Users\\garet\\AndroidStudioProjects\\the-ChiMart-demo\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_consulting.png"
-    },
-    {
         "merged": "C:\\Users\\garet\\AndroidStudioProjects\\the-ChiMart-demo\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_shopping_bag.png.flat",
         "source": "C:\\Users\\garet\\AndroidStudioProjects\\the-ChiMart-demo\\app\\src\\main\\res\\drawable-xxhdpi\\ic_shopping_bag.png"
+    },
+    {
+        "merged": "C:\\Users\\garet\\AndroidStudioProjects\\the-ChiMart-demo\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_ic_consulting.png.flat",
+        "source": "C:\\Users\\garet\\AndroidStudioProjects\\the-ChiMart-demo\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_consulting.png"
     },
     {
         "merged": "C:\\Users\\garet\\AndroidStudioProjects\\the-ChiMart-demo\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_professionals.png.flat",
@@ -152,12 +152,12 @@
         "source": "C:\\Users\\garet\\AndroidStudioProjects\\the-ChiMart-demo\\app\\src\\main\\res\\layout\\related_product_item.xml"
     },
     {
-        "merged": "C:\\Users\\garet\\AndroidStudioProjects\\the-ChiMart-demo\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_category_detail.xml.flat",
-        "source": "C:\\Users\\garet\\AndroidStudioProjects\\the-ChiMart-demo\\app\\src\\main\\res\\layout\\activity_category_detail.xml"
-    },
-    {
         "merged": "C:\\Users\\garet\\AndroidStudioProjects\\the-ChiMart-demo\\app\\build\\intermediates\\merged_res\\debug\\drawable_round_corner_bottom.xml.flat",
         "source": "C:\\Users\\garet\\AndroidStudioProjects\\the-ChiMart-demo\\app\\src\\main\\res\\drawable\\round_corner_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\garet\\AndroidStudioProjects\\the-ChiMart-demo\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_category_detail.xml.flat",
+        "source": "C:\\Users\\garet\\AndroidStudioProjects\\the-ChiMart-demo\\app\\src\\main\\res\\layout\\activity_category_detail.xml"
     },
     {
         "merged": "C:\\Users\\garet\\AndroidStudioProjects\\the-ChiMart-demo\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_shopping_bag.xml.flat",
