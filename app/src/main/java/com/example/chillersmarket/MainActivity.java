@@ -30,13 +30,6 @@ public class MainActivity extends AppCompatActivity {
 
         tvnCartItems = findViewById(R.id.tvnCartItems);
 
-        //Transparent Status bar
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
-            getWindow().setFlags(WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS, WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS);
-        } else {
-
-        }
-
         BottomNavigationView navigationView = findViewById(R.id.nav_view);
         navigationView.setOnItemSelectedListener(item -> {
             switch (item.getItemId()) {
