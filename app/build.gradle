@@ -49,8 +49,7 @@ dependencies {
 
     //dependency sor slider view
     //Image Slider
-    implementation 'com.github.smarteist:autoimageslider:1.3.9'
-
+    implementation 'com.github.smarteist:autoimageslider:1.4.0'
     // font awesome
     implementation 'info.androidhive:fontawesome:0.0.5'
 
