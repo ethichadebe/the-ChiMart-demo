@@ -20,9 +20,11 @@ import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewpager.widget.ViewPager;
 
 import com.bumptech.glide.Glide;
+import com.example.chillersmarket.Adapters.MoreInfoAdapter;
 import com.example.chillersmarket.Adapters.RelatedProductAdapter;
 import com.example.chillersmarket.Adapters.ViewPagerAdapter;
 import com.example.chillersmarket.RecyclewViewItems.MallItem;
+import com.example.chillersmarket.RecyclewViewItems.MoreInfoItem;
 import com.example.chillersmarket.fragments.ProductDescriptionFragment;
 import com.example.chillersmarket.fragments.ProductRatingsFragment;
 import com.example.chillersmarket.fragments.ReviewsFragment;
@@ -39,12 +41,17 @@ public class DetailedMallItemActivity extends AppCompatActivity {
     private RecyclerView.LayoutManager rvMallItemsLayoutManager;
     private ArrayList<MallItem> alMallItems = new ArrayList<>();
 
+    //Recycleview components
+    private RecyclerView rvMoreInfoItems;
+    private MoreInfoAdapter rvMoreInfoItemsAdapter;
+    private RecyclerView.LayoutManager rvMoreInfoItemsLayoutManager;
+    private ArrayList<MoreInfoItem> alMoreInfoItems = new ArrayList<>();
+
     private TextView tvHeadingTop, tvPrice, tvHeading, tvSeller, tvAddToCart, tvCart;
     private ImageView ivPreview;
-    private TabLayout tlTabs;
-    private ViewPager vpViewPager;
 
     private int nItems = 0;                                                                             //Demo variable
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -57,9 +64,8 @@ public class DetailedMallItemActivity extends AppCompatActivity {
         ivPreview = findViewById(R.id.ivPreview);
         tvAddToCart = findViewById(R.id.tvAddToCart);                                               //Add to cart button
         tvCart = findViewById(R.id.tvCart);                                                         //Number of Items in cart displayed in topLeft corner
-        tlTabs = findViewById(R.id.tlTabs);                                               //Add to cart button
-        vpViewPager = findViewById(R.id.vpViewPager);                                                         //Number of Items in cart displayed in topLeft corner
-        rvMallItems = findViewById(R.id.recycleView);
+        rvMallItems = findViewById(R.id.recycleViewRelated);
+        rvMoreInfoItems = findViewById(R.id.recycleViewMore);
 
         //Data passed from ChillersMallFragment
         Bundle extras = getIntent().getExtras();
@@ -71,24 +77,11 @@ public class DetailedMallItemActivity extends AppCompatActivity {
 
         //Display image using image url
         Glide
-            .with(this)
-            .load(extras.getString(ITEM_PREVIEW))
-            .centerCrop()
-            .placeholder(R.drawable.logo)
-            .into(ivPreview);
-
-
-        //Tab layout
-        tlTabs.setupWithViewPager(vpViewPager);
-
-        ViewPagerAdapter viewPagerAdapter = new ViewPagerAdapter(getSupportFragmentManager(),
-                FragmentPagerAdapter.BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT);
-
-        viewPagerAdapter.addFragment(new ProductDescriptionFragment(), "Description");
-        viewPagerAdapter.addFragment(new ReviewsFragment(), "Reviews");
-        viewPagerAdapter.addFragment(new ProductRatingsFragment(), "Product ratings");
-        viewPagerAdapter.addFragment(new VendorPoliciesFragment(), "Vendor Policies");
-        vpViewPager.setAdapter(viewPagerAdapter);
+                .with(this)
+                .load(extras.getString(ITEM_PREVIEW))
+                .centerCrop()
+                .placeholder(R.drawable.logo)
+                .into(ivPreview);
 
         //Related Items
         alMallItems.add(new MallItem("https://chillersmarket.com/wp-content/uploads/woocommerce-placeholder-300x300.png", "R220.00", "Floral upside down earrings", "Sold By : nondumisomkhatshwa"));
@@ -97,8 +90,26 @@ public class DetailedMallItemActivity extends AppCompatActivity {
         alMallItems.add(new MallItem("https://chillersmarket.com/wp-content/uploads/2021/12/Flags_27-04-300x300.png", "R250.00 Free", "Orange 3D disk earrings", "Sold By : nondumisomkhatshwa"));
         alMallItems.add(new MallItem("https://chillersmarket.com/wp-content/uploads/2021/12/pOP-uP-bANNER-05-300x300.jpg", "R250.00", "Rainbow/Floral headbands", "Sold By : nondumisomkhatshwa"));
 
-        buildRecyclerView();
+        //Related Items
+        alMoreInfoItems.add(new MoreInfoItem( "Full description", "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the " +
+                "industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only" +
+                " five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets " +
+                "containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem "));
+        alMoreInfoItems.add(new MoreInfoItem( "Full description", "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the " +
+                "industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only" +
+                " five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets " +
+                "containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem "));
+        alMoreInfoItems.add(new MoreInfoItem( "Full description", "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the " +
+                "industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only" +
+                " five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets " +
+                "containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem "));
+        alMoreInfoItems.add(new MoreInfoItem( "Full description", "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the " +
+                "industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only" +
+                " five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets " +
+                "containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem "));
 
+        buildRecyclerView();
+        buildMoreInfoRecyclerView();
     }
 
     /**
@@ -106,7 +117,7 @@ public class DetailedMallItemActivity extends AppCompatActivity {
      */
     private void buildRecyclerView() {
         rvMallItems.setHasFixedSize(true);
-        rvMallItemsLayoutManager = new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL,false);
+        rvMallItemsLayoutManager = new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false);
         rvMallItemsAdapter = new RelatedProductAdapter(this, alMallItems);
 
         rvMallItems.setLayoutManager(rvMallItemsLayoutManager);
@@ -135,6 +146,26 @@ public class DetailedMallItemActivity extends AppCompatActivity {
     }
 
     /**
+     * Setup RecycleView display
+     */
+    private void buildMoreInfoRecyclerView() {
+        rvMoreInfoItems.setHasFixedSize(true);
+        rvMoreInfoItemsLayoutManager = new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false);
+        rvMoreInfoItemsAdapter = new MoreInfoAdapter(alMoreInfoItems);
+
+        rvMoreInfoItems.setLayoutManager(rvMoreInfoItemsLayoutManager);
+        rvMoreInfoItems.setAdapter(rvMoreInfoItemsAdapter);
+
+        //Implementing item on click methods
+        rvMoreInfoItemsAdapter.setOnItemClickListener(new MoreInfoAdapter.OnItemClickListener() {
+            @Override
+            public void toggleExpansionClick(int position) {
+
+            }
+        });
+    }
+
+    /**
      * Clicking back
      *
      * @param view
@@ -145,6 +176,7 @@ public class DetailedMallItemActivity extends AppCompatActivity {
 
     /**
      * Clicking add to cart
+     *
      * @param view
      */
     public void AddToCart(View view) {

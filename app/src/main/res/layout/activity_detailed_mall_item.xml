@@ -5,6 +5,7 @@
     android:layout_height="match_parent"
     android:background="@color/white">
 
+    <!-- ActionBar -->
     <RelativeLayout
         android:id="@+id/rlHeader"
         android:layout_width="match_parent"
@@ -32,7 +33,6 @@
             android:layout_marginTop="20dp"
             android:layout_toStartOf="@+id/rlCart"
             android:layout_toEndOf="@id/ftvBack"
-            android:text="Bananas"
             android:textColor="@color/white"
             android:textSize="16sp"
             android:textStyle="bold"/>
@@ -69,7 +69,7 @@
                     android:layout_marginTop="4dp"
                     android:layout_marginEnd="8dp"
                     android:layout_marginBottom="4dp"
-                    android:text="5"
+                    android:text="0"
                     android:textColor="@color/white"
                     android:textSize="12sp"
                     android:textStyle="bold" />
@@ -77,22 +77,25 @@
         </RelativeLayout>
 
     </RelativeLayout>
+
     <!-- Makes the page scrollable -->
     <ScrollView
         android:layout_width="match_parent"
+        android:background="@color/green_background"
         android:layout_height="match_parent"
         android:layout_below="@+id/rlHeader">
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="wrap_content">
 
             <!-- Image slider -->
             <ImageView
                 android:id="@+id/ivPreview"
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
-                android:layout_centerHorizontal="true" />
+                android:layout_centerHorizontal="true"
+                android:contentDescription="@string/product_image" />
 
             <!-- Product price -->
             <androidx.cardview.widget.CardView
@@ -127,7 +130,7 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/cvPrice"
                 android:layout_marginStart="20dp"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:text="Bananas"
                 android:textSize="22sp"
                 android:textStyle="bold" />
@@ -151,7 +154,7 @@
                 android:layout_below="@+id/tvSeller"
                 android:layout_alignParentEnd="true"
                 android:layout_margin="20dp"
-                app:cardCornerRadius="10dp"
+                app:cardCornerRadius="10dp" 
                 app:cardElevation="10dp">
 
                 <TextView
@@ -182,46 +185,20 @@
 
             <!-- Related products -->
             <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/recycleView"
+                android:id="@+id/recycleViewRelated"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_below="@+id/tvRelated"
                 android:layout_marginTop="10dp" />
 
-            <!-- More information tabs -->
-            <com.google.android.material.tabs.TabLayout
-                android:id="@+id/tlTabs"
+            <!-- More info -->
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycleViewMore"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/recycleView"
-                app:tabTextAppearance="@style/TabLayoutStyle">
+                android:layout_height="match_parent"
+                android:layout_below="@+id/recycleViewRelated"
+                android:layout_marginTop="10dp" />
 
-                <com.google.android.material.tabs.TabItem
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Description" />
-
-                <com.google.android.material.tabs.TabItem
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Reviews" />
-
-                <com.google.android.material.tabs.TabItem
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Product ratings" />
-
-                <com.google.android.material.tabs.TabItem
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Vendor Policies" />
-            </com.google.android.material.tabs.TabLayout>
-
-            <androidx.viewpager.widget.ViewPager
-                android:id="@+id/vpViewPager"
-                android:layout_width="match_parent"
-                android:layout_height="400dp"
-                android:layout_below="@+id/tlTabs" />
         </RelativeLayout>
     </ScrollView>
 </RelativeLayout>
