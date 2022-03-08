@@ -150,7 +150,7 @@ public class DetailedMallItemActivity extends AppCompatActivity {
      */
     private void buildMoreInfoRecyclerView() {
         rvMoreInfoItems.setHasFixedSize(true);
-        rvMoreInfoItemsLayoutManager = new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false);
+        rvMoreInfoItemsLayoutManager = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false);
         rvMoreInfoItemsAdapter = new MoreInfoAdapter(alMoreInfoItems);
 
         rvMoreInfoItems.setLayoutManager(rvMoreInfoItemsLayoutManager);
