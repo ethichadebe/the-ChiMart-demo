@@ -1,12 +1,12 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:2:1-41:12
+ADDED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:2:1-42:12
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\fredd\.gradle\caches\transforms-3\cf53bd8ec7c668980ed1494d0729c2d3\transformed\material-1.4.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] C:\Users\fredd\.gradle\caches\transforms-3\f68cd11ba0e371f6166b02fb4fe646e3\transformed\constraintlayout-2.1.2\AndroidManifest.xml:2:1-11:12
-MERGED from [info.androidhive:fontawesome:0.0.5] C:\Users\fredd\.gradle\caches\transforms-3\e4871c5556d6012a8b6f5a8e16986f0c\transformed\jetified-fontawesome-0.0.5\AndroidManifest.xml:2:1-11:12
+MERGED from [info.androidhive:fontawesome:0.0.5] C:\Users\fredd\.gradle\caches\transforms-3\a6d17dbad7115c11842f82337e9a30e4\transformed\jetified-fontawesome-0.0.5\AndroidManifest.xml:2:1-11:12
 MERGED from [com.mapbox.mapboxsdk:mapbox-android-plugin-annotation-v9:0.8.0] C:\Users\fredd\.gradle\caches\transforms-3\7fa03a2834f45861e24821be77669868\transformed\jetified-mapbox-android-plugin-annotation-v9-0.8.0\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.appcompat:appcompat:1.4.0] C:\Users\fredd\.gradle\caches\transforms-3\6b7ce8086a02393fa2437d9bcd86951a\transformed\appcompat-1.4.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\fredd\.gradle\caches\transforms-3\6399ac92cb7386cb9f8892cc4a9f9d83\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
@@ -57,20 +57,20 @@ MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\fredd\.
 MERGED from [com.facebook.soloader:soloader:0.8.0] C:\Users\fredd\.gradle\caches\transforms-3\75b5786a07ebfba7b53d893139c4c5fe\transformed\jetified-soloader-0.8.0\AndroidManifest.xml:2:1-13:12
 MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:1.4.1] C:\Users\fredd\.gradle\caches\transforms-3\2b41f099db9a7081d7a00755d51cfec5\transformed\jetified-mapbox-android-core-1.4.1\AndroidManifest.xml:2:1-13:12
 MERGED from [com.facebook.soloader:annotation:0.8.0] C:\Users\fredd\.gradle\caches\transforms-3\caec1c31cb26e0cfcdfca63c30361a89\transformed\jetified-annotation-0.8.0\AndroidManifest.xml:2:1-13:12
-INJECTED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:2:1-42:12
 	package
 		ADDED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:3:5-41
 		INJECTED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:2:1-41:12
+		ADDED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:2:1-42:12
 		INJECTED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:2:1-41:12
+		ADDED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:2:1-42:12
 		INJECTED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:2:11-69
@@ -101,7 +101,7 @@ ADDED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\Andro
 	android:name
 		ADDED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:9:22-82
 application
-ADDED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:11:5-39:19
+ADDED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:11:5-40:19
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\fredd\.gradle\caches\transforms-3\cf53bd8ec7c668980ed1494d0729c2d3\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\fredd\.gradle\caches\transforms-3\cf53bd8ec7c668980ed1494d0729c2d3\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] C:\Users\fredd\.gradle\caches\transforms-3\f68cd11ba0e371f6166b02fb4fe646e3\transformed\constraintlayout-2.1.2\AndroidManifest.xml:9:5-20
@@ -144,44 +144,50 @@ MERGED from [com.facebook.soloader:annotation:0.8.0] C:\Users\fredd\.gradle\cach
 		ADDED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:12:9-35
 	android:theme
 		ADDED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:17:9-52
-activity#com.example.chillersmarket.SummaryActivity
+activity#com.example.chillersmarket.EditProfileActivity
 ADDED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:18:9-20:40
 	android:exported
 		ADDED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:20:13-37
 	android:name
-		ADDED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:19:13-44
-activity#com.example.chillersmarket.CartActivity
+		ADDED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:19:13-48
+activity#com.example.chillersmarket.SummaryActivity
 ADDED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:21:9-23:40
 	android:exported
 		ADDED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:23:13-37
 	android:name
-		ADDED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:22:13-41
+		ADDED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:22:13-44
+activity#com.example.chillersmarket.CartActivity
+ADDED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:24:9-26:40
+	android:exported
+		ADDED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:25:13-41
 activity#com.example.chillersmarket.DetailedMallItemActivity
-ADDED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:24:9-26:39
+ADDED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:27:9-29:39
 	android:exported
-		ADDED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:26:13-36
+		ADDED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:29:13-36
 	android:name
-		ADDED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:25:13-53
+		ADDED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:28:13-53
 activity#com.example.chillersmarket.CategoryDetailActivity
-ADDED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:27:9-29:15
+ADDED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:30:9-60
 	android:name
-		ADDED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:28:13-51
+		ADDED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:30:19-57
 activity#com.example.chillersmarket.MainActivity
-ADDED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:30:9-38:20
+ADDED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:31:9-39:20
 	android:exported
-		ADDED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:32:13-36
+		ADDED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:33:13-36
 	android:name
-		ADDED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:31:13-41
+		ADDED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:32:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:33:13-37:29
+ADDED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:34:13-38:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:34:17-69
+ADDED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:35:17-69
 	android:name
-		ADDED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:34:25-66
+		ADDED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:35:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:36:17-77
+ADDED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:37:17-77
 	android:name
-		ADDED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:36:27-74
+		ADDED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml:37:27-74
 uses-sdk
 INJECTED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\fredd\Documents\Projects\the-ChiMart-demo\app\src\main\AndroidManifest.xml
@@ -190,8 +196,8 @@ MERGED from [com.google.android.material:material:1.4.0] C:\Users\fredd\.gradle\
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\fredd\.gradle\caches\transforms-3\cf53bd8ec7c668980ed1494d0729c2d3\transformed\material-1.4.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] C:\Users\fredd\.gradle\caches\transforms-3\f68cd11ba0e371f6166b02fb4fe646e3\transformed\constraintlayout-2.1.2\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] C:\Users\fredd\.gradle\caches\transforms-3\f68cd11ba0e371f6166b02fb4fe646e3\transformed\constraintlayout-2.1.2\AndroidManifest.xml:5:5-7:41
-MERGED from [info.androidhive:fontawesome:0.0.5] C:\Users\fredd\.gradle\caches\transforms-3\e4871c5556d6012a8b6f5a8e16986f0c\transformed\jetified-fontawesome-0.0.5\AndroidManifest.xml:7:5-9:41
-MERGED from [info.androidhive:fontawesome:0.0.5] C:\Users\fredd\.gradle\caches\transforms-3\e4871c5556d6012a8b6f5a8e16986f0c\transformed\jetified-fontawesome-0.0.5\AndroidManifest.xml:7:5-9:41
+MERGED from [info.androidhive:fontawesome:0.0.5] C:\Users\fredd\.gradle\caches\transforms-3\a6d17dbad7115c11842f82337e9a30e4\transformed\jetified-fontawesome-0.0.5\AndroidManifest.xml:7:5-9:41
+MERGED from [info.androidhive:fontawesome:0.0.5] C:\Users\fredd\.gradle\caches\transforms-3\a6d17dbad7115c11842f82337e9a30e4\transformed\jetified-fontawesome-0.0.5\AndroidManifest.xml:7:5-9:41
 MERGED from [com.mapbox.mapboxsdk:mapbox-android-plugin-annotation-v9:0.8.0] C:\Users\fredd\.gradle\caches\transforms-3\7fa03a2834f45861e24821be77669868\transformed\jetified-mapbox-android-plugin-annotation-v9-0.8.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.mapbox.mapboxsdk:mapbox-android-plugin-annotation-v9:0.8.0] C:\Users\fredd\.gradle\caches\transforms-3\7fa03a2834f45861e24821be77669868\transformed\jetified-mapbox-android-plugin-annotation-v9-0.8.0\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.appcompat:appcompat:1.4.0] C:\Users\fredd\.gradle\caches\transforms-3\6b7ce8086a02393fa2437d9bcd86951a\transformed\appcompat-1.4.0\AndroidManifest.xml:20:5-22:41

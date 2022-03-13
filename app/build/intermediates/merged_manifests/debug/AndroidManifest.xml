@@ -37,6 +37,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.ChillersMarket" >
         <activity
+            android:name="com.example.chillersmarket.EditProfileActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.chillersmarket.SummaryActivity"
             android:exported="false" />
         <activity

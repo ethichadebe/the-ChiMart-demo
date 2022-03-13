@@ -12,6 +12,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
+import com.example.chillersmarket.CategoryDetailActivity;
+import com.example.chillersmarket.EditProfileActivity;
 import com.example.chillersmarket.R;
 
 public class AccountFragment extends Fragment {
@@ -47,9 +49,13 @@ public class AccountFragment extends Fragment {
     //Navigate to a different Fragment
     private void toDifferentFragment(TextView textView, Fragment fragment){
         textView.setOnClickListener(v -> {
-            getActivity().getSupportFragmentManager().beginTransaction()
-                    .replace(R.id.fragment_container, fragment)
-                    .commit();
+//            getActivity().getSupportFragmentManager().beginTransaction()
+//                    .replace(R.id.fragment_container, fragment)
+//                    .commit();
+
+            Intent intent = new Intent(getContext(), EditProfileActivity.class);
+            startActivity(intent);
+
         });
     }
 
