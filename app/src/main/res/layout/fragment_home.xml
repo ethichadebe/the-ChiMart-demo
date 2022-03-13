@@ -1,35 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
-
-    <RelativeLayout
-        android:id="@+id/rlHeader"
-        android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:background="@drawable/actionbar_background">
-
-    <TextView
-        android:id="@+id/home"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="15dp"
-        android:layout_marginTop="10dp"
-        android:text="home"/>
+    android:layout_height="match_parent">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/sliderCardView"
         android:layout_width="match_parent"
-        android:layout_margin="5dp"
         android:layout_height="wrap_content"
-        app:cardCornerRadius="10dp">
+        app:cardElevation="5dp">
 
         <com.smarteist.autoimageslider.SliderView
             android:id="@+id/slider"
             android:layout_width="match_parent"
-            android:layout_height="150dp"
+            android:layout_height="180dp"
             android:layout_below="@+id/home"
             app:sliderAnimationDuration="600"
             app:sliderAutoCycleDirection="back_and_forth"
@@ -44,55 +29,56 @@
             app:sliderIndicatorUnselectedColor="#FFF"
             app:sliderScrollTimeInSec="1" />
 
-        </androidx.cardview.widget.CardView>
-    </RelativeLayout>
-<ScrollView
-android:layout_width="match_parent"
-android:layout_height="match_parent"
-android:layout_below="@+id/rlHeader">
+    </androidx.cardview.widget.CardView>
 
-    <RelativeLayout
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="?attr/selectableItemBackground">
+        android:paddingTop="10dp"
+        android:layout_below="@+id/sliderCardView">
 
-        <TextView
-            android:id="@+id/tvRecentlyAdded"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/sliderCardView"
-            android:layout_marginStart="18dp"
-            android:text="Recently Added"
-            android:textSize="16sp"
-            android:textColor="@color/black"
-            android:textStyle="bold"
-            tools:ignore="NotSibling,UnknownId" />
-
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/recentlyAddedRecycleView"
+        <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_below="@+id/tvRecentlyAdded"
-            android:layout_marginTop="10dp" />
+            android:background="?attr/selectableItemBackground">
 
-        <TextView
-            android:id="@+id/tvPopularCategories"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/recentlyAddedRecycleView"
-            android:layout_marginStart="18dp"
-            android:text="Popular Categories"
-            android:textSize="16sp"
-            android:textColor="@color/black"
-            android:textStyle="bold"
-            tools:ignore="NotSibling,UnknownId" />
+            <TextView
+                android:id="@+id/tvRecentlyAdded"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/sliderCardView"
+                android:layout_marginStart="18dp"
+                android:text="Recently Added"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                tools:ignore="NotSibling,UnknownId" />
 
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/homeItemsRecycleView"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_below="@+id/tvPopularCategories"
-            android:layout_marginTop="10dp"/>
-    </RelativeLayout>
-</ScrollView>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recentlyAddedRecycleView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/tvRecentlyAdded"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:id="@+id/tvPopularCategories"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/recentlyAddedRecycleView"
+                android:layout_marginStart="18dp"
+                android:text="Popular Categories"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                tools:ignore="NotSibling,UnknownId" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/homeItemsRecycleView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/tvPopularCategories"
+                android:layout_marginTop="10dp" />
+        </RelativeLayout>
+    </ScrollView>
 </RelativeLayout>

@@ -2,9 +2,10 @@
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="118dp"
-    android:layout_margin="5dp"
     android:layout_height="wrap_content"
-    app:cardCornerRadius="10dp">
+    android:layout_margin="10dp"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="5dp">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -14,23 +15,23 @@
 
         <ImageView
             android:id="@+id/ivPopularCategory"
-            android:icon="@drawable/ic_shopping_bag"
-            android:title="Chillers mall"
-            android:layout_height="50dp"
             android:layout_width="50dp"
-            android:layout_centerHorizontal="true" />
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:icon="@drawable/ic_shopping_bag"
+            android:title="Chillers mall" />
 
         <TextView
             android:id="@+id/tvPopularCategory"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
-            android:layout_centerHorizontal="true"
             android:layout_below="@+id/ivPopularCategory"
-            android:textSize="11sp"
-            android:layout_marginTop="7dp"
             android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="7dp"
             android:textColor="#000000"
+            android:textSize="11sp"
             android:textStyle="normal" />
 
     </RelativeLayout>

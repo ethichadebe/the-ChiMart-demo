@@ -96,6 +96,12 @@ attr actionProviderClass
 attr actionTextColorAlpha
 attr actionViewClass
 attr activityChooserViewStyle
+attr ael_defaultChildIndex
+attr ael_defaultPosition
+attr ael_duration
+attr ael_expanded
+attr ael_interpolator
+attr ael_orientation
 attr alertDialogButtonGroupStyle
 attr alertDialogCenterButtons
 attr alertDialogStyle
@@ -1281,6 +1287,8 @@ color error_color_material_light
 color foreground_material_dark
 color foreground_material_light
 color green
+color green_background
+color green_body
 color grey
 color highlighted_text_material_dark
 color highlighted_text_material_light
@@ -2060,6 +2068,7 @@ id Surname
 id TOP_END
 id TOP_START
 id accelerate
+id accelerateDecelerate
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
 id accessibility_custom_action_1
@@ -2125,6 +2134,7 @@ id animateToEnd
 id animateToStart
 id antiClockwise
 id anticipate
+id anticipateOvershoot
 id arc
 id asConfigured
 id async
@@ -2188,7 +2198,9 @@ id customPanel
 id cut
 id cvAddToCart
 id cvApplyCoupon
+id cvBody
 id cvCheckout
+id cvHead
 id cvIcon
 id cvPrice
 id date_picker_actions
@@ -2237,6 +2249,8 @@ id expand_activities_button
 id expanded_menu
 id fab
 id fade
+id fastOutLinearIn
+id fastOutSlowIn
 id fill
 id fill_horizontal
 id fill_vertical
@@ -2306,6 +2320,7 @@ id legacy
 id line1
 id line3
 id linear
+id linearOutSlowIn
 id listMode
 id list_item
 id llCoupon
@@ -2422,6 +2437,8 @@ id reEnterNewPassword
 id recentlyAddedRecycleView
 id rectangles
 id recycleView
+id recycleViewMore
+id recycleViewRelated
 id reverseSawtooth
 id right
 id rightToLeft
@@ -2537,7 +2554,6 @@ id time
 id title
 id titleDividerNoCustom
 id title_template
-id tlTabs
 id toggle
 id top
 id topPanel
@@ -2552,12 +2568,14 @@ id transition_transform
 id triangle
 id tvAddToCart
 id tvApplyCoupon
+id tvBody
 id tvBusinessName
 id tvCart
 id tvCategory
 id tvCheckout
 id tvDate
 id tvDetails
+id tvHead
 id tvHeading
 id tvHeadingTop
 id tvLocation
@@ -2609,7 +2627,6 @@ id view_tree_saved_state_registry_owner
 id view_tree_view_model_store_owner
 id visible
 id visible_removing_fragment_view_tag
-id vpViewPager
 id west
 id withText
 id withinBounds
@@ -2743,6 +2760,7 @@ layout material_time_input
 layout material_timepicker
 layout material_timepicker_dialog
 layout material_timepicker_textinput_display
+layout more_info_item
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions
 layout mtrl_alert_dialog_title
@@ -4441,6 +4459,7 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string product_image
 string search_menu_title
 string status_bar_notification_info_overflow
 style AlertDialog_AppCompat
@@ -5316,6 +5335,7 @@ styleable ViewBackgroundHelper android_background backgroundTint backgroundTintM
 styleable ViewPager2 android_orientation
 styleable ViewStubCompat android_id android_layout android_inflatedId
 styleable ViewTransition android_id SharedValue SharedValueId clearsTag duration ifTagNotSet ifTagSet motionInterpolator motionTarget onStateTransition pathMotionArc setsTag transitionDisable upDuration viewTransitionMode
+styleable expandableLayout ael_defaultChildIndex ael_defaultPosition ael_duration ael_expanded ael_interpolator ael_orientation
 styleable include constraintSet
 styleable mapbox_BubbleLayout mapbox_bl_arrowDirection mapbox_bl_arrowHeight mapbox_bl_arrowPosition mapbox_bl_arrowWidth mapbox_bl_bubbleColor mapbox_bl_cornersRadius mapbox_bl_strokeColor mapbox_bl_strokeWidth
 styleable mapbox_LocationComponent mapbox_accuracyAlpha mapbox_accuracyAnimationEnabled mapbox_accuracyColor mapbox_backgroundDrawable mapbox_backgroundDrawableStale mapbox_backgroundStaleTintColor mapbox_backgroundTintColor mapbox_bearingDrawable mapbox_bearingTintColor mapbox_compassAnimationEnabled mapbox_elevation mapbox_enableStaleState mapbox_foregroundDrawable mapbox_foregroundDrawableStale mapbox_foregroundStaleTintColor mapbox_foregroundTintColor mapbox_gpsDrawable mapbox_iconPaddingBottom mapbox_iconPaddingLeft mapbox_iconPaddingRight mapbox_iconPaddingTop mapbox_layer_above mapbox_layer_below mapbox_maxZoomIconScale mapbox_minZoomIconScale mapbox_staleStateTimeout mapbox_trackingAnimationDurationMultiplier mapbox_trackingGesturesManagement mapbox_trackingInitialMoveThreshold mapbox_trackingMultiFingerMoveThreshold
