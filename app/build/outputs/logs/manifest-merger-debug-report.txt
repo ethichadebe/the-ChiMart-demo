@@ -53,6 +53,7 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\garet\.gradle\ca
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\garet\.gradle\caches\transforms-3\9f24011717b021bac9ee09874fd0df37\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\garet\.gradle\caches\transforms-3\6abfac59d263b6c8870828beb848f440\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\garet\.gradle\caches\transforms-3\e6ed522b22a95d9408e1d5d73dcf75a6\transformed\jetified-circleimageview-3.0.0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.aakira:expandable-layout:1.6.0] C:\Users\garet\.gradle\caches\transforms-3\9a5cf91bc7a1b15cb4e7d0d51b2c4545\transformed\jetified-expandable-layout-1.6.0\AndroidManifest.xml:2:1-14:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\garet\.gradle\caches\transforms-3\edea9ed16d3a7cf99d1134cab402d589\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.facebook.soloader:soloader:0.8.0] C:\Users\garet\.gradle\caches\transforms-3\79f7a12077b7282ee55da78c7e721568\transformed\jetified-soloader-0.8.0\AndroidManifest.xml:2:1-13:12
 MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:1.4.1] C:\Users\garet\.gradle\caches\transforms-3\bdf3c586ce207853b8e29d7ed31e8bc2\transformed\jetified-mapbox-android-core-1.4.1\AndroidManifest.xml:2:1-13:12
@@ -126,6 +127,8 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\garet\.gradle\cach
 MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\garet\.gradle\caches\transforms-3\b7dcaf482616ee483618beef1385b973\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:25:5-31:19
 MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\garet\.gradle\caches\transforms-3\e6ed522b22a95d9408e1d5d73dcf75a6\transformed\jetified-circleimageview-3.0.0\AndroidManifest.xml:9:5-20
 MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\garet\.gradle\caches\transforms-3\e6ed522b22a95d9408e1d5d73dcf75a6\transformed\jetified-circleimageview-3.0.0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.aakira:expandable-layout:1.6.0] C:\Users\garet\.gradle\caches\transforms-3\9a5cf91bc7a1b15cb4e7d0d51b2c4545\transformed\jetified-expandable-layout-1.6.0\AndroidManifest.xml:12:5-20
+MERGED from [com.github.aakira:expandable-layout:1.6.0] C:\Users\garet\.gradle\caches\transforms-3\9a5cf91bc7a1b15cb4e7d0d51b2c4545\transformed\jetified-expandable-layout-1.6.0\AndroidManifest.xml:12:5-20
 MERGED from [com.facebook.soloader:soloader:0.8.0] C:\Users\garet\.gradle\caches\transforms-3\79f7a12077b7282ee55da78c7e721568\transformed\jetified-soloader-0.8.0\AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.soloader:soloader:0.8.0] C:\Users\garet\.gradle\caches\transforms-3\79f7a12077b7282ee55da78c7e721568\transformed\jetified-soloader-0.8.0\AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.soloader:annotation:0.8.0] C:\Users\garet\.gradle\caches\transforms-3\a03d175ab064c456cc540d4d3999b5e5\transformed\jetified-annotation-0.8.0\AndroidManifest.xml:11:5-20
@@ -284,6 +287,8 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\garet\.gradle\caches\transform
 MERGED from [androidx.print:print:1.0.0] C:\Users\garet\.gradle\caches\transforms-3\6abfac59d263b6c8870828beb848f440\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\garet\.gradle\caches\transforms-3\e6ed522b22a95d9408e1d5d73dcf75a6\transformed\jetified-circleimageview-3.0.0\AndroidManifest.xml:5:5-7:41
 MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\garet\.gradle\caches\transforms-3\e6ed522b22a95d9408e1d5d73dcf75a6\transformed\jetified-circleimageview-3.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.aakira:expandable-layout:1.6.0] C:\Users\garet\.gradle\caches\transforms-3\9a5cf91bc7a1b15cb4e7d0d51b2c4545\transformed\jetified-expandable-layout-1.6.0\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.aakira:expandable-layout:1.6.0] C:\Users\garet\.gradle\caches\transforms-3\9a5cf91bc7a1b15cb4e7d0d51b2c4545\transformed\jetified-expandable-layout-1.6.0\AndroidManifest.xml:8:5-10:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\garet\.gradle\caches\transforms-3\edea9ed16d3a7cf99d1134cab402d589\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\garet\.gradle\caches\transforms-3\edea9ed16d3a7cf99d1134cab402d589\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.facebook.soloader:soloader:0.8.0] C:\Users\garet\.gradle\caches\transforms-3\79f7a12077b7282ee55da78c7e721568\transformed\jetified-soloader-0.8.0\AndroidManifest.xml:7:5-9:41

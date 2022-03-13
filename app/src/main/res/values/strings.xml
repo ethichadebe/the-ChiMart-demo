@@ -6,4 +6,5 @@
     <string name="listings">listings</string>
     <string name="add_to_cart">Add to Cart</string>
     <string name="mapbox_access_token"></string>
+    <string name="product_image">Product image</string>
 </resources>
