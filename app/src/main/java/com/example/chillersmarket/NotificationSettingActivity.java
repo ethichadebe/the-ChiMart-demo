@@ -6,12 +6,12 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class EditProfileActivity extends AppCompatActivity {
+public class NotificationSettingActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_edit_profile);
+        setContentView(R.layout.activity_notification_setting);
     }
 
     /**
@@ -25,6 +25,7 @@ public class EditProfileActivity extends AppCompatActivity {
 
     /**
      * Clicking add to cart
+     *
      * @param view
      */
 
