@@ -196,6 +196,10 @@
         "source": "C:\\Users\\garet\\AndroidStudioProjects\\the-ChiMart-demo\\app\\src\\main\\res\\layout\\activity_detailed_mall_item.xml"
     },
     {
+        "merged": "C:\\Users\\garet\\AndroidStudioProjects\\the-ChiMart-demo\\app\\build\\intermediates\\merged_res\\debug\\drawable_ripple_effect_white_green.xml.flat",
+        "source": "C:\\Users\\garet\\AndroidStudioProjects\\the-ChiMart-demo\\app\\src\\main\\res\\drawable\\ripple_effect_white_green.xml"
+    },
+    {
         "merged": "C:\\Users\\garet\\AndroidStudioProjects\\the-ChiMart-demo\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_phone_24.xml.flat",
         "source": "C:\\Users\\garet\\AndroidStudioProjects\\the-ChiMart-demo\\app\\src\\main\\res\\drawable\\ic_phone_24.xml"
     },

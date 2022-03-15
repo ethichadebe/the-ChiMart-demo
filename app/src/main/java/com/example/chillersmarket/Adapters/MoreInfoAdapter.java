@@ -1,5 +1,6 @@
 package com.example.chillersmarket.Adapters;
 
+import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -10,12 +11,16 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.chillersmarket.R;
 import com.example.chillersmarket.RecyclewViewItems.MoreInfoItem;
+import com.example.chillersmarket.fragments.HomeFragment;
+import com.github.aakira.expandablelayout.ExpandableRelativeLayout;
+import com.google.android.material.transition.Hold;
 
 import java.util.ArrayList;
 
 public class MoreInfoAdapter extends RecyclerView.Adapter<MoreInfoAdapter.MoreInfoViewHolder> {
 
     private ArrayList<MoreInfoItem> alMoreInfoItems;
+    private static Context context;
 
     private OnItemClickListener oiclListener;
 
@@ -30,12 +35,15 @@ public class MoreInfoAdapter extends RecyclerView.Adapter<MoreInfoAdapter.MoreIn
 
     public static class MoreInfoViewHolder extends RecyclerView.ViewHolder {
         private TextView tvHead, tvBody;
+        ExpandableRelativeLayout expandableLayout;
 
         public MoreInfoViewHolder(@NonNull View itemView, OnItemClickListener listener) {
             super(itemView);
 
             tvHead = itemView.findViewById(R.id.tvHead);
             tvBody = itemView.findViewById(R.id.tvBody);
+            expandableLayout = itemView.findViewById(R.id.expandableLayout);
+            //context.getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new HomeFragment()).commit();
 
             tvHead.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -65,8 +73,9 @@ public class MoreInfoAdapter extends RecyclerView.Adapter<MoreInfoAdapter.MoreIn
         }
     }
 
-    public MoreInfoAdapter(ArrayList<MoreInfoItem> moreInfoItems) {
+    public MoreInfoAdapter(Context context, ArrayList<MoreInfoItem> moreInfoItems) {
         this.alMoreInfoItems = moreInfoItems;
+        this.context = context;
     }
 
     @NonNull
@@ -83,6 +92,14 @@ public class MoreInfoAdapter extends RecyclerView.Adapter<MoreInfoAdapter.MoreIn
 
         holder.tvHead.setText(currentItem.getStrHead());
         holder.tvBody.setText(currentItem.getStrBody());
+
+        holder.tvHead.setOnClickListener(view -> {
+            if (!holder.expandableLayout.isExpanded()){
+                holder.expandableLayout.expand();
+            }else {
+                holder.expandableLayout.collapse();
+            }
+        });
     }
 
     @Override

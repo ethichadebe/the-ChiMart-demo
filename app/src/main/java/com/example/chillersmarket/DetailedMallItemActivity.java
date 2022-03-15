@@ -91,19 +91,19 @@ public class DetailedMallItemActivity extends AppCompatActivity {
         alMallItems.add(new MallItem("https://chillersmarket.com/wp-content/uploads/2021/12/pOP-uP-bANNER-05-300x300.jpg", "R250.00", "Rainbow/Floral headbands", "Sold By : nondumisomkhatshwa"));
 
         //Related Items
-        alMoreInfoItems.add(new MoreInfoItem( "Full description", "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the " +
+        alMoreInfoItems.add(new MoreInfoItem("Full description", "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the " +
                 "industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only" +
                 " five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets " +
                 "containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem "));
-        alMoreInfoItems.add(new MoreInfoItem( "Full description", "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the " +
+        alMoreInfoItems.add(new MoreInfoItem("Full description", "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the " +
                 "industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only" +
                 " five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets " +
                 "containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem "));
-        alMoreInfoItems.add(new MoreInfoItem( "Full description", "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the " +
+        alMoreInfoItems.add(new MoreInfoItem("Full description", "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the " +
                 "industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only" +
                 " five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets " +
                 "containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem "));
-        alMoreInfoItems.add(new MoreInfoItem( "Full description", "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the " +
+        alMoreInfoItems.add(new MoreInfoItem("Full description", "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the " +
                 "industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only" +
                 " five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets " +
                 "containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem "));
@@ -151,7 +151,7 @@ public class DetailedMallItemActivity extends AppCompatActivity {
     private void buildMoreInfoRecyclerView() {
         rvMoreInfoItems.setHasFixedSize(true);
         rvMoreInfoItemsLayoutManager = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false);
-        rvMoreInfoItemsAdapter = new MoreInfoAdapter(alMoreInfoItems);
+        rvMoreInfoItemsAdapter = new MoreInfoAdapter(this, alMoreInfoItems);
 
         rvMoreInfoItems.setLayoutManager(rvMoreInfoItemsLayoutManager);
         rvMoreInfoItems.setAdapter(rvMoreInfoItemsAdapter);

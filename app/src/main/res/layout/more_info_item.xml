@@ -12,13 +12,14 @@
         app:cardCornerRadius="12dp">
 
         <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+            android:id="@+id/expandableLayout"
             android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:background="@color/green_body"
-            app:ael_expanded="false"
-            app:ael_duration="500"
-            app:ael_interpolator="bounce"
-            app:ael_orientation="vertical"
-            android:layout_height="wrap_content">
+            app:ael_duration="1000"
+            app:ael_expanded="true"
+            app:ael_interpolator="decelerate"
+            app:ael_orientation="vertical">
 
             <TextView
                 android:id="@+id/tvBody"
@@ -26,11 +27,20 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="50dp"
+                android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp" />
+            <!--<FrameLayout
+                android:id="@+id/fragment_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="50dp"
                 android:layout_marginEnd="10dp"
                 android:layout_marginBottom="10dp"
-                android:text="Ipsum."
-                android:textColor="@color/black"
-                android:textSize="12sp" />
+                android:background="@color/green_background"
+                android:layout_above="@id/nav_view"
+                android:layout_below="@id/rlHeader" />-->
         </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
     </androidx.cardview.widget.CardView>
 
@@ -44,7 +54,8 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:background="@drawable/ripple_effect_white_green">
 
             <TextView
                 android:id="@+id/tvHead"

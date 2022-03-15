@@ -2040,6 +2040,7 @@ drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable ripple_effect_green
 drawable ripple_effect_white
+drawable ripple_effect_white_green
 drawable round_corner
 drawable round_corner_bottom
 drawable round_corner_top
@@ -2246,6 +2247,7 @@ id enterAlways
 id enterAlwaysCollapsed
 id exitUntilCollapsed
 id expand_activities_button
+id expandableLayout
 id expanded_menu
 id fab
 id fade

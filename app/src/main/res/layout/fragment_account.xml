@@ -33,7 +33,7 @@
             android:id="@+id/txtEditProfile"
             android:drawableRight="@drawable/ic_more"
             android:text="Edit Profile"
-            android:layout_marginTop="15dp"
+            android:padding="10dp"
             android:layout_height="match_parent"
             android:background="?attr/selectableItemBackground"
             android:layout_width="match_parent"/>
@@ -41,7 +41,7 @@
         <TextView
             android:id="@+id/txtChangePassword"
             android:drawableRight="@drawable/ic_more"
-            android:layout_marginTop="20dp"
+            android:padding="10dp"
             android:text="Change Password"
             android:layout_height="match_parent"
             android:background="?attr/selectableItemBackground"
@@ -50,7 +50,7 @@
         <TextView
             android:id="@+id/txtOrderHistory"
             android:drawableRight="@drawable/ic_more"
-            android:layout_marginTop="20dp"
+            android:padding="10dp"
             android:text="Orders"
             android:layout_height="match_parent"
             android:background="?attr/selectableItemBackground"
@@ -64,7 +64,8 @@
             android:textColor="#5D5C5C"
             android:layout_width="match_parent"
             android:textSize="20sp"
-            android:layout_marginTop="35dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
             android:text="Add Listing"
             android:background="?attr/selectableItemBackground"
             android:layout_height="wrap_content"/>
@@ -84,7 +85,7 @@
             android:id="@+id/txtNotifications"
             android:drawableRight="@drawable/ic_more"
             android:text="Notifications"
-            android:layout_marginTop="15dp"
+            android:padding="10dp"
             android:layout_height="match_parent"
             android:background="?attr/selectableItemBackground"
             android:layout_width="match_parent"/>
@@ -93,7 +94,7 @@
             android:id="@+id/txtSignInUp"
             android:drawableRight="@drawable/ic_more"
             android:text="Sign in / Sign up"
-            android:layout_marginTop="20dp"
+            android:padding="10dp"
             android:layout_height="match_parent"
             android:background="?attr/selectableItemBackground"
             android:layout_width="match_parent"/>
@@ -106,7 +107,8 @@
             android:textColor="#5D5C5C"
             android:layout_width="match_parent"
             android:textSize="20sp"
-            android:layout_marginTop="35dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
             android:text="Help"
             android:background="?attr/selectableItemBackground"
             android:layout_height="wrap_content"/>
