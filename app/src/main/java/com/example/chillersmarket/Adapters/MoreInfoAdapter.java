@@ -4,6 +4,7 @@ import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -35,13 +36,15 @@ public class MoreInfoAdapter extends RecyclerView.Adapter<MoreInfoAdapter.MoreIn
 
     public static class MoreInfoViewHolder extends RecyclerView.ViewHolder {
         private TextView tvHead, tvBody;
-        ExpandableRelativeLayout expandableLayout;
+        private ImageView ivSign;
+        private ExpandableRelativeLayout expandableLayout;
 
         public MoreInfoViewHolder(@NonNull View itemView, OnItemClickListener listener) {
             super(itemView);
 
             tvHead = itemView.findViewById(R.id.tvHead);
             tvBody = itemView.findViewById(R.id.tvBody);
+            ivSign = itemView.findViewById(R.id.ivSign);
             expandableLayout = itemView.findViewById(R.id.expandableLayout);
             //context.getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new HomeFragment()).commit();
 
@@ -96,8 +99,10 @@ public class MoreInfoAdapter extends RecyclerView.Adapter<MoreInfoAdapter.MoreIn
         holder.tvHead.setOnClickListener(view -> {
             if (!holder.expandableLayout.isExpanded()){
                 holder.expandableLayout.expand();
+                holder.ivSign.setBackgroundResource(R.drawable.ic_remove_24);
             }else {
                 holder.expandableLayout.collapse();
+                holder.ivSign.setBackgroundResource(R.drawable.ic_add_24);
             }
         });
     }

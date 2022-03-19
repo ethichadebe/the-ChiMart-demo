@@ -152,12 +152,12 @@
         "source": "C:\\Users\\garet\\AndroidStudioProjects\\the-ChiMart-demo\\app\\src\\main\\res\\layout\\related_product_item.xml"
     },
     {
-        "merged": "C:\\Users\\garet\\AndroidStudioProjects\\the-ChiMart-demo\\app\\build\\intermediates\\merged_res\\debug\\drawable_round_corner_bottom.xml.flat",
-        "source": "C:\\Users\\garet\\AndroidStudioProjects\\the-ChiMart-demo\\app\\src\\main\\res\\drawable\\round_corner_bottom.xml"
-    },
-    {
         "merged": "C:\\Users\\garet\\AndroidStudioProjects\\the-ChiMart-demo\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_category_detail.xml.flat",
         "source": "C:\\Users\\garet\\AndroidStudioProjects\\the-ChiMart-demo\\app\\src\\main\\res\\layout\\activity_category_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\garet\\AndroidStudioProjects\\the-ChiMart-demo\\app\\build\\intermediates\\merged_res\\debug\\drawable_round_corner_bottom.xml.flat",
+        "source": "C:\\Users\\garet\\AndroidStudioProjects\\the-ChiMart-demo\\app\\src\\main\\res\\drawable\\round_corner_bottom.xml"
     },
     {
         "merged": "C:\\Users\\garet\\AndroidStudioProjects\\the-ChiMart-demo\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_shopping_bag.xml.flat",
@@ -210,6 +210,10 @@
     {
         "merged": "C:\\Users\\garet\\AndroidStudioProjects\\the-ChiMart-demo\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_professionals.png.flat",
         "source": "C:\\Users\\garet\\AndroidStudioProjects\\the-ChiMart-demo\\app\\src\\main\\res\\drawable-xxhdpi\\ic_professionals.png"
+    },
+    {
+        "merged": "C:\\Users\\garet\\AndroidStudioProjects\\the-ChiMart-demo\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_remove_24.xml.flat",
+        "source": "C:\\Users\\garet\\AndroidStudioProjects\\the-ChiMart-demo\\app\\src\\main\\res\\drawable\\ic_remove_24.xml"
     },
     {
         "merged": "C:\\Users\\garet\\AndroidStudioProjects\\the-ChiMart-demo\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",

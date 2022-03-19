@@ -1983,6 +1983,7 @@ drawable ic_mtrl_chip_close_circle
 drawable ic_person_24
 drawable ic_phone_24
 drawable ic_professionals
+drawable ic_remove_24
 drawable ic_shopping_bag
 drawable logo
 drawable logo_long
@@ -2311,6 +2312,7 @@ id ivIcon
 id ivPopularCategory
 id ivPreview
 id ivRetail
+id ivSign
 id ivSubtract
 id jumpToEnd
 id jumpToStart

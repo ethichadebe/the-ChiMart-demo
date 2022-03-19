@@ -1982,6 +1982,7 @@ int drawable ic_mtrl_chip_close_circle 0x7f07007e
 int drawable ic_person_24 0x7f07007f
 int drawable ic_phone_24 0x7f070080
 int drawable ic_professionals 0x7f070081
+int drawable ic_remove_24 0x7f0700c4
 int drawable ic_shopping_bag 0x7f070082
 int drawable logo 0x7f070083
 int drawable logo_long 0x7f070084
@@ -2310,6 +2311,7 @@ int id ivIcon 0x7f080102
 int id ivPopularCategory 0x7f080103
 int id ivPreview 0x7f080104
 int id ivRetail 0x7f080105
+int id ivSign 0x7f08024f
 int id ivSubtract 0x7f080106
 int id jumpToEnd 0x7f080107
 int id jumpToStart 0x7f080108
