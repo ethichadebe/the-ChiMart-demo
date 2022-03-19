@@ -15,10 +15,12 @@
         <entry key="..\:/Users/garet/AndroidStudioProjects/the-ChiMart-demo/app/src/main/res/layout/fragment_account.xml" value="0.2015625" />
         <entry key="..\:/Users/garet/AndroidStudioProjects/the-ChiMart-demo/app/src/main/res/layout/fragment_home.xml" value="0.33" />
         <entry key="..\:/Users/garet/AndroidStudioProjects/the-ChiMart-demo/app/src/main/res/layout/home_item.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/garet/AndroidStudioProjects/the-ChiMart-demo/app/src/main/res/layout/listing_item.xml" value="0.5" />
         <entry key="..\:/Users/garet/AndroidStudioProjects/the-ChiMart-demo/app/src/main/res/layout/mall_item.xml" value="0.5" />
         <entry key="..\:/Users/garet/AndroidStudioProjects/the-ChiMart-demo/app/src/main/res/layout/more_info_item.xml" value="0.5" />
         <entry key="..\:/Users/garet/AndroidStudioProjects/the-ChiMart-demo/app/src/main/res/layout/popular_category_item.xml" value="0.358695652173913" />
         <entry key="..\:/Users/garet/AndroidStudioProjects/the-ChiMart-demo/app/src/main/res/layout/related_product_item.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/garet/AndroidStudioProjects/the-ChiMart-demo/app/src/main/res/menu/bottom_navigation.xml" value="0.28125" />
       </map>
     </option>
   </component>

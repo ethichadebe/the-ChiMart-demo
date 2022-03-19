@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_margin="5dp"
-    android:padding="5dp"
     app:cardCornerRadius="10dp">
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="10dp">
+        android:layout_height="wrap_content">
 
         <ImageView
             android:id="@+id/ivPreview"
@@ -18,116 +16,124 @@
             android:layout_height="150dp"
             android:src="@mipmap/ic_launcher" />
 
-        <TextView
-            android:id="@+id/tvBusinessName"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/ivPreview"
-            android:layout_marginTop="10dp"
-            android:text="Coalthorn Media"
-            android:textSize="16sp"
-            android:textStyle="bold" />
-
-        <TextView
-            android:id="@+id/tvShrtDescript"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/tvBusinessName"
-            android:layout_marginTop="5dp"
-            android:text="Adding life to scripts"
-            android:textSize="12sp" />
-
-        <RelativeLayout
-            android:id="@+id/rlView"
+        <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/tvShrtDescript"
-            android:layout_marginTop="10dp"
-            android:orientation="horizontal">
+            android:layout_marginTop="140dp"
+            app:cardCornerRadius="10dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/tvBusinessName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Coalthorn Media"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
 
-            <info.androidhive.fontawesome.FontTextView
-                android:id="@+id/ftvLocation"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/fa_map_pin_solid"
-                android:textColor="#EF3524"
-                android:textSize="24sp"
-                app:solid_icon="true" />
+                <TextView
+                    android:id="@+id/tvShrtDescript"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvBusinessName"
+                    android:layout_marginTop="5dp"
+                    android:text="Adding life to scripts"
+                    android:textSize="12sp" />
 
-            <TextView
-                android:id="@+id/tvLocation"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="5dp"
-                android:layout_marginTop="5dp"
-                android:layout_toEndOf="@id/ftvLocation"
-                android:text="Gauteng"
-                android:textSize="12sp" />
+                <RelativeLayout
+                    android:id="@+id/rlView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvShrtDescript"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
 
-            <info.androidhive.fontawesome.FontTextView
-                android:id="@+id/ftvNumber"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_toStartOf="@id/tvNumber"
-                android:layout_toEndOf="@id/tvLocation"
-                android:gravity="end"
-                android:text="@string/fa_phone_solid"
-                android:textColor="#ffa737"
-                android:textSize="20sp"
-                app:solid_icon="true" />
+                    <info.androidhive.fontawesome.FontTextView
+                        android:id="@+id/ftvLocation"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/fa_map_pin_solid"
+                        android:textColor="#EF3524"
+                        android:textSize="24sp"
+                        app:solid_icon="true" />
 
-            <TextView
-                android:id="@+id/tvNumber"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentEnd="true"
-                android:layout_marginStart="5dp"
-                android:layout_marginTop="5dp"
-                android:text="Gauteng"
-                android:textSize="12sp" />
-        </RelativeLayout>
+                    <TextView
+                        android:id="@+id/tvLocation"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_toEndOf="@id/ftvLocation"
+                        android:text="Gauteng"
+                        android:textSize="12sp" />
 
-        <View
-            android:id="@+id/vLine"
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:layout_below="@id/rlView"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
-            android:background="@color/black" />
+                    <info.androidhive.fontawesome.FontTextView
+                        android:id="@+id/ftvNumber"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toStartOf="@id/tvNumber"
+                        android:layout_toEndOf="@id/tvLocation"
+                        android:gravity="end"
+                        android:text="@string/fa_phone_solid"
+                        android:textColor="#ffa737"
+                        android:textSize="20sp"
+                        app:solid_icon="true" />
 
-        <info.androidhive.fontawesome.FontTextView
-                android:id="@+id/ftvCategory"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/vLine"
-            android:text="@string/fa_info_circle_solid"
-            android:textColor="#ffa737"
-            android:textSize="20sp"
-            app:solid_icon="true" />
+                    <TextView
+                        android:id="@+id/tvNumber"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="5dp"
+                        android:text="Gauteng"
+                        android:textSize="12sp" />
+                </RelativeLayout>
 
-        <TextView
-            android:id="@+id/tvCategory"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/vLine"
-            android:layout_marginStart="5dp"
-            android:layout_marginTop="5dp"
-            android:layout_toStartOf="@id/tvStatus"
-            android:layout_toEndOf="@id/ftvCategory"
-            android:text="Adding life to scripts"
-            android:textSize="12sp" />
+                <View
+                    android:id="@+id/vLine"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@id/rlView"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/black" />
 
-        <TextView
-            android:id="@+id/tvStatus"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/vLine"
-            android:layout_alignParentEnd="true"
-            android:gravity="end"
-            android:text="Closed"
-            android:textColor="#FF0000"
-            android:textSize="16sp" />
+                <info.androidhive.fontawesome.FontTextView
+                    android:id="@+id/ftvCategory"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/vLine"
+                    android:text="@string/fa_info_circle_solid"
+                    android:textColor="#ffa737"
+                    android:textSize="20sp"
+                    app:solid_icon="true" />
 
+                <TextView
+                    android:id="@+id/tvCategory"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/vLine"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toStartOf="@id/tvStatus"
+                    android:layout_toEndOf="@id/ftvCategory"
+                    android:text="Adding life to scripts"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvStatus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/vLine"
+                    android:layout_alignParentEnd="true"
+                    android:gravity="end"
+                    android:text="Closed"
+                    android:textColor="#FF0000"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
     </RelativeLayout>
 </androidx.cardview.widget.CardView>
